@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "url:"
   including Python, Markdown, VS Code, 
   terminals, Git, GitHub, and more. 
 url: https://datafun-central.github.io
+baseurl: /datafun-central
 github_username:  denisecase
 theme: minima
 show_excerpts: false

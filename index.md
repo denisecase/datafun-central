@@ -13,10 +13,10 @@ DataFun Central is a centralized resource for learning data fundamentals, includ
 We organize our documentation into four main categories: **Languages**, **Tools**, **Terminals**, and **Techniques**. 
 Click on the links below to explore each category:
 
-- [Languages](docs/languages/)
-- [Tools](docs/tools/)
-- [Terminals](docs/terminals/)
-- [Techniques](docs/techniques/)
+- [Languages](/datafun-central/docs/languages/)
+- [Tools](/datafun-central/docs/tools/)
+- [Terminals](/datafun-central/docs/terminals/)
+- [Techniques](/datafun-central/docs/techniques/)
 
 Within each category, you'll find subfolders for each item we cover. 
 For example, our Git documentation is located at [docs/tools/git/](docs/tools/git).
