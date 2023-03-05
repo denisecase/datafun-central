@@ -4,7 +4,7 @@ title: Windows
 ---
 # Windows Installation
 
-## Task 1 - Download and install Git:
+## Task 1 - Download and install Git
 
 1.  Go to the Git download page at [https://git-scm.com/download/win](https://git-scm.com/download/win)
 2.  Click the "Download" button to download the Git installer
@@ -13,10 +13,10 @@ title: Windows
 5.  Choose the appropriate options for line ending conversion and terminal emulator during the installation process
     
     
-## Task 2 - Configure Git:
+## Task 2 - Configure Git
 
 1.  Open a command prompt or PowerShell window
-2.  Run the following commands to configure Git with your name (your real name, e.g. "Denise Case") and the email address you used for GitHub:
+3.  Run the following commands to configure Git with your name (your real name, e.g. "Denise Case") and the email address you used for GitHub:
 
   ```
   git config --global user.name "Your Name"
@@ -24,19 +24,15 @@ title: Windows
   ```
 
 3.  Important: Replace "Your Name" with your name and "[your.email@example.com](mailto:your.email@example.com)" with the email address associated with your GitHub account
-
 4.  This configuration will be used for all of your Git repositories
 
 ## Task 3 - Verify
 
 1. Run the following command to verify your Git configuration:
 
-        <div class="bg-black mb-4 rounded-md">
-
-        <div class="p-4 overflow-y-auto">`git <span class="hljs-built_in">config</span> <span class="hljs-comment">--list</span>`</div>
-
-        </div>
+```
+git config --list
+```
 
 2.  You should see your name and email address listed under the "user" section
-
 3.  If the information is not correct, run the `git config` command again to update it
