@@ -1,6 +1,6 @@
 ---
 layout: default
-title: mac-linux
+title: Mac-Linux
 ---
 # Mac/Linux Installation
 
