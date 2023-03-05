@@ -27,17 +27,17 @@ title: mac-linux
 1.  Open a terminal window
 2.  Run the following commands to verify installation:
 
-```
-python3 --version
-pip3 -- version
-```
+    ```
+    python3 --version
+    pip3 -- version
+    ```
 
-or 
+    or 
 
-```
-python --version
-pip --version
-```
+    ```
+    python --version
+    pip --version
+    ```
 
-3.  If you see version information, the installation was successful.
+If you see version information, the installation was successful.
 
