@@ -8,23 +8,7 @@ has_children: true
 
 This section includes documentation for the tools we cover at DataFun Central. 
 
-## Git
-
-- [Installation](/docs/tools/git/installation.md)
-- [Basics](/docs/tools/git/basics.md)
-
-## VS Code
-
-- [Installation](/docs/tools/vs-code/installation.md)
-
-## Homebrew
-
-- [Installation](/docs/tools/homebrew/installation.md)
-
-## PowerShell
-
-- [Basics](/docs/tools/powershell/basics.md)
-
-## rbenv
-
-- [Installation](/docs/tools/rbenv/installation.md)
+- [Git](/docs/tools/git/)
+- [VS Code](/docs/tools/vs-code/)
+- [Homebrew](/docs/tools/homebrew/)
+- [PowerShell](/docs/tools/powershell/)
