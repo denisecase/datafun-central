@@ -1,0 +1,28 @@
+# Jekyll static site generator 
+title: DataFun Central
+description: >- # this means to ignore newlines until "url:"
+  Centralized resource for data fundamentals, 
+  including Python, Markdown, VS Code, 
+  terminals, Git, GitHub, and more. 
+url: https://datafun-central.github.io
+github_username:  denisecase
+theme: minima
+show_excerpts: false
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+header_pages:
+  - docs/languages/python/index.md
+  - docs/languages/markdown/index.md
+  - docs/tools/git/index.md
+  - docs/tools/vs-code/index.md
+markdown: kramdown
+kramdown:
+  toc_levels: 2..3
+  auto_ids: true
