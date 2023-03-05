@@ -8,7 +8,7 @@ has_children: true
 
 This section includes documentation for the tools we cover at DataFun Central. 
 
-- [Git](/docs/tools/git/)
-- [VS Code](/docs/tools/vs-code/)
-- [Homebrew](/docs/tools/homebrew/)
-- [PowerShell](/docs/tools/powershell/)
+- [Git](/datafun-central/docs/tools/git/)
+- [VS Code](/datafun-central/docs/tools/vs-code/)
+- [Homebrew](/datafun-central/docs/tools/homebrew/)
+- [PowerShell](/datafun-central/docs/tools/powershell/)
