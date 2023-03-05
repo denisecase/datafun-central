@@ -33,3 +33,7 @@ On the other hand,
 using a Git integration in your IDE can make the process of working with Git more user-friendly and intuitive, 
 as you can often perform Git actions with a few clicks or keystrokes. 
 For example, Visual Studio Code has built-in Git support and provides a visual interface for common Git actions such as committing changes, creating branches, and merging changes.
+
+## Git Crash Course (Video)
+
+Check out the recommended [Git Crash Course (Video)](/datafun-central/docs/tools/git/crash-course.md).
