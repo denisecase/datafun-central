@@ -18,6 +18,15 @@ where many people may be working on the same codebase at the same time.
 
 In this Git introduction, we'll start with the basics of using Git, including setting up your Git environment, creating a repository, and making commits. We'll also cover more advanced topics like branching, merging, and collaborating with others. 
 
+## Installation
+
+The installation process for Git depends on your operating system. Follow the instructions below based on your platform:
+
+- **Mac/Linux:** If you're running a Mac or Linux system, you can install Git using Homebrew. Follow the instructions on our [Git installation page for Mac/Linux](/datafun-central/docs/tools/git/install-mac-linux/) to get started.
+
+- **Windows:** If you're running a Windows system, you can download the Git installer from the official Git website. Follow the instructions on our [Git installation page for Windows](/datafun-central/docs/tools/git/install-windows/) to get started.
+
+
 ## Using Git
 
 When it comes to using Git, you have a few options for how to interact with it. One option is to use Git in the terminal, 
