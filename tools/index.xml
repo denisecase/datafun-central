@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/tools/index.html</link>
+    <description>Recent content in Tools on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/index.html</guid>
+      <description>Git is a popular tool used to help collaborate with others and keep track of code changes over time.
+At a high level, Git is a version control system for tracking changes in evolving code projects. Using Git allows you to easily revert to an earlier version of code if you make a mistake or if a change causes unexpected problems.
+Git makes it easy to collaborate with others on code.</description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</guid>
+      <description>Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft. It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.
+Some of the key features of VS Code include:
+Built-in Git integration Support for multiple languages and frameworks Extensions for customizing the editor and adding new functionality Debugging capabilities for Node.js, Python, and other languages Integrated terminal for running commands and scripts Using a modern editor or IDE can make your coding experience more efficient and productive.</description>
+    </item>
+    <item>
+      <title>conda</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/conda/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/conda/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/github/index.html</guid>
+      <description>GitHub is a popular, web-based platform that allows data analysts and developers to store and manage their code and collaborate with others.
+GitHub is built on Git, which is a distributed version control system that allows developers to track changes to their code over time and collaborate with others on the same codebase.
+With GitHub, developers can create their own repositories, which are essentially folders that contain their code, documentation, and other files related to a specific project.</description>
+    </item>
+    <item>
+      <title>Homebrew</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/homebrew/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/homebrew/index.html</guid>
+      <description>Homebrew is a &amp;hellip;</description>
+    </item>
+    <item>
+      <title>Miniconda</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/miniconda/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/miniconda/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pip</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/pip/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/pip/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+  </channel>
+</rss>

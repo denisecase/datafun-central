@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Languages on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/languages/index.html</link>
+    <description>Recent content in Languages on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/index.html</guid>
+      <description>Python is a high-level programming language used for a wide range of applications, from data analysis to web development.
+Why Python? Python is an essential tool for data analysts and developers. With its easy-to-learn syntax, vast library of modules, and robust community support, Python is perfect for:
+Data analysis, including statistical analysis, data visualization, and machine learning. Web development, including server-side programming, web scraping, and automation. Scripting, including system administration, text processing, and task automation.</description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/markdown/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/markdown/index.html</guid>
+      <description>Markdown is a lightweight markup language for formatting text on the web.
+Why Markdown? Markdown is an essential tool for data analysts and developers. With its simple syntax and powerful features, Markdown is easy to learn, widely used, and perfect for creating structured documents and web content.
+For data analysts and developers:
+Markdown is an invaluable skill for creating clear and concise documentation of our work. Markdown skills help communicate our findings more effectively to colleagues and stakeholders, and make our work more accessible and engaging to others.</description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/html/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/html/index.html</guid>
+      <description>HTML is a markup language used for creating web pages and applications.
+Why HTML? HTML is essential for data analysts and developers who want to create web-based applications and documents.
+HTML skills allow you to create and publish web content and applications. HTML can be used with other languages like CSS and JavaScript to create dynamic web pages and applications. HTML Syntax HTML is a markup language that uses tags to define elements on a web page.</description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/css/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/css/index.html</guid>
+      <description>CSS is a powerful styling language used to add visual effects to web pages.
+Why CSS? For web developers and designers, CSS is an essential skill for creating attractive and engaging websites.
+CSS helps to create visually appealing layouts and designs that enhance user experience. It allows for consistent styling across all pages of a website, making it easier to maintain and update. CSS Syntax CSS uses a set of rules and declarations to style HTML elements.</description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/javascript/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/javascript/index.html</guid>
+      <description>JavaScript is a popular programming language used for web development and beyond. In this page, we will cover some basics of JavaScript.
+Why JavaScript? JavaScript is widely used for building web applications, and it&amp;rsquo;s a vital skill for web developers. Some of the reasons to learn JavaScript include:
+Interactivity: JavaScript makes websites more interactive and engaging, allowing for features such as animations, user input validation, and dynamic content updates.
+Front-end web development: JavaScript is used heavily in front-end web development, enabling developers to build user interfaces and dynamic web pages.</description>
+    </item>
+  </channel>
+</rss>

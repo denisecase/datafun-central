@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/tools/git/index.html</link>
+    <description>Recent content in Git on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/tools/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/installation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/installation/index.html</guid>
+      <description>Git is a widely-used version control system that helps data analysts and developers track changes to their code and collaborate with others.
+Mac/Linux Users Option 1: Official installation instructions. Follow instructions on the official Git website. This is the most up-to-date and comprehensive guide to installing Git on your system.
+Option 2: Step-by-step installation guide. Check out our installation instructions for a step-by-step guide.
+Windows Users Option 1: Official installation instructions.</description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/basics/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/basics/index.html</guid>
+      <description>Git is a widely-used version control system that helps you track changes to your code and collaborate with others. With Git, you can create a complete history of your work, from the initial commit to the latest changes. This makes it easy to work on a project with others, keep track of your progress, and recover from mistakes.
+Creating a Repository To get started with Git, you need to create a repository.</description>
+    </item>
+    <item>
+      <title>Branches</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/branches/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/branches/index.html</guid>
+      <description>In Git, we are always working on a branch of code, which is like a separate &amp;ldquo;timeline&amp;rdquo; for the code.
+Default Branch The default branch is employed automatically when we first create a repository, and it is typically and by default named main. On older repos, you may see a master branch instead, but the old terminology is discouraged and easy to update.
+Working Alone For independent projects, we may work directly on the main default branch.</description>
+    </item>
+    <item>
+      <title>Conflicts</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/conflicts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/conflicts/index.html</guid>
+      <description>We can edit project files in at least two places:
+locally, on our machine in the cloud, e.g., by using the editing features in GitHub Bad Practices We want to keep our local version and cloud version in sync at all times.
+Some of the worst things we can do are:
+Forget to pull before we start our work. Pull code and leave it for a long time, then start working on old, stale code.</description>
+    </item>
+    <item>
+      <title>Crash Course</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/crash-course/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/crash-course/index.html</guid>
+      <description>Student-recommended video on Git - definitely worth sharing! It covers things in a similar way and you can jump right to the parts you need.
+Note: Watch when you have time - use it when you&amp;rsquo;re ready to learn more about Git. Many students find it very helpful. I don&amp;rsquo;t know how anyone could provide more information, more efficiently than this.
+https://www.youtube.com/watch?v=RGOj5yH7evk
+Git and GitHub for Beginners - Crash Course Over 2 million views.</description>
+    </item>
+    <item>
+      <title>Remotes</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/remotes/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/remotes/index.html</guid>
+      <description>In Git, the term &amp;ldquo;origin&amp;rdquo; refers to the default remote repository that a local repository is linked to. When you clone a repository from a remote server to your local machine, Git automatically sets up the &amp;ldquo;origin&amp;rdquo; remote for you. This allows you to push changes from your local repository to the remote repository, and pull changes from the remote repository to your local repository.
+When you clone a repository, Git sets up the origin remote by default, pointing to the repository you cloned from.</description>
+    </item>
+  </channel>
+</rss>

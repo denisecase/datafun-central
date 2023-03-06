@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminals on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/terminals/index.html</link>
+    <description>Recent content in Terminals on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/terminals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mac-linux</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/mac-linux/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/mac-linux/index.html</guid>
+      <description>mac-linux Mac/Linux Installation Instructions for installing on Mac/Linux go here.</description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/index.html</guid>
+      <description>PowerShell is a &amp;hellip;.</description>
+    </item>
+    <item>
+      <title>vs-code-terminal</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/vs-code-terminal/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/vs-code-terminal/index.html</guid>
+      <description>vs-code-terminal </description>
+    </item>
+    <item>
+      <title>windows</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/windows/index.html</guid>
+      <description>windows Windows Installation Instructions for installing on Windows go here.</description>
+    </item>
+  </channel>
+</rss>
