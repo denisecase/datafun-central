@@ -9,19 +9,19 @@
     <meta name="description" content="">
     <title>Remotes :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678137127" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678137127" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678137127" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678137127" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678137127" rel="stylesheet">
-    <link href="../../../css/print.css?1678137127" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678137127" rel="stylesheet">
-    <link href="../../../css/ie.css?1678137127" rel="stylesheet">
-    <script src="../../../js/url.js?1678137127"></script>
-    <script src="../../../js/variant.js?1678137127"></script>
+    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
+    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
+    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
+    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
+    <script src="../../../js/url.js?1678138195"></script>
+    <script src="../../../js/variant.js?1678138195"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -87,6 +87,46 @@ it&rsquo;s important to always pull down changes
 from the remote repository
 before making your own changes,
 and to carefully review any merge conflicts that arise.</p>
+<h2 id="working-with-remote-repositories">Working with Remote Repositories</h2>
+<p>Git provides a set of commands that allow you to work with remote repositories. Here are some commonly used commands:</p>
+<ul>
+<li>
+<p><code>git remote</code> - List the remote repositories that are connected to your local repository.</p>
+</li>
+<li>
+<p><code>git remote -v</code> - List the remote repositories along with their URLs.</p>
+</li>
+<li>
+<p><code>git remote add &lt;name&gt; &lt;url&gt;</code> - Add a new remote repository to your local repository. The <code>name</code> parameter is the name you want to give the remote, and <code>url</code> is the URL of the remote repository.</p>
+</li>
+<li>
+<p><code>git remote rm &lt;name&gt;</code> - Remove a remote repository from your local repository.</p>
+</li>
+<li>
+<p><code>git push &lt;remote&gt; &lt;branch&gt;</code> - Push your local changes to a remote repository. The <code>remote</code> parameter is the name of the remote repository, and <code>branch</code> is the branch you want to push to.</p>
+</li>
+<li>
+<p><code>git pull &lt;remote&gt; &lt;branch&gt;</code> - Pull changes from a remote repository into your local repository. The <code>remote</code> parameter is the name of the remote repository, and <code>branch</code> is the branch you want to pull from.</p>
+</li>
+<li>
+<p><code>git fetch &lt;remote&gt;</code> - Fetch the changes from a remote repository, but don&rsquo;t apply them to your local repository.</p>
+</li>
+<li>
+<p><code>git clone &lt;url&gt;</code> - Clone a remote repository to your local machine.</p>
+</li>
+</ul>
+<h2 id="git-learning-concepts-over-memorization">Git Learning: Concepts Over Memorization</h2>
+<p>Learning every Git command by heart is not necessary nor efficient.
+Instead, focus on <strong>understanding</strong> the concepts and workflows of Git,
+and how the commands fit into those workflows.
+The vast amount of online resources available will serve as
+reliable references when you need them.</p>
+<p>As you work with Git more frequently,
+the most common commands will become second nature.
+However, for the rest, don&rsquo;t hesitate to look them up.
+Remember that the value of Git lies not in memorizing commands
+but in leveraging its powerful version control capabilities
+to manage your projects effectively.</p>
 
             <footer class="footline">
             </footer>
@@ -94,8 +134,8 @@ and to carefully review any merge conflicts that arise.</p>
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678137127" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678137127" defer></script>
-    <script src="../../../js/theme.js?1678137127" defer></script>
+    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
+    <script src="../../../js/theme.js?1678138195" defer></script>
   </body>
 </html>

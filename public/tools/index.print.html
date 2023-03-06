@@ -9,19 +9,19 @@
     <meta name="description" content="">
     <title>Tools :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../css/fontawesome-all.min.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../css/nucleus.css?1678137127" rel="stylesheet">
-    <link href="../css/auto-complete.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../css/perfect-scrollbar.min.css?1678137127" rel="stylesheet">
-    <link href="../css/fonts.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1678137127" rel="stylesheet"></noscript>
-    <link href="../css/theme.css?1678137127" rel="stylesheet">
-    <link href="../css/theme-auto.css?1678137127" rel="stylesheet" id="variant-style">
-    <link href="../css/variant.css?1678137127" rel="stylesheet">
-    <link href="../css/print.css?1678137127" rel="stylesheet" media="print">
-    <link href="../css/format-print.css?1678137127" rel="stylesheet">
-    <link href="../css/ie.css?1678137127" rel="stylesheet">
-    <script src="../js/url.js?1678137127"></script>
-    <script src="../js/variant.js?1678137127"></script>
+    <link href="../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../css/nucleus.css?1678138195" rel="stylesheet">
+    <link href="../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
+    <link href="../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1678138195" rel="stylesheet"></noscript>
+    <link href="../css/theme.css?1678138195" rel="stylesheet">
+    <link href="../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
+    <link href="../css/variant.css?1678138195" rel="stylesheet">
+    <link href="../css/print.css?1678138195" rel="stylesheet" media="print">
+    <link href="../css/format-print.css?1678138195" rel="stylesheet">
+    <link href="../css/ie.css?1678138195" rel="stylesheet">
+    <script src="../js/url.js?1678138195"></script>
+    <script src="../js/variant.js?1678138195"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -509,6 +509,46 @@ it&rsquo;s important to always pull down changes
 from the remote repository
 before making your own changes,
 and to carefully review any merge conflicts that arise.</p>
+<h2 id="working-with-remote-repositories">Working with Remote Repositories</h2>
+<p>Git provides a set of commands that allow you to work with remote repositories. Here are some commonly used commands:</p>
+<ul>
+<li>
+<p><code>git remote</code> - List the remote repositories that are connected to your local repository.</p>
+</li>
+<li>
+<p><code>git remote -v</code> - List the remote repositories along with their URLs.</p>
+</li>
+<li>
+<p><code>git remote add &lt;name&gt; &lt;url&gt;</code> - Add a new remote repository to your local repository. The <code>name</code> parameter is the name you want to give the remote, and <code>url</code> is the URL of the remote repository.</p>
+</li>
+<li>
+<p><code>git remote rm &lt;name&gt;</code> - Remove a remote repository from your local repository.</p>
+</li>
+<li>
+<p><code>git push &lt;remote&gt; &lt;branch&gt;</code> - Push your local changes to a remote repository. The <code>remote</code> parameter is the name of the remote repository, and <code>branch</code> is the branch you want to push to.</p>
+</li>
+<li>
+<p><code>git pull &lt;remote&gt; &lt;branch&gt;</code> - Pull changes from a remote repository into your local repository. The <code>remote</code> parameter is the name of the remote repository, and <code>branch</code> is the branch you want to pull from.</p>
+</li>
+<li>
+<p><code>git fetch &lt;remote&gt;</code> - Fetch the changes from a remote repository, but don&rsquo;t apply them to your local repository.</p>
+</li>
+<li>
+<p><code>git clone &lt;url&gt;</code> - Clone a remote repository to your local machine.</p>
+</li>
+</ul>
+<h2 id="git-learning-concepts-over-memorization">Git Learning: Concepts Over Memorization</h2>
+<p>Learning every Git command by heart is not necessary nor efficient.
+Instead, focus on <strong>understanding</strong> the concepts and workflows of Git,
+and how the commands fit into those workflows.
+The vast amount of online resources available will serve as
+reliable references when you need them.</p>
+<p>As you work with Git more frequently,
+the most common commands will become second nature.
+However, for the rest, don&rsquo;t hesitate to look them up.
+Remember that the value of Git lies not in memorizing commands
+but in leveraging its powerful version control capabilities
+to manage your projects effectively.</p>
 
             <footer class="footline">
             </footer>
@@ -617,10 +657,10 @@ that the GitHub team has created to help you understand the platform.</p>
 <p>For more information on getting started on GitHub,
 view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> </span><a href="https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw" target="_blank">GitHub Training &amp; Guides</a><span> </span>Youtube Channel.</p>
 <p><a href="https://www.youtube.com/watch?v=noZnOSpcjYY" target="_blank">
-<a href="#image-31ce997ed9020ba385708fe24520a764" class="lightbox-link">
+<a href="#image-4ff24824d5c943ea4841fe270cbc51a4" class="lightbox-link">
 <img src="https://camo.githubusercontent.com/433278f3b014af1abfdb5a2c6b97550baeeb745a550a557e576de14936220186/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e6f5a6e4f5370636a59592f302e6a7067" alt="GitHub Training &amp;amp; Guides" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-31ce997ed9020ba385708fe24520a764">
+<a href="javascript:history.back();" class="lightbox" id="image-4ff24824d5c943ea4841fe270cbc51a4">
 <img src="https://camo.githubusercontent.com/433278f3b014af1abfdb5a2c6b97550baeeb745a550a557e576de14936220186/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e6f5a6e4f5370636a59592f302e6a7067" alt="GitHub Training &amp;amp; Guides" class="lightbox-image" loading="lazy">
 </a></a></p>
 <h2 id="more-about-github">More About GitHub</h2>
@@ -628,10 +668,10 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
 <p><em>At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles: Version control, which helps developers track and manage changes to a software project’s code, and Git, which is a specific open-source version control system.</em></p>
 <p>Learn more about GitHub in the following video from the GitHub YouTube.</p>
 <p><a href="https://www.youtube.com/watch?v=w3jLJU7DT5E" target="_blank">
-<a href="#image-59814b9573d55106acc784c8bea23122" class="lightbox-link">
+<a href="#image-de1f79126c1607f0d24e618c72a292cd" class="lightbox-link">
 <img src="https://camo.githubusercontent.com/209e3fd02431bcea086dd3de092660a383abb87d2b61195392f19861228bca15/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f77336a4c4a5537445435452f302e6a7067" alt="GitHub Video" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-59814b9573d55106acc784c8bea23122">
+<a href="javascript:history.back();" class="lightbox" id="image-de1f79126c1607f0d24e618c72a292cd">
 <img src="https://camo.githubusercontent.com/209e3fd02431bcea086dd3de092660a383abb87d2b61195392f19861228bca15/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f77336a4c4a5537445435452f302e6a7067" alt="GitHub Video" class="lightbox-image" loading="lazy">
 </a></a></p>
 <h2 id="free-stuff-for-students">Free Stuff For Students</h2>
@@ -674,8 +714,8 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
           </section>        </div>
       </main>
     </div>
-    <script src="../js/clipboard.min.js?1678137127" defer></script>
-    <script src="../js/perfect-scrollbar.min.js?1678137127" defer></script>
-    <script src="../js/theme.js?1678137127" defer></script>
+    <script src="../js/clipboard.min.js?1678138195" defer></script>
+    <script src="../js/perfect-scrollbar.min.js?1678138195" defer></script>
+    <script src="../js/theme.js?1678138195" defer></script>
   </body>
 </html>
