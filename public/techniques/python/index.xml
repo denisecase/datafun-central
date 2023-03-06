@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/techniques/python/index.html</link>
+    <description>Recent content in Python on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/techniques/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/python/basics/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/python/basics/index.html</guid>
+      <description>The following Python skills and techniques may be considered basic level in the context of data analysis.
+Data Structures Lists: Know how to create and manipulate lists, and use them to store and organize data. Dictionaries: Know how to create and manipulate dictionaries, and use them to store and organize data in key-value pairs. Control Structures Conditional Statements: Know how to use if-else statements to conditionally execute code. Loops: Know how to use for and while loops to iterate over data.</description>
+    </item>
+    <item>
+      <title>Intermediate</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/python/intermediate/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/python/intermediate/index.html</guid>
+      <description>This page provides an overview of intermediate skills for working with Python in the context of data analysis.
+Libraries NumPy: Know how to work with arrays, manipulate data, and perform mathematical operations.
+Pandas: Know how to work with data frames and manipulate data for exploratory data analysis.
+Matplotlib: Know how to create visualizations for data analysis.
+Data Cleaning Merging and joining data frames: Know how to combine data from multiple sources.</description>
+    </item>
+    <item>
+      <title>Advanced</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/python/advanced/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/python/advanced/index.html</guid>
+      <description>Advanced Python Skills These skills are considered advanced and will be useful for more advanced data analysis tasks.
+Object-Oriented Programming Understand the basics of object-oriented programming (OOP) and how to apply it in Python. Create and use classes to encapsulate related data and functionality. Use inheritance and polymorphism to extend existing classes and create new ones. Functional Programming Understand the principles of functional programming and how to use functional programming concepts in Python.</description>
+    </item>
+  </channel>
+</rss>

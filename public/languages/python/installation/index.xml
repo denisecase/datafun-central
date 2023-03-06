@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/languages/python/installation/index.html</link>
+    <description>Recent content in Installation on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/languages/python/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac and Linux</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/installation/mac-linux/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/installation/mac-linux/index.html</guid>
+      <description>Task 1 - Install Python Open a terminal window Run the following command to install Python: sudo apt-get install python3 (for Debian/Ubuntu-based systems) or brew install python3 (for macOS) Task 2 - Install pip Open a terminal window Run the following command to install pip: sudo apt-get install python3-pip (for Debian/Ubuntu-based systems) or sudo easy_install pip (for macOS) Task 3 - Verify Open a terminal window
+Run the following commands to verify installation:</description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/installation/windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/installation/windows/index.html</guid>
+      <description>Task 1 - Install Python (includes pip) Go to the Python download page at https://www.python.org/downloads/windows/ Click the &amp;ldquo;Download Python&amp;rdquo; button for the latest version of Python Read and follow the official instructions here (things change; adapting is key!): https://docs.python.org/3/using/windows.html Run the installer file that you downloaded as an Administrator, checking both options: The first checkbox is checked - keep it checked. Also check &amp;ldquo;Add Python to PATH&amp;rdquo; during the installation process Click &amp;ldquo;Install Now&amp;rdquo; to install Python (which will include pip) Task 2 - Activate the New Environment Close and reopen the command prompt or PowerShell window to activate the new environment.</description>
+    </item>
+  </channel>
+</rss>

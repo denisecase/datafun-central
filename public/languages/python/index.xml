@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/languages/python/index.html</link>
+    <description>Recent content in Python on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/languages/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI and ML</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</guid>
+      <description>fkdla;</description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/basics/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/basics/index.html</guid>
+      <description>Python is a popular high-level programming language that is easy to learn and widely used in data analysis, machine learning, web development, and many other fields.
+Defining Variables In Python, we can define a variable and assign a value to it using the &amp;ldquo;=&amp;rdquo; operator. For example:
+x = 10 Here, we&amp;rsquo;ve defined a variable x and assigned it the value of 10.
+Performing Operations We can also perform mathematical operations on variables:</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/installation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/installation/index.html</guid>
+      <description>Python is a high-level programming language used for a wide range of applications, from data analysis to web development.
+Mac/Linux Users Option 1: Official installation instructions. Follow instructions on the official Python website. This is the most up-to-date and comprehensive guide to installing Python on your system.
+Option 2: Step-by-step installation guide. Check out our installation instructions for a step-by-step guide.
+Windows Users Option 1: Official installation instructions. Follow instructions on the official Python website.</description>
+    </item>
+    <item>
+      <title>Environments</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/environments/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/environments/index.html</guid>
+      <description>fjdksl;fa</description>
+    </item>
+    <item>
+      <title>Executing</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/executing-scripts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/executing-scripts/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fundamentals</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/fundamentals/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/fundamentals/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libraries</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/libraries/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/libraries/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Organization</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/organization/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/organization/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pandas</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/pandas/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/pandas/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Try Except</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/try/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/try/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uninstalling</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/uninstalling/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/uninstalling/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Versions</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/versions-windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/versions-windows/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

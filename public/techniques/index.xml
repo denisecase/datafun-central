@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techniques on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/techniques/index.html</link>
+    <description>Recent content in Techniques on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/techniques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/git/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/git/index.html</guid>
+      <description>This page provides an overview of different techniques and skill levels related to Git, including basic, intermediate, and advanced techniques.
+Basic These are the basic skills, helpful even for beginning courses and activities.
+Intermediate These would be considered intermediate skills, applied in higher-level courses and activities.
+Advanced These are advanced skills, useful for more experienced users and advanced projects.</description>
+    </item>
+    <item>
+      <title>GitHUb</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/github/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/github/index.html</guid>
+      <description>This page provides an overview of different techniques and skill levels related to GitHub, including basic, intermediate, and advanced techniques.
+Basic These are the basic skills, helpful even for beginning courses and activities.
+Intermediate These would be considered intermediate skills, applied in higher-level courses and activities.
+Advanced These are advanced skills, useful for more experienced users and advanced projects.</description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/python/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/python/index.html</guid>
+      <description>This page provides an overview of different techniques and skill levels related to Python, including basic, intermediate, and advanced techniques.
+Basic These are the basic skills, helpful even for beginning courses and activities.
+Intermediate These would be considered intermediate skills, applied in higher-level courses and activities.
+Advanced These are advanced skills, useful for more experienced users and advanced projects.</description>
+    </item>
+    <item>
+      <title>terminal-windows</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/terminal-windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/terminal-windows/index.html</guid>
+      <description>terminal-windows Windows Installation Instructions for installing on Windows go here.</description>
+    </item>
+  </channel>
+</rss>

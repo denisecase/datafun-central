@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/tools/git/installation/index.html</link>
+    <description>Recent content in Installation on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/tools/git/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac and Linux</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/installation/mac-linux/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/installation/mac-linux/index.html</guid>
+      <description>Task 1 - Download and install Git Open a terminal window Run the following command to install Git: sudo apt-get install git (for Debian/Ubuntu-based systems) or brew install git (for macOS) Task 2 - Configure Git Open a terminal window Run the following commands to configure Git with your name (your real name, e.g. &amp;ldquo;Denise Case&amp;rdquo;) and the email address you used for GitHub. git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.</description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/installation/windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/installation/windows/index.html</guid>
+      <description>Task 1 - Download and install Git Go to the Git download page at https://git-scm.com/download/win Click the &amp;ldquo;Download&amp;rdquo; button to download the Git installer Run the installer file that you downloaded Accept the default installation options and click &amp;ldquo;Install&amp;rdquo; Choose the appropriate options for line ending conversion and terminal emulator during the installation process Task 2 - Configure Git Open a command prompt or PowerShell window Run the following commands to configure Git with your name (your real name, e.</description>
+    </item>
+  </channel>
+</rss>

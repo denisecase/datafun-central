@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libraries on Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/languages/python/libraries/index.html</link>
+    <description>Recent content in Libraries on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/languages/python/libraries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standard</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/libraries/standard/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/libraries/standard/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>External</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/libraries/external/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/libraries/external/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

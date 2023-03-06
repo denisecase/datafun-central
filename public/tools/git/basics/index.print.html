@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.111.2">
+    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="">
+    <title>Basics :: Contents</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1678137127" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1678137127" rel="stylesheet">
+    <link href="../../../css/fonts.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1678137127" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1678137127" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1678137127" rel="stylesheet">
+    <link href="../../../css/print.css?1678137127" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1678137127" rel="stylesheet">
+    <link href="../../../css/ie.css?1678137127" rel="stylesheet">
+    <script src="../../../js/url.js?1678137127"></script>
+    <script src="../../../js/variant.js?1678137127"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../../index.search.js";
+      var root_url="../../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/datafun-central.github.io\/datafun-central/';
+      window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../tools/git/basics/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../index.html"><span itemprop="name">Contents</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../tools/index.html"><span itemprop="name">Tools</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../tools/git/index.html"><span itemprop="name">Git</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Basics</span><meta itemprop="position" content="4"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="basics">Basics</h1>
+
+<p>Git is a widely-used version control system that helps you track changes to your code and collaborate with others.
+With Git, you can create a complete history of your work, from the initial commit to the latest changes. This makes it easy to work on a project with others, keep track of your progress, and recover from mistakes.</p>
+<h2 id="creating-a-repository">Creating a Repository</h2>
+<p>To get started with Git, you need to create a repository.
+This is where you&rsquo;ll store your code and track changes to it.
+There are several ways to create a repository:</p>
+<ul>
+<li>
+<p><strong>Clone an existing repository</strong>: If you want to work on code that&rsquo;s already been created and shared by someone else, you can clone their repository to your local machine. To do this, you&rsquo;ll need the repository&rsquo;s URL and you can use the <code>git clone</code> command to create a local copy of the code.</p>
+</li>
+<li>
+<p><strong>Fork an existing repository</strong>: If you want to make changes to someone else&rsquo;s code and contribute those changes back to their repository, you can fork their repository. This creates a copy of their repository in your GitHub account, which you can then clone to your local machine and work on.</p>
+</li>
+<li>
+<p><strong>Create a new repository</strong>: If you want to start a new project from scratch, you can create a new repository by clicking the &ldquo;+&rdquo; sign in the top right corner of your GitHub account.</p>
+</li>
+</ul>
+<h2 id="getting-code-onto-your-machine">Getting Code onto Your Machine</h2>
+<p>Once you have a repository set up, you&rsquo;ll want to get the code onto your local machine so you can work on it.
+To do this, clone the repository using the <code>git clone sourceurl</code> command. Change sourceurl to the address shown in the browser when viewing the root folder of the repository. This will create a local copy of the repository on your machine that you can work with.</p>
+<h2 id="saving-changes-with-git">Saving Changes with Git</h2>
+<p>Once you have a copy of the repository on your machine, you can make changes to the code and save those changes to the repository using Git. The basic workflow for this is:</p>
+<ol>
+<li>
+<p><strong>Add changes</strong>: Use the <code>git add .</code> command to add the changes you&rsquo;ve made to the code to the staging area. It&rsquo;s said &ldquo;git add dot&rdquo; - see the dot at the end - that means add all the newly created files into source control.</p>
+</li>
+<li>
+<p><strong>Commit changes</strong>: Use the <code>git commit -m &quot;add feature n</code> command to save the changes to the local repository with a descriptive commit message.</p>
+</li>
+<li>
+<p><strong>Push changes</strong>: Use the <code>git push origin main</code> command to push the changes from your local repository back up to the remote repository on GitHub.</p>
+</li>
+</ol>
+<p>This sequence of commands is very common:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#34;tell us what you did&#34;
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><h2 id="editing-on-your-machine">Editing on your Machine</h2>
+<p>We typically like to edit files on our machine using editors
+like VS Code or IDEs like PyCharm and Spyder.
+These local tools provide advanced features including syntax highlighting,
+code completion, and debugging, which can make our work more efficient.</p>
+<h2 id="editing-in-the-cloud">Editing in the Cloud</h2>
+<p>However, the power of our local editors and IDEs is increasingly
+becoming available in the cloud, and we can make many updates to
+our repositories right from the GitHub web interface.
+For example, you can use the github.dev web-based editor to
+edit files and commit your changes.</p>
+<p>It&rsquo;s important to note that if we edit files both on our machine
+and in the cloud, we can end up with conflicts when trying to merge our changes.
+Therefore, it&rsquo;s important to ensure that we always pull down the latest
+changes from the cloud before making any local edits, and that we
+push our changes back up to the cloud as soon as we&rsquo;re finished with them.</p>
+<p>Using the git pull command will bring any changes made directly
+in your GitHub (or other cloud) repository down to your machine.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git pull
+</span></span></code></pre></div><p>Read more about the github.dev editor at:</p>
+<ul>
+<li><a href="https://docs.github.com/en/codespaces/the-githubdev-web-based-editor" target="_blank">https://docs.github.com/en/codespaces/the-githubdev-web-based-editor</a></li>
+</ul>
+<h2 id="remotesremotesmd"><a href="../../../tools/git/basics/remotes.md">Remotes</a></h2>
+<p>In Git, &ldquo;origin&rdquo; is a shorthand name that refers to the remote repository where your code is stored.
+When you clone a repository,
+Git automatically creates an &ldquo;origin&rdquo; remote that points to the original repository on the server.
+You can use this remote to pull changes from the server or push your local changes back to it.</p>
+<p>You can add more than one remote to a repository.</p>
+<h2 id="branchesbranchesmd"><a href="../../../tools/git/basics/branches.md">Branches</a></h2>
+<p>Git branches are separate lines of development that allow multiple
+contributors to work on different features or versions of a project simultaneously.</p>
+<p>The default branch in Git is now called &ldquo;main&rdquo;, but &ldquo;master&rdquo; was previously used,
+so you may still see it.</p>
+<h2 id="pull-and-push">Pull and Push</h2>
+<p>When we use <code>git pull</code>,
+Git already knows the source and destination of the changes (i.e.,
+the remote and local repositories)
+because it&rsquo;s been configured using the git clone command.</p>
+<p>When we use <code>git push</code>, we need to specify both the remote repository
+(the source) and the branch we want to push the changes to (the destination).
+The origin in <code>git push origin main</code> refers to the remote repository we want
+to push the changes to,
+and main refers to the branch on the remote repository that we want to
+update with our changes.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1678137127" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1678137127" defer></script>
+    <script src="../../../js/theme.js?1678137127" defer></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents</title>
+    <link>https://datafun-central.github.io/datafun-central/index.html</link>
+    <description>Recent content on Contents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Languages</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/index.html</guid>
+      <description>This page provides an introduction for popular languages - some are programming languages - and some are markup languages.
+Python Python is a popular programming language for data science and machine learning. We cover both the basics and advanced topics of Python programming, as well as how to use Python for data analysis.
+Markdown Markdown is a simple markup language used to create rich text documents. We cover the basics of Markdown syntax and how to use Markdown to create formatted text documents.</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/index.html</guid>
+      <description>This section includes documentation for some of the tools we use.
+Git Git is a popular version control system that allows developers to track changes to their code and collaborate with others on a project. It provides a way to manage and organize code, and allows for easy branching and merging. Git is widely used in software development, and is an essential tool for any developer&amp;rsquo;s toolkit.
+GitHub GitHub is a web-based platform that provides a range of features for managing Git repositories.</description>
+    </item>
+    <item>
+      <title>Terminals</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/index.html</guid>
+      <description>A terminal, or command line interface, is a text-based way to interact with your computer. Terminals can be faster and more powerful than graphical user interfaces (GUIs) for many tasks, especially tasks that involve file management, development, or automation.
+Here are some popular terminals:
+Windows Terminal Windows Terminal is a modern terminal application for Windows 10 that provides users with a powerful command-line experience. Windows Terminal offers multiple tabs, Unicode and UTF-8 character support, custom themes and styles, and more.</description>
+    </item>
+    <item>
+      <title>Techniques</title>
+      <link>https://datafun-central.github.io/datafun-central/techniques/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/techniques/index.html</guid>
+      <description>This page provides documentation and tutorials on various techniques used in data analytics and development.
+Data Cleaning Introduction to Data Cleaning Data Visualization Introduction to Data Visualization Matplotlib Seaborn Machine Learning Introduction to Machine Learning Scikit-Learn TensorFlow Keras </description>
+    </item>
+    <item>
+      <title>Hosting</title>
+      <link>https://datafun-central.github.io/datafun-central/hosting/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/hosting/index.html</guid>
+      <description>This page provides an introduction for popular hosting providers.
+Python Python is a popular programming language for data science and machine learning. We cover both the basics and advanced topics of Python programming, as well as how to use Python for data analysis.
+Markdown Markdown is a simple markup language used to create rich text documents. We cover the basics of Markdown syntax and how to use Markdown to create formatted text documents.</description>
+    </item>
+    <item>
+      <title>Other</title>
+      <link>https://datafun-central.github.io/datafun-central/other/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/other/index.html</guid>
+      <description>Few more things to share.
+About Learn more about this site and the tools we used.</description>
+    </item>
+  </channel>
+</rss>

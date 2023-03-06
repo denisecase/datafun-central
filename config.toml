@@ -1,0 +1,125 @@
+baseURL = 'https://datafun-central.github.io/datafun-central'
+canonifyURLs = true 
+relativeURLs = true 
+uglyURLs = false 
+
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+title = 'Datafun Central'
+theme = 'hugo-theme-relearn'
+
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+disableHugoGeneratorInject = true
+
+[outputs]
+  # add JSON to the home to support Lunr search; This is a mandatory setting
+  # for the search functionality
+  # add PRINT to home, section and page to activate the feature to print whole
+  # chapters
+  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
+
+
+[Author]
+  name = "Denise Case"
+  website = "https://datafun-central.github.io/"
+  github = "denisecase"
+  bitbucket = "denisecae"
+  linkedin = "denisecase"
+
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 6
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 7
+
+[markup]
+  [markup.highlight]
+    # if `guessSyntax = true`, there will be no unstyled code even if no language
+    # was given BUT Mermaid and Math codefences will not work anymore! So this is a
+    # mandatory setting for your site if you want to use Mermaid or Math codefences
+    guessSyntax = false
+
+    # here in this showcase we use our own modified chroma syntax highlightning style
+    # which is imported in theme-relearn-light.css / theme-relearn-dark.css;
+    # if you want to use a predefined style instead:
+    # - remove the following `noClasses`
+    # - set the following `style` to a predefined style name
+    # - remove the `@import` of the self-defined chroma stylesheet from your CSS files
+    #   (here eg.: theme-relearn-light.css / theme-relearn-dark.css)
+    noClasses = false
+    # style = "tango"
+
+  [markup.goldmark.renderer]
+    # activated for this showcase to use HTML and JavaScript; decide on your own needs;
+    # if in doubt, remove this line
+    unsafe = true
+
+# allows `hugo server` to display this showcase in IE11; this is used for testing, as we
+# are still supporting IE11 - although with degraded experience; if you don't care about
+# `hugo server` or browsers of ancient times, fell free to remove this whole block
+[server]
+  [[server.headers]]
+    for = "**.html"
+    [server.headers.values]
+       X-UA-Compatible = "IE=edge"
+
+# showcase of the menu shortcuts; you can use relative URLs linking
+# to your content or use fully-quallified URLs to link outside of
+# your project
+[Languages]
+  [Languages.en]
+    title = "Contents"
+    weight = 1
+    languageName = "English"
+    landingPageName = "<i class='fas fa-home'></i> Home"
+
+  [[Languages.en.menu.shortcuts]]
+    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    identifier = "ds"
+    url = "https://github.com/denisecase/datafun-central-source"
+    weight = 10
+
+#  [[Languages.en.menu.shortcuts]]
+#    name = "<i class='fas fa-fw fa-camera'></i> Python"
+#    url = "page/languages/python"
+#    weight = 11
+
+# settings specific to this theme's features; choose to your likings and
+# consult this documentation for explaination
+
+[params]
+  #editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  #description = "Documentation for Hugo Relearn Theme"
+  #author = "Sören Weber"
+  showVisitedLinks = true
+  collapsibleMenu = true
+  disableBreadcrumb = false
+  disableInlineCopyToClipBoard = true
+  disableNextPrev = false
+  disableLandingPageButton = true
+  titleSeparator = "::"
+  themeVariant = [ "auto", "relearn-bright", "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  themeVariantAuto = [ "relearn-light", "relearn-dark" ]
+  disableSeoHiddenPages = true
+  # this is for the stylesheet generator to allow for interactivity in Mermaid
+  # graphs; you usually will not need it and you should remove this for
+  # security reasons
+  mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
+  mermaidZoom = true
+  additionalContentLanguage = [ "en" ]

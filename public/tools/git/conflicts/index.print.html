@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.111.2">
+    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="">
+    <title>Conflicts :: Contents</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1678137127" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1678137127" rel="stylesheet">
+    <link href="../../../css/fonts.css?1678137127" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678137127" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1678137127" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1678137127" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1678137127" rel="stylesheet">
+    <link href="../../../css/print.css?1678137127" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1678137127" rel="stylesheet">
+    <link href="../../../css/ie.css?1678137127" rel="stylesheet">
+    <script src="../../../js/url.js?1678137127"></script>
+    <script src="../../../js/variant.js?1678137127"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../../index.search.js";
+      var root_url="../../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/datafun-central.github.io\/datafun-central/';
+      window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../tools/git/conflicts/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../index.html"><span itemprop="name">Contents</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../tools/index.html"><span itemprop="name">Tools</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../tools/git/index.html"><span itemprop="name">Git</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Conflicts</span><meta itemprop="position" content="4"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="conflicts">Conflicts</h1>
+
+<p>We can edit project files in at least two places:</p>
+<ul>
+<li>locally, on our machine</li>
+<li>in the cloud, e.g., by using the editing features in GitHub</li>
+</ul>
+<h2 id="bad-practices">Bad Practices</h2>
+<p>We want to keep our local version and cloud version in sync at all times.</p>
+<p>Some of the worst things we can do are:</p>
+<ol>
+<li>Forget to pull before we start our work.</li>
+<li>Pull code and leave it for a long time, then start working on old, stale code.</li>
+<li>Make huge, expansive contributions that take a long time (unless we know how to branch - an intermediate Git skill.)</li>
+<li>Wait to push our completed changes to the cloud.</li>
+</ol>
+<h2 id="good-practices">Good Practices</h2>
+<p>To minimize the chance of conflits:</p>
+<ol>
+<li>Always pull code before you start working locally. Never work on stale code!</li>
+<li>Make small, incremental changes.</li>
+<li>As soon as you finish a useful contribution, git add, commit, and push up to the cloud.</li>
+</ol>
+<p>Keep your local and cloud repositories synchronized. Use these for each session.</p>
+<p>Before you start:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git pull
+</span></span></code></pre></div><p>After you finish a set of edits:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#34;add title&#34;
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p>When working collaboratively, communicate with team members and establish a clear workflow.
+Ensure the team knows who is working on which files and when changes are being made.
+You might create different small,
+focused branches that don&rsquo;t overlap much in terms of the files they modify.</p>
+<h2 id="merge-conflicts">Merge Conflicts</h2>
+<p>Merge conflicts can occur when:</p>
+<ul>
+<li>two people edit the same file simultaneously</li>
+<li>changes are made to a file both locally and in the cloud at the same time.</li>
+<li>two branches with different changes are merged.</li>
+</ul>
+<p>For example, we might use the GitHub cloud editor to make a quick
+fix to our README.md - forgetting that we&rsquo;re also in the process of updating installation instructions on the local README.md.</p>
+<p>Merge conflicts can be frustrating,
+but they are an inevitable part of collaborative work.</p>
+<p>If you do run into a merge conflict,
+don&rsquo;t worry - it&rsquo;s not the end of
+the world.
+Git provides tools to help you resolve conflicts and merge
+changes together.
+The first step is to understand which files have
+conflicts by running git status.
+The files with conflicts will be
+marked as &ldquo;unmerged&rdquo;.</p>
+<p>To resolve the conflict,
+open the conflicted file and look for the conflicting sections
+marked with &laquo;&laquo;&laquo;&lt; HEAD, =======, and &raquo;&raquo;&raquo;&gt;.
+Manually edit the file to remove the conflicting sections
+and keep the changes you want.
+Once you&rsquo;ve resolved the conflict,
+fstage the changes with git add and commit them with git commit.</p>
+<p>If you&rsquo;re still unsure how to resolve the conflict,
+ask for help from your team members or consult Git documentation.
+Stay calm and take your time to carefully resolve the conflict.</p>
+<p>Experience managing merge conflicts can be very valuable.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="../../../js/clipboard.min.js?1678137127" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1678137127" defer></script>
+    <script src="../../../js/theme.js?1678137127" defer></script>
+  </body>
+</html>
