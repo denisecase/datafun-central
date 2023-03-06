@@ -17,7 +17,7 @@ You can download Git from the [official Git website](https://git-scm.com/downloa
 
 To get started with the documentation on this site, you can follow these steps:
 
-1. Clone the repository using Git: git clone https://github.com/your-username/datafun-central.git
+1. Clone the repository using Git: git clone https://github.com/denisecase/datafun-central.git
 
 2. Navigate to the cloned repository in a terminal window.
 
