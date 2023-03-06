@@ -32,7 +32,7 @@ To get started with the documentation on this site, you can follow these steps:
 ## Building
 
 ```bash
-hugo -d public
+hugo -d ../datafun-central/docs
 ```
 
 ## Contributing

@@ -1,6 +1,16 @@
-## Welcome to DataFun Central!
+# Getting Started with Data Analytics
 
-DataFun Central is a centralized resource for learning data fundamentals, including Python, Markdown, VS Code, terminal windows, Git, GitHub, and more. This site includes a collection of open source documentation and tutorials to help you get started with data science.
+These are set of common pages to help get started with data analytics
+ fundamentals, including
+ [GitHub](hosting/github.md),
+ [Git](tools/git/),
+ [Python](languages/python/),
+ [Markdown](languages/markdown/),
+ [VS Code](tools/vs-code/),
+and more.
+
+This site offers a bit of an overview to help you get started with
+professional data analytics.
 
 ## Topics
 
@@ -13,10 +23,7 @@ Click on the links below to explore each category:
 - [Techniques](techniques/)
 - [Hosting](hosting/)
 
-
-Within each category, you'll find content on each topic we cover. 
-For example, our Git documentation is located at [tools/git/](tools/git).
-
+Or browse the sidebar menu on the left.
 
 ## Contributing
 
