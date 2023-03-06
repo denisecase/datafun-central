@@ -1,35 +1,29 @@
-# DataFun Central
+# Getting Started with Data Anaytics
 
-DataFun Central is a centralized resource for learning data fundamentals, including Python, Markdown, VS Code, terminal windows, Git, GitHub, and more.   This site includes a collection of open source documentation and tutorials
-to help you get set up for professional data analysis and development.
+Common pages to help get started with professional data analytics, 
+including GitHub, Git, Python, Markdown, VS Code, and more. 
+This site includes a collection of documents to help you get set up 
+for professional data analysis and development.
 
-## Requirements
+## Uses 
 
-To use the documentation on this site, you will need:
+- Hugo static site generator
+- Relearn Hugo Theme
 
-- A web browser
-- Git
-- Hugo
+## Documentation
 
-You can download Git from the [official Git website](https://git-scm.com/downloads), and you can download Jekyll by following the [Jekyll installation instructions](https://jekyllrb.cominstallation/).
+The [hosted documentation](https://denisecase.github.io/datafun-central/) is available in your web browser.
 
-## Getting Started
+## Run Locally
 
-To get started with the documentation on this site, you can follow these steps:
+To run the website locally:
 
-1. Clone the repository using Git: git clone <https://github.com/denisecase/datafun-central-source.git>
-
+1. Clone the repository using Git: `git clone https://github.com/denisecase/datafun-central-source.git`.
 2. Navigate to the cloned repository in a terminal window.
+3. Launch the server: `hugo server`
+4. Open a web browser and navigate to <http://localhost:1313>.
 
-3. Launch the server:
-
-    `hugo server`
-
-4. Open a web browser and navigate to the following URL:
-
-    <http://localhost:1313>
-
-## Building
+## Generate the Documents
 
 ```bash
 hugo -d ../datafun-central/docs
