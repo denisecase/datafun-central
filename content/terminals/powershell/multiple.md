@@ -8,6 +8,13 @@ This can sometimes cause confusion.
 
 It's perfectly fine to have multiple installations, but you can remove some if they are unneeded. 
 
+On Windows machines, it's common to have both:
+
+- PowerShell Core (the newer, cross-platform version)
+- Windows Powershell (the original Windows-specific verison)
+
+[Read more about Windows PowerShell vs PowerShell Core]({{< relref "core.md" >}}).
+
 ## Uninstall
 
 To uninstall older versions of PowerShell on Windows, follow these steps:

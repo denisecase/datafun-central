@@ -12,6 +12,12 @@ used for a wide range of purposes including automation, administration, analytic
 This section provides an overview of PowerShell, 
 including some use cases and capabilities.
 
+## [Core vs Windows](core)
+
+When we say PowerShell, we generally mean **PowerShell Core**, the cross-platform version. 
+There is also **Windows PowerShell**.  They are different. 
+
+
 ## [Installation](installaion)
 
 This section helps with installing PowerShell on various operating systems, including Windows, Linux, and macOS.
