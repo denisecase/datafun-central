@@ -17,7 +17,8 @@ Learn more about Windows Terminal [here](https://aka.ms/terminal).
 
 ## [PowerShell](powershell/)
 
-PowerShell is a task-based command-line shell and scripting language built on .NET. PowerShell helps IT professionals and power users automate tasks that manage operating systems (Linux, macOS, and Windows) and processes.
+PowerShell is a cross-platform terminal and scripting language 
+used for a wide range of purposes including automation, administration, analytics, and digital forensics. 
 
 Learn more about PowerShell [here](https://docs.microsoft.com/en-us/powershell/).
 

@@ -25,7 +25,7 @@ disableHugoGeneratorInject = true
   # for the search functionality
   # add PRINT to home, section and page to activate the feature to print whole
   # chapters
-  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
   section = ["HTML", "RSS", "PRINT"]
   page = ["HTML", "RSS", "PRINT"]
 
@@ -110,7 +110,7 @@ disableHugoGeneratorInject = true
   showVisitedLinks = true
   collapsibleMenu = true
   disableBreadcrumb = false
-  disableInlineCopyToClipBoard = true
+  disableInlineCopyToClipBoard = false
   disableNextPrev = false
   disableLandingPageButton = true
   titleSeparator = "::"

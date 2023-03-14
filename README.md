@@ -2,13 +2,20 @@
 
 Common pages to help get started with professional data analytics, 
 including GitHub, Git, Python, Markdown, VS Code, and more. 
-This site includes a collection of documents to help you get set up 
-for professional data analysis and development.
+Get set up for professional data analysis and development efficiently. 
 
-## Uses 
+## This site uses 
 
 - Hugo static site generator
-- Relearn Hugo Theme
+- [Relearn Hugo Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
+- [Relean Repo](https://github.com/McShelby/hugo-theme-relearn)
+
+To install Hugo, open PowerShell as Administrator and run:
+
+`choco install hugo-extended -y -confirm`
+
+Default installation directory: C:\Program Files\Hugo.
+Add C:\Program Files\Hugo\bin to system path.
 
 ## Documentation
 
@@ -16,12 +23,15 @@ The [hosted documentation](https://denisecase.github.io/datafun-central/) is ava
 
 ## Run Locally
 
+On Windows, Hugo commands can be run in Git Bash or PowerShell.
+
 To run the website locally:
 
 1. Clone the repository using Git: `git clone https://github.com/denisecase/datafun-central-source.git`.
 2. Navigate to the cloned repository in a terminal window.
 3. Launch the server: `hugo server`
 4. Open a web browser and navigate to <http://localhost:1313>.
+
 
 ## Generate the Documents
 

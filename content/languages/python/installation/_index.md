@@ -18,4 +18,3 @@ Python is a high-level programming language used for a wide range of application
 
 - **Option 2: Step-by-step installation guide.** Check out our [detailed installation instructions](windows/) for a step-by-step guide.
 
-Python is an essential tool for data analysts and developers. With its easy-to-learn syntax, vast library of modules, and robust community support, Python is perfect for data analysis, web development, scripting, and scientific computing.
