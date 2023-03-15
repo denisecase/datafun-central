@@ -4,11 +4,19 @@ Common pages to help get started with professional data analytics,
 including GitHub, Git, Python, Markdown, VS Code, and more. 
 Get set up for professional data analysis and development efficiently. 
 
-## This site uses 
+## Web Site
+
+- [Data Analytics Website](https://denisecase.github.io/datafun-central/)
+
+## Hugo-Generated Repository
+
+- Served from [datafun-central](https://github.com/denisecase/datafun-central)
+
+## Built With 
 
 - Hugo static site generator
 - [Relearn Hugo Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
-- [Relean Repo](https://github.com/McShelby/hugo-theme-relearn)
+- [Relearn Repo](https://github.com/McShelby/hugo-theme-relearn)
 
 To install Hugo, open PowerShell as Administrator and run:
 
@@ -16,10 +24,6 @@ To install Hugo, open PowerShell as Administrator and run:
 
 Default installation directory: C:\Program Files\Hugo.
 Add C:\Program Files\Hugo\bin to system path.
-
-## Documentation
-
-The [hosted documentation](https://denisecase.github.io/datafun-central/) is available in your web browser.
 
 ## Run Locally
 
