@@ -2,10 +2,6 @@
 title: "Mac and Linux"
 ---
 
----
-title: "Mac and Linux"
----
-
 The best way to install Docker for Mac and Linux is by using Docker Desktop 
 (for Mac) and Docker Engine (for Linux). Docker provides a complete development 
 environment for containerized applications.
