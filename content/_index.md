@@ -1,16 +1,21 @@
-# Getting Started with Data Analytics
+# Professional Data Analytics
 
-These are set of common pages to help get started with data analytics
- fundamentals, including
+These are set of common pages to help get started with professional 
+data analytics, including
  [GitHub](hosting/github.md),
  [Git](tools/git/),
  [Python](languages/python/),
  [Markdown](languages/markdown/),
  [VS Code](tools/vs-code/),
+ [Docker](tools/docker/),
 and more.
 
-This site offers a bit of an overview to help you get started with
-professional data analytics.
+The goal of the site is to help you get a productive environment set up quickly and effectively. 
+
+**Notice:** This website is currently under production, and not all content is 
+available. We continue to create and publish new content. 
+To provide comments or feedback, please use the Issues and 
+[Dicussions at the GitHub source repo](https://github.com/denisecase/datafun-central-source/discussions).
 
 ## Topics
 
