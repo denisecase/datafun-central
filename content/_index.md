@@ -22,11 +22,12 @@ To provide comments or feedback, please use the Issues and
 We organize our documentation into four main categories: **Languages**, **Tools**, **Terminals**, **Techniques**, and **Hosting**.
 Click on the links below to explore each category:
 
-- [Languages](languages/)
-- [Tools](tools/)
-- [Terminals](terminals/)
-- [Techniques](techniques/)
-- [Hosting](hosting/)
+1. [Languages](languages/)
+2. [Tools](tools/)
+3. [Terminals](terminals/)
+4. [Techniques](techniques/)
+5. [Hosting](hosting/)
+6. [Other](other/)
 
 Or browse the sidebar menu on the left.
 

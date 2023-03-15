@@ -95,10 +95,21 @@ disableHugoGeneratorInject = true
     url = "https://github.com/denisecase/datafun-central-source"
     weight = 10
 
-#  [[Languages.en.menu.shortcuts]]
-#    name = "<i class='fas fa-fw fa-camera'></i> Python"
-#    url = "page/languages/python"
-#    weight = 11
+  [[Languages.en.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-laptop'></i> Python"
+    url = "languages/python"
+    weight = 11
+
+  [[Languages.en.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-laptop'></i> Markdown"
+    url = "languages/markdown"
+    weight = 12
+
+  [[Languages.en.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-globe'></i> Git"
+    url = "tools/git"
+    weight = 13
+
 
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination

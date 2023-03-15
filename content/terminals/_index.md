@@ -4,46 +4,29 @@ title = "Terminals"
 weight = 3
 +++
 
+A terminal, or command line interface, is a text-based way to interact with your computer. Terminals can be faster and more powerful than graphical user interfaces (GUIs) for many tasks, especially tasks that involve file management, development, or automation.
 
-A terminal, or command line interface, is a text-based way to interact with your computer. Terminals can be faster and more powerful than graphical user interfaces (GUIs) for many tasks, especially tasks that involve file management, development, or automation. 
+This page provides an introduction to some widely-used terminals.
 
-Here are some popular terminals:
+## [Mac and Linux](mac-linux)
 
-## Windows Terminal
+Mac and Linux systems offer the Terminal app, which provides a command-line interface for navigating the file system, running commands, and executing scripts. The Terminal supports a wide range of commands and utilities, and can be customized with various themes and configurations to suit individual preferences.
 
-Windows Terminal is a modern terminal application for Windows 10 that provides users with a powerful command-line experience. Windows Terminal offers multiple tabs, Unicode and UTF-8 character support, custom themes and styles, and more.
+## [PowerShell](powershell)
 
-Learn more about Windows Terminal [here](https://aka.ms/terminal).
+PowerShell is a powerful terminal and scripting language offered by Microsoft for all platforms, including Windows, macOS, and Linux. PowerShell provides a more powerful and flexible command-line environment than the Command Prompt, with support for features like object-oriented pipelines, remote management, and scripting with .NET objects.
 
-## [PowerShell](powershell/)
+## [VS Code Terminal](vs-code-terminal)
 
-PowerShell is a cross-platform terminal and scripting language 
-used for a wide range of purposes including automation, administration, analytics, and digital forensics. 
+The terminal in Visual Studio Code offers a built-in command-line interface for developers. It provides access to a range of commands and utilities, including those specific to development tasks like running build scripts, testing code, and debugging applications.
 
-Learn more about PowerShell [here](https://docs.microsoft.com/en-us/powershell/).
+## [Windows Terminals](windows)
 
-## Command Prompt
+Windows offers a variety of terminals depending on the user's needs and preferences. These terminals include:
 
-The Command Prompt is a native Windows application that provides users with a basic command-line interface. Command Prompt has been around since the inception of Windows and is still used by many IT professionals today.
+- Command Prompt: A basic terminal emulator that has been included in Windows since the early days.
+- Git Bash: A terminal emulator that is bundled with Git for Windows. It provides a Unix-like command-line environment for Windows, including support for common Unix utilities and shell scripting.
+- PowerShell: A command-line shell and scripting language that is designed for system administration and automation in Windows.
+- Windows Subsystem for Linux (WSL): A feature of Windows 10 that allows users to run a Linux environment directly on Windows, without the need for a virtual machine or container.
 
-Learn more about the Command Prompt [here](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/).
-
-## Bash
-
-Bash is the standard shell on most Linux distributions and on macOS. It provides powerful tools for managing files and processes, and can be used for system administration tasks, software development, and more.
-
-Learn more about Bash [here](https://www.gnu.org/software/bash/).
-
-## Zsh
-
-Zsh is a powerful shell designed for interactive use. It has many features and capabilities, including command-line editing, path expansion, and programmable completion.
-
-Learn more about Zsh [here](https://www.zsh.org/).
-
-
-## Terminology
-
-Terminology is a terminal emulator for Linux and BSD operating systems. It is built with the Enlightenment Foundation Libraries (EFL), which provide a fast, lightweight, and responsive user interface.
-
-Learn more about Terminology [here](https://www.enlightenment.org/about-terminology).
-
+Each of these terminals provides a unique set of features and capabilities, allowing users to choose the terminal that best fits their needs and workflow.
