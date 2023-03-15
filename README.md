@@ -1,8 +1,14 @@
-# Getting Started with Data Anaytics
+# Get Set Up for Professional Data Anaytics
 
-Common pages to help get started with professional data analytics, 
-including GitHub, Git, Python, Markdown, VS Code, and more. 
-Get set up for professional data analysis and development efficiently. 
+These are set of common pages to help get started with professional data analytics,
+including GitHub, Git, Python, Markdown, VS Code, Docker, and more. 
+
+The goal of the site is to help you get a productive environment set up quickly and effectively.
+
+Notice: The [website](https://denisecase.github.io/datafun-central/) 
+is currently under production, and not all content is available. 
+We continue to create and publish new content. 
+To provide comments or feedback, please use the Issues and Dicussions above.
 
 ## Web Site
 
