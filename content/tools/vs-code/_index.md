@@ -1,6 +1,6 @@
 ---
 title: VS Code
-weight: 90
+
 ---
 
 Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft. 
