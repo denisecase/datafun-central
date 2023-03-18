@@ -37,11 +37,27 @@ and easily sharable with others in the Python community.
 
 ### Poetry
 
-Poetry is a modern Python packaging and dependency management tool that helps simplify the process of managing dependencies and building projects. It allows developers to define their project dependencies in a declarative way using a simple pyproject.toml file, rather than relying on separate requirements.txt or setup.py files.
+Poetry is a modern Python packaging and dependency management tool that helps 
+simplify the process of managing dependencies and building projects. 
+It allows developers to define their project dependencies in a declarative 
+way using a simple pyproject.toml file, rather than relying on separate 
+requirements.txt or setup.py files.
 
-One of the key advantages of using Poetry is that it provides a streamlined workflow for managing dependencies and virtual environments. It can automatically create and manage virtual environments for each project, isolating project dependencies and avoiding conflicts with system-level packages. Poetry also provides powerful tools for managing dependencies, including automatic dependency resolution, dependency locking, and the ability to publish and install packages from both PyPI and private repositories.
+One of the key advantages of using Poetry is that it provides a streamlined 
+workflow for managing dependencies and virtual environments. 
+It can automatically create and manage virtual environments for each project,
+ isolating project dependencies and avoiding conflicts with system-level 
+ packages. 
+ Poetry also provides powerful tools for managing dependencies, including 
+ automatic dependency resolution, dependency locking, and the ability to 
+ publish and install packages from both PyPI and private repositories.
 
-Another advantage of using Poetry is that it provides a simple, consistent interface for managing all aspects of a Python project, from dependency management to building and publishing packages. This makes it easier for developers to focus on writing code and building their projects, without getting bogged down in the details of project management.
+Another advantage of using Poetry is that it provides a simple, 
+consistent interface for managing all aspects of a Python project, 
+from dependency management to building and publishing packages. 
+This makes it easier for developers to focus on writing code and building 
+their projects, without getting bogged down in the details of 
+project management.
 
 
 

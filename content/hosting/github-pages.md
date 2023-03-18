@@ -23,7 +23,9 @@ By default, GitHub Pages sites are hosted under a github.io subdomain, but you c
 
 ## Jekyll integration
 
-GitHub Pages integrates seamlessly with Jekyll, a popular static site generator. This allows you to write your content in Markdown, use templates and themes, and have Jekyll automatically generate your site's HTML, CSS, and JavaScript.
+GitHub Pages integrates seamlessly with Jekyll, a popular static site generator. 
+This allows you to write your content in Markdown, use templates and themes, 
+and have Jekyll automatically generate your site's HTML, CSS, and JavaScript.
 
 ## Hugo support
 
@@ -38,8 +40,11 @@ popular choice for blogs, portfolios, and documentation sites.
 
 ## Version control
 
-Since GitHub Pages sites are hosted directly from your GitHub repositories, you get all the benefits of version control. This makes it easy to track changes, collaborate with others, and revert to previous versions of your site if needed.
+Since GitHub Pages sites are hosted directly from your GitHub repositories, 
+you get all the benefits of version control. This makes it easy to track 
+changes, collaborate with others, and revert to previous versions of your site if needed.
 
 ## SSL support
 
-GitHub Pages provides free SSL support for both github.io subdomains and custom domains, ensuring secure connections for your site visitors.
+GitHub Pages provides free SSL support for both github.io subdomains and 
+custom domains, ensuring secure connections for your site visitors.

@@ -3,7 +3,8 @@ title = "JavaScript"
 weight = 50
 +++
 
-JavaScript is a popular programming language used for web development and beyond. In this page, we will cover some basics of JavaScript.
+JavaScript is a popular programming language used for web development and beyond. 
+In this page, we will cover some basics of JavaScript.
 
 ## Why JavaScript?
 

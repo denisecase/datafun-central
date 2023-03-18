@@ -4,12 +4,22 @@ title = "Hosting"
 weight = 5
 +++
 
-This page provides an introduction for popular hosting providers.
+This page provides an introduction to popular hosting providers.
 
-## [Python](python)
+## [BitBucket](bitbucket)
 
-Python is a popular programming language for data science and machine learning. We cover both the basics and advanced topics of Python programming, as well as how to use Python for data analysis.
+BitBucket is a popular hosting provider for Git repositories.
 
-## [Markdown](markdown)
+## [DockerHub](dockerhub)
 
-Markdown is a simple markup language used to create rich text documents. We cover the basics of Markdown syntax and how to use Markdown to create formatted text documents.
+DockerHub is a cloud-based repository for Docker images and containers.
+
+## [GitHub](github)
+
+GitHub is a widely used platform for hosting Git repositories, 
+collaborating on code, and managing projects.
+
+## [GitHub Pages](github-pages)
+
+GitHub Pages is a free service for hosting static websites 
+directly from a GitHub repository.
