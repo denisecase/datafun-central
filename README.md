@@ -1,5 +1,8 @@
 # Get Set Up for Professional Data Anaytics
 
+[![Hugo](https://img.shields.io/badge/Hugo-0.111.3-blue.svg)](https://gohugo.io)
+![Build with Hugo](https://github.com/denisecase/datafun-central/workflows/Deploy%20Hugo%20site%20to%20Pages/badge.svg)
+
 These are set of common pages to help get started with professional data analytics,
 including GitHub, Git, Python, Markdown, VS Code, Docker, and more. 
 
