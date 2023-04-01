@@ -1,6 +1,5 @@
 +++
 title = "Github"
-weight = 70
 +++
 
 

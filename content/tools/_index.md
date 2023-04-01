@@ -7,6 +7,20 @@ weight = 2
 
 This section includes documentation for some of the tools we use. 
 
+## [Chocolatey](chocolatey/)
+
+Chocolately is a popular package manager for Windows that makes it easy to install, update, and manage software packages. It offers a large selection of packages and advanced features. 
+See also Winget.
+
+## [Conda](conda/)
+
+Conda is a popular package manager for Python often used with the Anaconda or Miniconda distributions. 
+See also pip.
+
+## [Docker](docker/)
+
+Docker is a platform for building, shipping, and running applications in containers.
+
 ## [Git](git/)
 
 Git is a popular version control system that allows developers to track changes to their code and collaborate with others on a project. It provides a way to manage and organize code, and allows for easy branching and merging. Git is widely used in software development, and is an essential tool for any developer's toolkit.
@@ -17,11 +31,12 @@ GitHub is a web-based platform that provides a range of features for managing Gi
 
 ## [Homebrew](homebrew/)
 
-Homebrew is a package manager for macOS that makes it easy to install, update, and manage software packages on a Mac. It simplifies the process of installing command line tools and other applications that may not be available through the official Mac App Store. Homebrew is a popular tool among developers and system administrators who frequently work with command line tools.
+Homebrew is a package manager for macOS that makes it easy to install, update, and manage software packages. 
 
-## pip
+## [pip](pip/)
 
 pip is a package manager for Python that makes it easy to install, update, and manage Python packages and dependencies. It is widely used in the Python community and is an essential tool for working with Python projects.
+See also conda.
 
 ## [PowerShell](powershell/)
 
@@ -31,3 +46,7 @@ PowerShell is a command line shell and scripting language developed by Microsoft
 
 Visual Studio Code, often referred to as VS Code, is a lightweight but powerful source code editor that is popular among developers. It is highly customizable and supports a wide range of programming languages, making it a versatile tool for developers of all skill levels. VS Code also has a large ecosystem of extensions that can be used to extend its functionality.
 
+## [Winget](winget/)
+
+Winget is a newer lightweight package manager for Windows 10 developed by Microsoft that makes it easy to install, update, and manage software packages. 
+See also Chocolatey.

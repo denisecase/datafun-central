@@ -1,6 +1,5 @@
 +++
 title = "Dockerhub"
-weight = 20
 +++
 
 Docker Hub is a cloud-based repository service provided by Docker, 

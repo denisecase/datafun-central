@@ -10,17 +10,24 @@ used in data analytics and development.
 
 ## Data Cleaning
 
-- [Introduction to Data Cleaning](techniques/data-cleaning/intro.md)
+- [Introduction to Data Cleaning](data-cleaning)
 
 ## Data Visualization
 
-- [Introduction to Data Visualization](techniques/data-visualization/intro.md)
-- [Matplotlib](techniques/data-visualization/matplotlib.md)
-- [Seaborn](techniques/data-visualization/seaborn.md)
+- [Introduction to Data Visualization](data-visualization)
+
+## Git
+
+- [Git Skills](git)
+
+## GitHub
+
+- [GitHub Skills](github)
 
 ## Machine Learning
 
-- [Introduction to Machine Learning](techniques/machine-learning/intro.md)
-- [Scikit-Learn](techniques/machine-learning/scikit-learn.md)
-- [TensorFlow](techniques/machine-learning/tensorflow.md)
-- [Keras](techniques/machine-learning/keras.md)
+- [Introduction to Machine Learning](machine-learning)
+
+## Python
+
+- [Python Skills](python)

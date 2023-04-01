@@ -58,7 +58,7 @@ Check out the recommended [Git Crash Course (Video)]({{< relref crash-course.md 
 
 Check out the free [ProGit book](https://git-scm.com/book/en/v2) for a comprehensive guide to using Git.
 
-## Read more
+## See Also
 
 - [branches]({{< relref "branches.md" >}})
 - [remotes]({{< relref "remotes.md" >}})

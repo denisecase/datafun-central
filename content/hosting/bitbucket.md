@@ -1,6 +1,5 @@
 +++
 title = "Bitbucket"
-weight = 10
 +++
 
 Bitbucket is a web-based version control repository hosting service 

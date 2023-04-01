@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Other"
-weight = 6
+weight = 7
 +++
 
 Few more things to share.

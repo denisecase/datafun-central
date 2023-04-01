@@ -1,6 +1,5 @@
 +++
 title = "Github Pages"
-weight = 80
 +++
 
 GitHub Pages is a free and easy way to host static websites directly 
