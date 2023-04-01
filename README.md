@@ -5,18 +5,9 @@ including GitHub, Git, Python, Markdown, VS Code, Docker, and more.
 
 The goal of the site is to help you get a productive environment set up quickly and effectively.
 
-Notice: The [website](https://denisecase.github.io/datafun-central/) 
-is currently under production, and not all content is available. 
-We continue to create and publish new content. 
-To provide comments or feedback, please use the Issues and Dicussions above.
-
 ## Web Site
 
 - [Data Analytics Website](https://denisecase.github.io/datafun-central/)
-
-## Hugo-Generated Repository
-
-- Served from [datafun-central](https://github.com/denisecase/datafun-central)
 
 ## Built With 
 
@@ -37,14 +28,20 @@ On Windows, Hugo commands can be run in Git Bash or PowerShell.
 
 To run the website locally:
 
-1. Clone the repository using Git: `git clone https://github.com/denisecase/datafun-central-source.git`.
-2. Navigate to the cloned repository in a terminal window.
-3. Launch the server: `hugo server`
-4. Open a web browser and navigate to <http://localhost:1313>.
+1. Fork this repo into your GitHub account.
+1. Clone your repo down to your machine. 
+1. Navigate to the cloned repository in a terminal window.
+1. Launch the server: `hugo server`
+1. Open a web browser and navigate to <http://localhost:1313>.
 
 ## Contributing
 
 If you would like to contribute to the documentation on this site, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to get started.
+
+## Feedback
+
+To provide comments or feedback, please use the Issues and 
+[Dicussions at the GitHub source repo](https://github.com/denisecase/datafun-central/discussions).
 
 ## License
 
