@@ -22,6 +22,9 @@ Recommended choices are nearly always free and open-source.
 You will need a relatively modern machine and electricity to keep it running.
 Your curiousity, resourcefulness, and tenacity will be quite valuable.
 
+
+<a title="Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Data_analytics_WP20.png"><img width="512" alt="Data analytics WP20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Data_analytics_WP20.png/512px-Data_analytics_WP20.png"></a>
+
 ## Start Here
 
 1. First, sign up for a free account on [GitHub](hosting/github.md).
