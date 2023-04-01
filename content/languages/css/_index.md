@@ -1,6 +1,5 @@
 +++
 title = "CSS"
-weight = 40
 +++
 
 CSS is a powerful styling language used to add visual effects to web pages.

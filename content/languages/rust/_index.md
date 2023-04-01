@@ -1,6 +1,5 @@
 +++
 title = "Rust"
-weight = 93
 +++
 
 > Powerful and Safe Programming Language

@@ -1,6 +1,5 @@
 +++
 title = "Python"
-weight = 10
 +++
 
 Python is a high-level programming language used for a wide range of applications, from data analysis to web development.

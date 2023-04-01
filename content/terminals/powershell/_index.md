@@ -3,7 +3,7 @@ title = "PowerShell"
 weight = 10
 +++
 
-PowerShell is a cross-platform terminal and scripting language 
+PowerShell is a cross-platform **terminal** and scripting language 
 used for a wide range of purposes including automation, administration, analytics, and digital forensics. 
 
 PowerShell includes Intellisense to help complete commands. 

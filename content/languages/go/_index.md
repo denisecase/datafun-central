@@ -1,6 +1,5 @@
 +++
 title = "Go"
-weight = 92
 +++
 
 > Powerful and Efficient Programming Language

@@ -1,6 +1,5 @@
 +++
 title = "HTML"
-weight = 30
 +++
 
 HTML is a markup language used for creating web pages and applications.

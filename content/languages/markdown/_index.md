@@ -1,6 +1,5 @@
 +++
 title = "Markdown"
-weight = 20
 +++
 
 

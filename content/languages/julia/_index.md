@@ -1,6 +1,5 @@
 +++
 title = "Julia"
-weight = 91
 +++
 
 > High-Performance Dynamic Programming Language
