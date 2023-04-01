@@ -7,13 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/languages/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI and ML</title>
-      <link>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</guid>
-      <description>fkdla;</description>
-    </item>
-    <item>
       <title>Basics</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/basics/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,18 +27,31 @@ Option 2: Step-by-step installation guide. Check out our installation instructio
 Windows Users Option 1: Official installation instructions. Follow instructions on the official Python website.</description>
     </item>
     <item>
+      <title>AI and ML</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/ai-and-ml/index.html</guid>
+      <description>Python is a popular programming language that has gained a lot of traction in the fields of artificial intelligence (AI) and machine learning (ML).
+Python offers a range of libraries and frameworks that make it easier to develop and deploy AI and ML applications, including:
+NumPy: A library for numerical computing in Python, NumPy provides support for large, multi-dimensional arrays and matrices, as well as a range of mathematical functions for working with this data.</description>
+    </item>
+    <item>
       <title>Environments</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/environments/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/python/environments/index.html</guid>
-      <description>fjdksl;fa</description>
+      <description>Python environments can be confusing at first, but they are essential for developing and deploying Python applications.
+Overview At a high level, you can think of Python environments as isolated &amp;ldquo;containers&amp;rdquo; that provide a controlled environment for your code to run in.
+They are similar in some ways to operating systems, in that they provide a layer of abstraction between the code and the underlying system, and allow multiple applications to run independently without interfering with each other.</description>
     </item>
     <item>
-      <title>Executing</title>
+      <title>Executing Scripts</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/executing-scripts/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/python/executing-scripts/index.html</guid>
-      <description></description>
+      <description>A Python script is a file containing Python code that can be executed by the Python interpreter.
+Scripts can be used to automate tasks, perform calculations, or interact with other software systems.
+Run A Script To run a Python script, you need to have the Python interpreter installed on your system. Once you have installed Python, you can run a script by opening a terminal or command prompt, navigating to the directory containing the script, and typing python myscript.</description>
     </item>
     <item>
       <title>Fundamentals</title>
@@ -62,39 +68,40 @@ Windows Users Option 1: Official installation instructions. Follow instructions 
       <description></description>
     </item>
     <item>
-      <title>Organization</title>
-      <link>https://datafun-central.github.io/datafun-central/languages/python/organization/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://datafun-central.github.io/datafun-central/languages/python/organization/index.html</guid>
-      <description></description>
-    </item>
-    <item>
       <title>pandas</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/pandas/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/python/pandas/index.html</guid>
-      <description></description>
+      <description>Pandas is a popular open-source library for data analytics in Python. It provides powerful tools for working with tabular data, such as data frames and series. With pandas, you can easily read, manipulate, and analyze data in a variety of formats, including CSV, Excel, SQL databases, and more.
+One of the key features of pandas is its ability to handle missing data. Pandas provides a number of methods for filling in missing data, interpolating values, and dropping missing data altogether.</description>
+    </item>
+    <item>
+      <title>Project Management</title>
+      <link>https://datafun-central.github.io/datafun-central/languages/python/project-management/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/languages/python/project-management/index.html</guid>
+      <description>There are several ways to manage dependencies and project metadata in Python. While they differ in their syntax and capabilities, they can all be used to specify the dependencies required for a Python project.
+pyproject.toml pyproject.toml is a configuration file used in modern Python projects to specify various aspects of the project, including its dependencies, build settings, and package metadata. It is part of the Python Packaging ecosystem, which provides a standardized way to manage Python packages and their distribution.</description>
     </item>
     <item>
       <title>Try Except</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/try/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/python/try/index.html</guid>
-      <description></description>
+      <description>Code Might Fail
+It&amp;rsquo;s important to use try/except/finally whenever your application could fail through no fault of your own.
+Questions Shouldn&amp;rsquo;t we fix all errors first? Why do we need try/except/finally? Answer We should always strive to fix all coding and logic errors. However, sometimes our code can be perfect - but exceptions can still happen. try/except/finally is a way to gracefully handle unexpected errors and prevent our program from crashing.</description>
     </item>
     <item>
       <title>Uninstalling</title>
       <link>https://datafun-central.github.io/datafun-central/languages/python/uninstalling/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/python/uninstalling/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Versions</title>
-      <link>https://datafun-central.github.io/datafun-central/languages/python/versions-windows/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://datafun-central.github.io/datafun-central/languages/python/versions-windows/index.html</guid>
-      <description></description>
+      <description>Python seems to install a bit like a virus and traces can get everywhere.
+At times, removing an old version of Python can be challenging.
+Cleaning up unneeded Python installations can help avoid conflicts between different Python versions and packages.
+Using package managers and virtual environments can help.
+Uninstalling Installations can leave traces on your system that may no longer be needed. Here are some recommendations for cleaning up old Python installations:</description>
     </item>
   </channel>
 </rss>

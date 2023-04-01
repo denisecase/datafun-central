@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
-    <title>Executing :: Contents</title>
+    <title>Executing Scripts :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../../js/url.js?1678138195"></script>
-    <script src="../../../js/variant.js?1678138195"></script>
+    <link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../../js/url.js?1680356770"></script>
+    <script src="../../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../languages/python/executing-scripts/index.html">
+  <body class="mobile-support print" data-url="../../../languages/python/executing-scripts/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -54,7 +54,7 @@
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../index.html"><span itemprop="name">Contents</span></a><meta itemprop="position" content="1"> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../languages/index.html"><span itemprop="name">Languages</span></a><meta itemprop="position" content="2"> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../languages/python/index.html"><span itemprop="name">Python</span></a><meta itemprop="position" content="3"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Executing</span><meta itemprop="position" content="4"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Executing Scripts</span><meta itemprop="position" content="4"></li>
             </ol>
           </div>
         </div>
@@ -64,8 +64,27 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1 id="executing">Executing</h1>
+<h1 id="executing-scripts">Executing Scripts</h1>
 
+<p>A Python <strong>script</strong> is a file containing Python code that can be executed by the Python interpreter.</p>
+<p>Scripts can be used to automate tasks, perform calculations, or interact with other software systems.</p>
+<h2 id="run-a-script">Run A Script</h2>
+<p>To run a Python script,
+you need to have the Python interpreter installed on your system.
+Once you have installed Python,
+you can run a script by opening a terminal or command prompt,
+navigating to the directory containing the script,
+and typing <code>python myscript.py</code> (replacing <code>myscript</code> with the name of your script).</p>
+<p>For example, if you have a script named <code>myscript.py</code> in a
+directory called <code>myproject</code>, you can run it by opening a terminal or command prompt,
+navigating to the <code>myproject</code> directory, and typing <code>python myscript.py</code>.</p>
+<p>If your script requires any <strong>command-line arguments</strong>,
+you can pass them to the script by including them after the script name.
+For example, if your script requires a filename as an argument,
+you could run it like this: <code>python myscript.py myfile.txt</code>.</p>
+<p>When you run a Python script, the interpreter reads the code
+in the file and executes it.
+Any output produced by the script is printed to the console.</p>
 
             <footer class="footline">
             </footer>
@@ -73,8 +92,8 @@
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../../js/theme.js?1678138195" defer></script>
+    <script src="../../../js/clipboard.min.js?1680356771" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1680356771" defer></script>
+    <script src="../../../js/theme.js?1680356771" defer></script>
   </body>
 </html>

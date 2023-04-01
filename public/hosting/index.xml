@@ -11,28 +11,33 @@
       <link>https://datafun-central.github.io/datafun-central/hosting/bitbucket/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/hosting/bitbucket/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>Bitbucket is a web-based version control repository hosting service owned by Atlassian. It is designed for team collaboration and primarily used for source code and development projects that use either Mercurial or Git revision control systems. Bitbucket provides a platform for teams to plan projects, collaborate on code, test, and deploy applications efficiently.
+Atlassian is the company behind Jira, a popular project management and issue tracking software. Jira is designed to help teams plan, track, and manage their work, including software development, agile project management, bug tracking, and task management.</description>
     </item>
     <item>
       <title>Dockerhub</title>
       <link>https://datafun-central.github.io/datafun-central/hosting/dockerhub/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/hosting/dockerhub/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>Docker Hub is a cloud-based repository service provided by Docker, similar to GitHub, but specifically designed for sharing and managing Docker images. Just as GitHub is a platform for storing and collaborating on code repositories, Docker Hub allows you to store, share, and collaborate on Docker images. Docker Hub simplifies the process of distributing and deploying containerized applications and streamlines collaboration with other developers.
+Here&amp;rsquo;s a brief introduction to some key features.</description>
     </item>
     <item>
       <title>Github</title>
       <link>https://datafun-central.github.io/datafun-central/hosting/github/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/hosting/github/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>GitHub is a web-based platform that allows developers to store and manage their code and collaborate with others. It is built on top of Git, which is a distributed version control system that allows developers to track changes to their code over time and collaborate with others on the same codebase.
+With GitHub, developers can create their own repositories, which are essentially folders that contain their code, documentation, and other files related to a specific project.</description>
     </item>
     <item>
       <title>Github Pages</title>
       <link>https://datafun-central.github.io/datafun-central/hosting/github-pages/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/hosting/github-pages/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>GitHub Pages is a free and easy way to host static websites directly from your GitHub repositories. It is ideal for hosting personal blogs, project documentation, or simple websites. With GitHub Pages, you can quickly create a site using Markdown, HTML, CSS, and JavaScript, and have it automatically generated and hosted by GitHub.
+Some key features of GitHub Pages include:
+Easy setup Setting up a GitHub Pages site is simple and requires only a few steps.</description>
     </item>
   </channel>
 </rss>

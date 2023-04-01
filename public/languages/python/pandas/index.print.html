@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>pandas :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../../js/url.js?1678138195"></script>
-    <script src="../../../js/variant.js?1678138195"></script>
+    <link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../../js/url.js?1680356770"></script>
+    <script src="../../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../languages/python/pandas/index.html">
+  <body class="mobile-support print" data-url="../../../languages/python/pandas/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -66,6 +66,43 @@
           <article class="default">
 <h1 id="pandas">pandas</h1>
 
+<p>Pandas is a popular open-source library for data analytics in Python.
+It provides powerful tools for working with tabular data,
+such as data frames and series.
+With pandas, you can easily read, manipulate, and analyze data
+in a variety of formats, including CSV, Excel, SQL databases, and more.</p>
+<p>One of the key features of pandas is its ability to handle missing data.
+Pandas provides a number of methods for filling in missing data,
+interpolating values, and dropping missing data altogether.
+This is a critical feature for data analytics,
+as real-world data is often incomplete or inconsistent.</p>
+<p>Pandas performs complex data transformations and aggregations.
+With pandas, you can group data by one or more columns,
+apply functions to subsets of data, and pivot data to reshape it in different ways.</p>
+<p>Pandas provides tools for merging and joining data from multiple sources,
+making it easy to combine data from different sources into a single data set.</p>
+<p>Being good at pandas is a valuable skill.</p>
+<h2 id="faster-options">Faster Options</h2>
+<p>Pandas can be a bit slow. Options include:</p>
+<ul>
+<li>Moving to the faster Pandas 2.0</li>
+<li>Trying Polars</li>
+</ul>
+<h3 id="pandas-20">Pandas 2.0</h3>
+<p>Pandas 2.0 is a significant update the to the beloved pandas.</p>
+<p>Learn more at:</p>
+<ul>
+<li><a href="https://pandas.pydata.org/docs/dev/index.html" target="_blank">Pandas 2.0 (official)</a></li>
+<li><a href="https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb" target="_blank">Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB)</a></li>
+</ul>
+<h3 id="polars">Polars</h3>
+<p>Polars is a data manipulation library written with Rust that aims to provide a fast,
+memory-efficient alternative to Pandas for large-scale data processing.
+It&rsquo;s still a relatively new library, having been first released in 2019, a
+nd its user base and ecosystem are still growing.</p>
+<p>Polars has a lot of potential as a fast and memory-efficient data manipulation
+library for large datasets, but it&rsquo;s still a relatively new library and may
+not have the same level of maturity and ecosystem as Pandas.</p>
 
             <footer class="footline">
             </footer>
@@ -73,8 +110,8 @@
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../../js/theme.js?1678138195" defer></script>
+    <script src="../../../js/clipboard.min.js?1680356771" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1680356771" defer></script>
+    <script src="../../../js/theme.js?1680356771" defer></script>
   </body>
 </html>

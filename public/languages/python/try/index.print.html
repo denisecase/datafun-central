@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>Try Except :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../../js/url.js?1678138195"></script>
-    <script src="../../../js/variant.js?1678138195"></script>
+    <link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../../js/url.js?1680356770"></script>
+    <script src="../../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../languages/python/try/index.html">
+  <body class="mobile-support print" data-url="../../../languages/python/try/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -66,6 +66,50 @@
           <article class="default">
 <h1 id="try-except">Try Except</h1>
 
+<blockquote>
+<p>Code Might Fail</p>
+</blockquote>
+<p>It&rsquo;s important to use <code>try</code>/<code>except</code>/<code>finally</code> whenever your application
+could fail through no fault of your own.</p>
+<h3 id="questions">Questions</h3>
+<ul>
+<li>Shouldn&rsquo;t we fix all errors first?</li>
+<li>Why do we need <code>try</code>/<code>except</code>/<code>finally</code>?</li>
+</ul>
+<h3 id="answer">Answer</h3>
+<p>We should always strive to fix all coding and logic errors.
+However, sometimes our code can be perfect - but exceptions can still happen.
+<code>try</code>/<code>except</code>/<code>finally</code> is a way to gracefully
+handle unexpected errors and prevent our program from crashing.</p>
+<h3 id="example">Example</h3>
+<p>Suppose you write a script to read <code>baseball_game_results.csv</code> each night
+at midnight.</p>
+<p>It runs fine until someone changes the filename to <code>rslts.csv</code>.</p>
+<p>Now, your code terminates with an ugly error because the necessary file can&rsquo;t
+be found.</p>
+<p>To code professionally, we can use <code>try</code>/<code>except</code> to handle
+this error gracefully.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Attempt to open the file</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;baseball_game_results.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Do something with the file</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Handle the case where the file is not found</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;ERROR: File not found. Please name the file to baseball_game_results.csv&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">finally</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Clean up any resources (e.g. file handles) used by the code</span>
+</span></span><span class="line"><span class="cl">     
+</span></span></code></pre></div><h3 id="other-programming-languages">Other Programming Languages</h3>
+<p>Other programming languages use something very similar,
+but  might use the keywords <code>try/catch/finally</code>.
+As in &ldquo;try this, and if you catch an exception, do this.&rdquo;</p>
+<h2 id="throwing-exceptions">Throwing Exceptions</h2>
+<p>Exceptions are thrown by nested functions, up, up, up,
+until some level &ldquo;catches&rdquo; the exception and deals with it,
+or the program terminates with an ugly error.
+It&rsquo;s important to handle exceptions gracefully and
+prevent our programs from crashing.</p>
 
             <footer class="footline">
             </footer>
@@ -73,8 +117,8 @@
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../../js/theme.js?1678138195" defer></script>
+    <script src="../../../js/clipboard.min.js?1680356771" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1680356771" defer></script>
+    <script src="../../../js/theme.js?1680356771" defer></script>
   </body>
 </html>

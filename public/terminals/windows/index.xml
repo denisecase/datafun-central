@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows on Contents</title>
+    <title>Windows on Contents</title>
     <link>https://datafun-central.github.io/datafun-central/terminals/windows/index.html</link>
-    <description>Recent content in windows on Contents</description>
+    <description>Recent content in Windows on Contents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/terminals/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>command-prompt</title>
+      <title>Commnd Prompt</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/windows/command-prompt/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/windows/command-prompt/index.html</guid>
-      <description>command-prompt Windows Installation Instructions for installing on Windows go here.</description>
+      <description>The Command Prompt is a basic terminal emulator that has been included in Windows since the early days. It provides a command-line interface for interacting with the file system, running basic commands, and executing batch scripts.
+The Command Prompt supports a range of commands, including:
+dir: List the contents of a directory. cd: Change the current directory. md: Create a new directory. del: Delete files. copy: Copy files. move: Move files.</description>
     </item>
     <item>
-      <title>git-bash</title>
+      <title>Git Bash</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/windows/git-bash/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/windows/git-bash/index.html</guid>
-      <description>git-bash Windows Installation Instructions for installing on Windows go here.</description>
+      <description>Git Bash is a terminal emulator that is bundled with Git for Windows. It provides a Unix-like command-line environment for Windows, including support for common Unix utilities and shell scripting. Git Bash includes a range of features and commands that are useful for developers working with Git repositories, including:
+git: A command-line interface for interacting with Git repositories, including tasks like cloning, committing, pushing, and merging changes. ssh: A command-line interface for managing secure shell connections to remote servers and devices.</description>
     </item>
     <item>
-      <title>powershell</title>
+      <title>PowerShell</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/windows/powershell/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/windows/powershell/index.html</guid>
-      <description>powershell Windows Installation Instructions for installing on Windows go here.</description>
+      <description>PowerShell is a command-line shell and scripting language designed for system administration and automation in Windows. PowerShell provides a more powerful and flexible command-line environment than the Command Prompt, with support for features like object-oriented pipelines, remote management, and scripting with .NET objects.
+PowerShell includes a wide range of built-in commands, called cmdlets, that provide access to various Windows management features, such as:
+Get-Process: Display information about running processes, including process ID (PID), CPU and memory usage, and parent process ID.</description>
     </item>
     <item>
-      <title>wsl</title>
+      <title>Windows Subsystem for Linux (WSL)</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/windows/wsl/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/windows/wsl/index.html</guid>
-      <description>wsl Windows Installation Instructions for installing on Windows go here.</description>
+      <description>Windows Subsystem for Linux (WSL) is a feature of Windows 10 that allows users to run a Linux environment directly on Windows, without the need for a virtual machine or container. WSL provides access to a full-fledged Linux system, including a terminal emulator and support for running Linux applications and scripts.
+WSL supports two different versions:
+WSL 1: Uses a translation layer to provide compatibility between Linux system calls and Windows kernel system calls.</description>
     </item>
   </channel>
 </rss>

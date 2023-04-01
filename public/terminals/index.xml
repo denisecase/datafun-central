@@ -7,32 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/terminals/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mac-linux</title>
+      <title>Mac and Linux</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/mac-linux/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/mac-linux/index.html</guid>
-      <description>mac-linux Mac/Linux Installation Instructions for installing on Mac/Linux go here.</description>
+      <description>On Mac and Linux machines, the Terminal app is widely used.
+Terminal is a command-line interface that allows users to interact with their computer using text commands. It provides a way to execute commands, manage files, and run scripts without the need for a graphical user interface.
+The Terminal can be accessed by opening the Terminal application on a Mac or by opening a terminal emulator on a Linux distribution.</description>
     </item>
     <item>
       <title>PowerShell</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/powershell/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/index.html</guid>
-      <description>PowerShell is a &amp;hellip;.</description>
+      <description>PowerShell is a cross-platform terminal and scripting language used for a wide range of purposes including automation, administration, analytics, and digital forensics.
+PowerShell includes Intellisense to help complete commands. To accept, use the right arrow key (instead of tab).
+PowerShell Core This section provides an overview of the cross-platform PowerShell Core, including some use cases and capabilities.
+PowerShell vs Windows PowerShell When we say PowerShell, we generally mean PowerShell Core, the cross-platform version.</description>
     </item>
     <item>
-      <title>vs-code-terminal</title>
+      <title>VS Code Terminal</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/vs-code-terminal/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/vs-code-terminal/index.html</guid>
-      <description>vs-code-terminal </description>
+      <description></description>
     </item>
     <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>https://datafun-central.github.io/datafun-central/terminals/windows/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/windows/index.html</guid>
-      <description>windows Windows Installation Instructions for installing on Windows go here.</description>
+      <description>Windows offers multiple terminal options for developers and users, and many are widely used. Skills in any or all of these can be very valuable.
+Command Prompt The Command Prompt is a basic terminal emulator that has been included in Windows since the early days. It supports running basic commands, navigating the file system, and running batch scripts. However, it lacks some of the advanced features found in modern terminal emulators.</description>
     </item>
   </channel>
 </rss>

@@ -34,6 +34,16 @@ Default Branch The default branch is employed automatically when we first create
 Working Alone For independent projects, we may work directly on the main default branch.</description>
     </item>
     <item>
+      <title>Configuration</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/git/configuration/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/git/configuration/index.html</guid>
+      <description>After installing, configure Git with your name and email.
+Use your GitHub email for best results.
+Open Git Bash on Windows To open Git Bash on Windows:
+Press the Windows key on your keyboard to open the Start menu. Type &amp;ldquo;Git Bash&amp;rdquo; into the search bar and select it from the list of results. Git Bash should now open in a new window. Open Terminal on Mac or Linux On Mac or Linux, open Terminal app.</description>
+    </item>
+    <item>
       <title>Conflicts</title>
       <link>https://datafun-central.github.io/datafun-central/tools/git/conflicts/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

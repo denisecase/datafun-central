@@ -6,5 +6,50 @@
     <description>Recent content in PowerShell on Contents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/terminals/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Core</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/core/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/core/index.html</guid>
+      <description>PowerShell Core is the cross-platform version of PowerShell. It was developed by Microsoft as an open-source project and is designed to run on Windows, Linux, and macOS, making it a truly cross-platform tool. PowerShell Core has a similar syntax and features to the traditional Windows PowerShell, but with additional cross-platform capabilities and support for running on a variety of operating systems.
+PowerShell Core also includes many improvements and new features compared to the older Windows PowerShell, including improved performance, support for Docker containers, and enhanced security features.</description>
+    </item>
+    <item>
+      <title>Core vs Windows</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/windows/index.html</guid>
+      <description>Windows PowerShell and PowerShell Core are two different versions of PowerShell that differ in their supported operating systems and features.
+Windows PowerShell (older, Windows-specific) Windows PowerShell is the original version of PowerShell that was released in 2006 and is included by default in Windows operating systems. It runs on the .NET Framework and is designed to work specifically on Windows operating systems. Windows PowerShell has a wide range of built-in cmdlets and supports scripting in PowerShell, as well as other scripting languages like VBScript and JScript.</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/installation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/installation/index.html</guid>
+      <description>PowerShell is a powerful cross-platform terminal and scripting language used for a wide range of purposes. Here are some options for installing PowerShell on your system:
+Mac/Linux Users Official installation instructions. Follow the instructions on the official PowerShell GitHub repository to download and install PowerShell on your system. Windows Users Official installation instructions. Follow the instructions on the official PowerShell website to download and install PowerShell on your system. Verify Version Open PowerShell and run the following command to verify installation:</description>
+    </item>
+    <item>
+      <title>Multiple</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/multiple/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/multiple/index.html</guid>
+      <description>There may be multiple versions of PowerShell on your computuers, especially on Windows. This can sometimes cause confusion.
+It&amp;rsquo;s perfectly fine to have multiple installations, but you can remove some if they are unneeded.
+On Windows machines, it&amp;rsquo;s common to have both:
+PowerShell Core (the newer, cross-platform version) Windows Powershell (the original Windows-specific verison) Read more about Windows PowerShell vs PowerShell Core.
+Uninstall To uninstall older versions of PowerShell on Windows, follow these steps:</description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>https://datafun-central.github.io/datafun-central/terminals/powershell/vscode/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/terminals/powershell/vscode/index.html</guid>
+      <description>Visual Studio Code (VS Code) is a popular code editor that supports many programming languages, including PowerShell.
+Terminals in VS Code Open VS Code and navigate to the &amp;ldquo;Terminal&amp;rdquo; panel by clicking on the terminal icon in the left-hand panel, or by using the keyboard shortcut Ctrl+Shift+ ``.
+In the Terminal panel, click on the plus (+) icon to open a new terminal.
+Default Shell By default, the new terminal will use the default shell associated with your system, e.</description>
+    </item>
   </channel>
 </rss>

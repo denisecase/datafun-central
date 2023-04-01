@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>VS Code :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../js/url.js?1678138195"></script>
-    <script src="../../js/variant.js?1678138195"></script>
+    <link href="../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../js/url.js?1680356770"></script>
+    <script src="../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../tools/vs-code/index.html">
+  <body class="mobile-support print" data-url="../../tools/vs-code/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -76,22 +76,85 @@ It is available on Windows, Linux, and macOS and offers features such as debuggi
 <li>Integrated terminal for running commands and scripts</li>
 </ul>
 <p>Using a modern editor or IDE can make your coding experience more efficient and productive.</p>
+<h2 id="installation">Installation</h2>
+<p>The installation process depends on your operating system. Follow the instructions below based on your platform:</p>
+<ul>
+<li><a href="../../tools/vs-code/installation/">Installation</a></li>
+</ul>
+<h2 id="vs-code-extensions">VS Code Extensions</h2>
+<p>VS Code extensions are add-ons that allow users to customize and
+enhance the functionality of the VS Code.</p>
+<p>For example, IntelliSense is a popular VS Code extension that
+provides intelligent code suggestions, auto-completion, and parameter
+hints while writing code. It is a built-in extension
+enabled by default in VS Code.</p>
+<p>To learn more about extensions, visit the official documentation at
+<a href="https://code.visualstudio.com/docs/introvideos/extend" target="_blank">https://code.visualstudio.com/docs/introvideos/extend</a>.</p>
 <h2 id="why-vs-code">Why VS Code</h2>
-<p>One reason we teach VS Code over Python-specific IDEs like Spyder and PyCharm is that VS Code is a more general-purpose code editor that supports multiple languages and workflows.
-While Spyder and PyCharm are great for working with Python specifically,
-VS Code is capable of handling a wider range of tasks and can be used for web development, data analysis, and more.</p>
-<p>VS Code has a lot of built-in functionality for working with other languages commonly used in data analysis, including Markdown and SQL.
-This makes it a great choice for someone who is just getting started with programming and data analysis and wants to learn a more versatile environment.</p>
-<p>VS Code is widely used and well-supported, with many resources for learning how to use it effectively. In addition to the comprehensive official documenttaion, there are articles and videos available for begineers through experts.</p>
+<p>One reason we teach VS Code over other IDEs (.e.g., Spyder, PyCharm, IDLE)
+is that VS Code is a more general-purpose code editor
+that supports multiple languages and workflows, and works on Windows,
+Mac, and Linux machines.
+VS Code is capable of handling a wide range of tasks and can be used for
+web development, data analysis, scripting, and more.</p>
+<p>VS Code has a lot of built-in functionality for working with other languages
+including Markdown, SQL, PowerShell, Julia, and more.
+Learning VS Code is a great skill for someone
+getting started with programming, data analysis, and/or automation
+and wants to learn a versatile environment that will accomodate growing skills.</p>
+<p>VS Code is widely used and well-supported,
+with many resources for learning how to use it effectively.
+In addition to the comprehensive official documenttaion,
+there are articles and videos available for begineers through experts.</p>
 
             <footer class="footline">
             </footer>
           </article>
-        </div>
+
+          <section>
+            <h1 class="a11y-only">Subsections of VS Code</h1>
+          <article class="default">
+<h1 id="installation">Installation</h1>
+
+<p>PowerShell is a powerful command-line shell and scripting language designed for system administration and automation tasks. Here are some options for installing PowerShell on your system:</p>
+<h3 id="windows-users">Windows Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Install via Microsoft Store.</strong> If you&rsquo;re running Windows 10 or later, you can install PowerShell via the <a href="https://www.microsoft.com/en-us/p/powershell/9mz1snwt0n5d" target="_blank">Microsoft Store</a>. This is the recommended method, as it ensures that you have the latest version of PowerShell and allows for easy updates.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the MSI installer.</strong> If you&rsquo;re not able to install via the Microsoft Store, you can download the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">MSI installer</a> from the PowerShell GitHub repository. Choose the appropriate version for your system architecture (32-bit or 64-bit) and follow the installation wizard.</p>
+</li>
+</ul>
+<h3 id="macos-users">macOS Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Install via Homebrew.</strong> If you&rsquo;re using <a href="https://brew.sh/" target="_blank">Homebrew</a> on your Mac, you can install PowerShell by running the following command in your terminal: <code>brew install --cask powershell</code>.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the PKG installer.</strong> You can also download the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">PKG installer</a> from the PowerShell GitHub repository. Choose the appropriate version for your macOS version and system architecture (Intel or Apple Silicon) and follow the installation wizard.</p>
+</li>
+</ul>
+<h3 id="linux-users">Linux Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Package manager installation.</strong> Most Linux distributions include PowerShell in their package repositories. You can search for PowerShell in your package manager and install it from there. For example, on Ubuntu or Debian, you can run <code>sudo apt-get install powershell</code>.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the package manually.</strong> You can also download the package for your distribution directly from the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">PowerShell GitHub repository</a> and install it manually. Follow the instructions for your specific distribution on the download page.</p>
+</li>
+</ul>
+<p>Once you have PowerShell installed, you can use it to perform a wide range of tasks and automate common system administration tasks. Happy scripting!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>        </div>
       </main>
     </div>
-    <script src="../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../js/theme.js?1678138195" defer></script>
+    <script src="../../js/clipboard.min.js?1680356772" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1680356772" defer></script>
+    <script src="../../js/theme.js?1680356772" defer></script>
   </body>
 </html>

@@ -7,6 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chocolatey</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/chocolatey/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/chocolatey/index.html</guid>
+      <description>Chocolatey is a package manager for Windows, similar to Homebrew for macOS. It simplifies the installation, updating, and management of Windows software, including command-line tools, applications, and libraries. Chocolatey uses NuGet infrastructure and PowerShell to manage packages, making it a powerful tool for Windows users.
+Alternatives Microsoft has been working on a package manager called Winget. Winget is an official package manager developed by Microsoft, and it is designed to be the native package manager for Windows.</description>
+    </item>
+    <item>
+      <title>conda</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/conda/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/conda/index.html</guid>
+      <description>Conda is a cross-platform package manager primarily focused on Python and R programming languages. It is designed to manage packages and dependencies for data science and machine learning projects. conda can create and manage environments, allowing you to maintain multiple versions of Python and installed packages.
+It is often used in conjunction with the Anaconda distribution, which provides a comprehensive suite of data science tools and libraries, or its smaller version, Miniconda.</description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/docker/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/docker/index.html</guid>
+      <description>Docker is an open-source platform that automates the deployment, scaling, and management of applications by using containerization technology. It allows developers to package an application and its dependencies (libraries, configuration files, etc.) into a single, lightweight, and portable container. These containers can run consistently across different environments, simplifying application development, testing, and deployment.
+Docker provides the following features:
+Containerization Docker uses containerization to isolate applications and their dependencies into separate, self-contained units.</description>
+    </item>
+    <item>
       <title>Git</title>
       <link>https://datafun-central.github.io/datafun-central/tools/git/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -14,22 +39,6 @@
       <description>Git is a popular tool used to help collaborate with others and keep track of code changes over time.
 At a high level, Git is a version control system for tracking changes in evolving code projects. Using Git allows you to easily revert to an earlier version of code if you make a mistake or if a change causes unexpected problems.
 Git makes it easy to collaborate with others on code.</description>
-    </item>
-    <item>
-      <title>VS Code</title>
-      <link>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</guid>
-      <description>Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft. It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.
-Some of the key features of VS Code include:
-Built-in Git integration Support for multiple languages and frameworks Extensions for customizing the editor and adding new functionality Debugging capabilities for Node.js, Python, and other languages Integrated terminal for running commands and scripts Using a modern editor or IDE can make your coding experience more efficient and productive.</description>
-    </item>
-    <item>
-      <title>conda</title>
-      <link>https://datafun-central.github.io/datafun-central/tools/conda/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://datafun-central.github.io/datafun-central/tools/conda/index.html</guid>
-      <description>Lorem Ipsum.</description>
     </item>
     <item>
       <title>GitHub</title>
@@ -45,7 +54,7 @@ With GitHub, developers can create their own repositories, which are essentially
       <link>https://datafun-central.github.io/datafun-central/tools/homebrew/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/tools/homebrew/index.html</guid>
-      <description>Homebrew is a &amp;hellip;</description>
+      <description>Homebrew is a package manager for macOS and Linux that simplifies the installation, updating, and management of software on your system. Homebrew allows you to install various command-line tools, applications, and libraries with ease. It is designed to work seamlessly with macOS and Linux, providing a user-friendly interface for managing software packages.</description>
     </item>
     <item>
       <title>Miniconda</title>
@@ -59,7 +68,24 @@ With GitHub, developers can create their own repositories, which are essentially
       <link>https://datafun-central.github.io/datafun-central/tools/pip/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/tools/pip/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>Pip is a package manager for Python, used to install and manage software packages written in Python. It allows developers to easily install, upgrade, and uninstall Python packages and their dependencies, making it a powerful tool for managing project dependencies and keeping development environments consistent. pip can be used to install packages from the official Python Package Index (PyPI) as well as from other package repositories, and can also be used to install packages directly from source code.</description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/vs-code/index.html</guid>
+      <description>Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft. It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.
+Some of the key features of VS Code include:
+Built-in Git integration Support for multiple languages and frameworks Extensions for customizing the editor and adding new functionality Debugging capabilities for Node.js, Python, and other languages Integrated terminal for running commands and scripts Using a modern editor or IDE can make your coding experience more efficient and productive.</description>
+    </item>
+    <item>
+      <title>Winget</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/winget/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/winget/index.html</guid>
+      <description>Winget (Windows Package Manager) is an official package manager for Windows systems, developed by Microsoft. It simplifies the process of discovering, installing, upgrading, and removing software on Windows machines. Winget provides command-line access to manage software packages, s imilar to package managers on Linux and macOS systems.
+With Winget, you can search for, install, update, and uninstall software packages without having to manually navigate to a website, download installers, or follow installation wizards.</description>
     </item>
   </channel>
 </rss>

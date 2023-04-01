@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>Uninstalling :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../../js/url.js?1678138195"></script>
-    <script src="../../../js/variant.js?1678138195"></script>
+    <link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../../js/url.js?1680356770"></script>
+    <script src="../../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../languages/python/uninstalling/index.html">
+  <body class="mobile-support print" data-url="../../../languages/python/uninstalling/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -66,6 +66,57 @@
           <article class="default">
 <h1 id="uninstalling">Uninstalling</h1>
 
+<p>Python seems to install a bit like a virus and traces can get everywhere.</p>
+<p>At times, removing an old version of Python can be challenging.</p>
+<p>Cleaning up unneeded Python installations can help avoid conflicts between different Python versions and packages.</p>
+<p>Using package managers and virtual environments can help.</p>
+<h3 id="uninstalling">Uninstalling</h3>
+<p>Installations can leave traces on your system that may no longer be needed.
+Here are some recommendations for cleaning up old Python installations:</p>
+<ol>
+<li>
+<p><strong>Uninstall Python from the Control Panel</strong>: If you have installed
+Python using the official installer on a Windows machine,
+you can uninstall it from the Control Panel. Simply search for
+&ldquo;Add or Remove Programs&rdquo; in the Start menu, then find the Python
+installation you want to remove and click &ldquo;Uninstall&rdquo;.</p>
+</li>
+<li>
+<p><strong>Delete Python folders</strong>: Python installations typically create
+folders on your system that can be deleted to remove the installation.
+The main folders are typically located in <code>C:\Python</code>
+or <code>C:\Users\{user}\AppData\Local\Programs\Python</code>.
+Be careful when deleting folders to ensure you are only deleting the
+correct installation.</p>
+</li>
+<li>
+<p><strong>Clean up environment variables</strong>: Python installations can
+add environment variables to your system that may no longer be needed.
+You can clean these up by going to the System Properties window,
+selecting &ldquo;Advanced System Settings&rdquo;, then clicking the
+&ldquo;Environment Variables&rdquo; button. Here you can remove any Python-related
+environment variables that are no longer needed.</p>
+</li>
+</ol>
+<h3 id="management-tools">Management Tools</h3>
+<p>Managing Python well can help avoid issues. The following recommendations can help.</p>
+<ol>
+<li>
+<p><strong>Use a package manager</strong>: Using a package manager like conda or pipenv
+can help keep track of Python installations and dependencies.
+These package managers allow you to create isolated environments for
+specific projects, so you can avoid installing unnecessary packages and
+versions of Python.</p>
+</li>
+<li>
+<p><strong>Use virtual environments</strong>: Another way to manage multiple Python
+installations is to use virtual environments. Virtual environments
+allow you to create isolated environments for specific projects,
+so you can avoid conflicts between different Python versions and packages.
+You can create virtual environments using the <code>venv</code> module or
+third-party tools like virtualenv or conda.</p>
+</li>
+</ol>
 
             <footer class="footline">
             </footer>
@@ -73,8 +124,8 @@
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../../js/theme.js?1678138195" defer></script>
+    <script src="../../../js/clipboard.min.js?1680356771" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1680356771" defer></script>
+    <script src="../../../js/theme.js?1680356771" defer></script>
   </body>
 </html>

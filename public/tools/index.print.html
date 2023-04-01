@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>Tools :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../js/url.js?1678138195"></script>
-    <script src="../js/variant.js?1678138195"></script>
+    <link href="../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../js/url.js?1680356770"></script>
+    <script src="../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../tools/index.html">
+  <body class="mobile-support print" data-url="../tools/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -86,6 +86,296 @@
           <section>
             <h1 class="a11y-only">Subsections of Tools</h1>
           <article class="default">
+<h1 id="chocolatey">Chocolatey</h1>
+
+<p>Chocolatey is a <strong>package manager</strong> for <strong>Windows</strong>,
+similar to Homebrew for macOS.
+It simplifies the installation, updating, and management of Windows software,
+including command-line tools, applications, and libraries.
+Chocolatey uses NuGet infrastructure and PowerShell to manage packages,
+making it a powerful tool for Windows users.</p>
+<h2 id="alternatives">Alternatives</h2>
+<p>Microsoft has been working on a package manager called <a href="../tools/winget/">Winget</a>.
+Winget is an official package manager developed by Microsoft,
+and it is designed to be the native package manager for Windows.
+It is gaining new features and improvements over time.</p>
+<p>To choose the best package manager for your needs, consider the following.</p>
+<h3 id="community-adoption">Community adoption</h3>
+<ul>
+<li>Both Chocolatey and Winget have growing communities.</li>
+<li>Chocolatey has been around for longer and has a larger repository of packages.</li>
+<li>As Winget gains traction, its community and package offerings will likely grow.</li>
+</ul>
+<h3 id="official-support">Official support</h3>
+<ul>
+<li>As an official Microsoft product, Winget may receive better long-term support and integration with the Windows ecosystem.</li>
+<li>This could make it a more future-proof choice.</li>
+</ul>
+<h3 id="features-and-functionality">Features and functionality</h3>
+<ul>
+<li>Chocolatey has more mature features and a comprehensive set of tools.</li>
+<li>However, Winget is expected to gain more features and improvements over time.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="conda">conda</h1>
+
+<p>Conda is a cross-platform <strong>package manager</strong> primarily focused on
+<strong>Python</strong> and <strong>R</strong> programming languages.
+It is designed to manage packages and dependencies for data science and
+machine learning projects. conda can create and manage environments,
+allowing you to maintain multiple versions of Python and installed packages.</p>
+<p>It is often used in conjunction with the Anaconda distribution,
+which provides a comprehensive suite of data science tools and libraries, or
+its smaller version, Miniconda.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="docker">Docker</h1>
+
+<p>Docker is an open-source platform that automates the deployment, scaling, and management of applications by using containerization technology. It allows developers to package an application and its dependencies (libraries, configuration files, etc.) into a single, lightweight, and portable container. These containers can run consistently across different environments, simplifying application development, testing, and deployment.</p>
+<p>Docker provides the following features:</p>
+<h2 id="containerization">Containerization</h2>
+<p>Docker uses containerization to isolate applications and their dependencies
+into separate, self-contained units. This approach ensures that each application
+runs in a consistent environment, reducing conflicts and improving security.</p>
+<h2 id="image-management">Image Management</h2>
+<p>Docker images are templates used to create containers. They are lightweight and
+can be easily shared, stored, and versioned. Docker Hub, the official public
+registry, hosts thousands of pre-built images for various programming languages, frameworks, and tools.</p>
+<h2 id="portability">Portability</h2>
+<p>Docker containers can run on any system that supports Docker, regardless of the
+underlying infrastructure or platform. This makes it easy to deploy and migrate
+applications across different environments, such as development, testing, and
+production.</p>
+<h2 id="scalability">Scalability</h2>
+<p>Docker enables horizontal scaling of applications by allowing you to deploy
+multiple instances of the same container. This approach can help distribute the
+load across multiple resources and improve application performance.</p>
+<h2 id="version-control">Version Control</h2>
+<p>Docker images can be versioned and stored in registries, making it easy to
+rollback, upgrade, or downgrade applications as needed. This also facilitates
+collaboration among team members, as they can share and use the same
+image versions.</p>
+<h2 id="ecosystem">Ecosystem</h2>
+<p>Docker has a rich ecosystem of tools and services, such as Docker Compose,
+Docker Swarm, and Kubernetes, that can help streamline the development and
+deployment process. Many third-party tools and plugins also integrate with
+Docker to extend its functionality.</p>
+<h2 id="installation">Installation</h2>
+<p>The installation process for Docker depends on your operating system. Follow the instructions below based on your platform.</p>
+<ul>
+<li><a href="../tools/docker/installation/">Docker Installation</a></li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Docker</h1>
+          <article class="default">
+<h1 id="installation">Installation</h1>
+
+<p>Docker is an open-source <strong>platform</strong> that automates the deployment, scaling, and management of applications by using containerization technology.</p>
+<p>Use Docker to create, manage, and deploy containerized applications.</p>
+<h3 id="maclinux-users">Mac/Linux Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Official installation instructions.</strong> Follow instructions on the <a href="https://docs.docker.com/engine/install/" target="_blank">official Docker website</a>. This is the most up-to-date and comprehensive guide to installing Docker on your system.</p>
+</li>
+<li>
+<p><strong>Option 2: Step-by-step installation guide.</strong> Check out our <a href="../tools/docker/installation/mac-linux/">installation instructions</a> for a step-by-step guide.</p>
+</li>
+</ul>
+<h3 id="windows-users">Windows Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Official installation instructions.</strong> Follow the instructions on the <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank">official Docker website</a>. This is the most up-to-date and comprehensive guide to installing Docker Desktop on your Windows system.</p>
+</li>
+<li>
+<p><strong>Option 2: Step-by-step installation guide.</strong> Check out our <a href="../tools/docker/installation/windows/">installation instructions</a> for a step-by-step guide.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Installation</h1>
+          <article class="default">
+<h1 id="mac-and-linux">Mac and Linux</h1>
+
+<p>The best way to install Docker for Mac and Linux is by using Docker Desktop
+(for Mac) and Docker Engine (for Linux). Docker provides a complete development
+environment for containerized applications.</p>
+<p><strong>Warning:</strong> Docker is a resource-intensive application that may consume a significant amount of disk space, memory, and CPU resources. Installing and running Docker on your system may slow down your machine, especially if it has limited resources. Make sure your system meets the <a href="https://docs.docker.com/get-docker/" target="_blank">minimum requirements</a> before installing Docker, and consider monitoring resource usage to ensure optimal performance.</p>
+<p>Follow these steps to install Docker on Mac and Linux.</p>
+<h3 id="for-mac">For Mac:</h3>
+<ol>
+<li>
+<p>Ensure your system meets the requirements:</p>
+<ul>
+<li>macOS 10.14 (Mojave) or later.</li>
+</ul>
+</li>
+<li>
+<p>Download Docker Desktop for Mac from the <a href="https://www.docker.com/products/docker-desktop" target="_blank">official Docker website</a>.</p>
+</li>
+<li>
+<p>Run the installer:</p>
+<ul>
+<li>Double-click the downloaded Docker Desktop Installer.dmg file and follow the on-screen instructions.</li>
+</ul>
+</li>
+<li>
+<p>Start Docker Desktop:</p>
+<ul>
+<li>After the installation is complete, Docker Desktop should start automatically. If it doesn&rsquo;t, you can launch it from the Applications folder.</li>
+<li>You will see the Docker icon in the menu bar, indicating that Docker is running.</li>
+</ul>
+</li>
+<li>
+<p>Verify the installation:</p>
+<ul>
+<li>Open a Terminal window.</li>
+<li>Run the following command to check the Docker version:</li>
+</ul>
+<p><code>docker --version</code></p>
+</li>
+<li>
+<p>Run a test container to ensure that Docker is working correctly:</p>
+<p><code>docker run hello-world</code></p>
+</li>
+</ol>
+<h3 id="for-linux">For Linux:</h3>
+<ol>
+<li>
+<p>Choose the appropriate installation instructions for your Linux distribution from the <a href="https://docs.docker.com/engine/install/" target="_blank">official Docker Engine documentation</a>.</p>
+</li>
+<li>
+<p>Follow the provided instructions to install Docker Engine on your system.</p>
+</li>
+<li>
+<p>Verify the installation:</p>
+<ul>
+<li>Open a Terminal window.</li>
+<li>Run the following command to check the Docker version:</li>
+</ul>
+<p><code>docker --version</code></p>
+</li>
+<li>
+<p>Run a test container to ensure that Docker is working correctly:</p>
+<p><code>docker run hello-world</code></p>
+</li>
+</ol>
+<h3 id="save-resources">Save Resources</h3>
+<p>To stop Docker when you are not using it:</p>
+<h4 id="for-mac-1">For Mac</h4>
+<ol>
+<li>Locate the Docker icon in the menu bar, which is typically located in the upper-right corner of the screen.</li>
+<li>Click on the Docker icon to open the dropdown menu.</li>
+<li>Click on &ldquo;Quit Docker Desktop&rdquo; or &ldquo;Exit&rdquo; to stop Docker Desktop.</li>
+</ol>
+<h4 id="for-linux-1">For Linux</h4>
+<ol>
+<li>Open a Terminal window.</li>
+<li>Run the following command to stop the Docker daemon:</li>
+</ol>
+<p><code>sudo systemctl stop docker</code></p>
+<p>To start Docker again, simply launch the application from the Applications folder (Mac) or run the following command in a Terminal window (Linux):</p>
+<p><code>sudo systemctl start docker</code></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="windows">Windows</h1>
+
+<p>The best way to install Docker for Windows is by using Docker Desktop.
+Docker Desktop is an easy-to-use application that allows you to run
+containers on your Windows machine. It includes both Docker Engine and Docker
+Compose, providing a complete development environment for containerized applications.</p>
+<p><strong>Warning:</strong> Docker is a resource-intensive application that may consume a
+significant amount of disk space, memory, and CPU resources.
+Installing and running Docker on your system may slow down your machine,
+especially if it has limited resources. Make sure your system meets
+the <a href="https://docs.docker.com/get-docker/" target="_blank">minimum requirements</a> before
+installing Docker, and consider monitoring resource usage to ensure optimal performance.</p>
+<p>Follow these steps to install Docker Desktop for Windows.</p>
+<ol>
+<li>Ensure your system meets the requirements:</li>
+</ol>
+<ul>
+<li>
+<p>Windows 10 64-bit: Pro, Enterprise, or Education (Build 16299 or later) or Windows 11.</p>
+</li>
+<li>
+<p>Virtualization must be enabled in the BIOS. You can usually find this setting under &ldquo;CPU Configuration,&rdquo; &ldquo;Virtualization,&rdquo; or &ldquo;VT-x&rdquo; settings.</p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<p>Download Docker Desktop for Windows from the official Docker website. (600+ MB).</p>
+</li>
+<li>
+<p>Run the installer:</p>
+</li>
+</ol>
+<ul>
+<li>Double-click on the downloaded Docker Desktop Installer.exe file to start the installation process.</li>
+<li>Follow the on-screen instructions, accepting the default settings or customizing them as needed.</li>
+</ul>
+<ol start="4">
+<li>Start Docker Desktop:</li>
+</ol>
+<ul>
+<li>After the installation is complete, Docker Desktop should start automatically. - If it doesn&rsquo;t, you can launch it from the Start menu.</li>
+<li>You will see the Docker icon in the system tray, indicating that Docker is running.</li>
+<li>Right-click on the icon and select &ldquo;Dashboard&rdquo; to open the Docker Desktop dashboard.</li>
+</ul>
+<ol start="5">
+<li>Verify the installation:</li>
+</ol>
+<ul>
+<li>Open a command prompt or PowerShell window.</li>
+<li>Run the following command to check the Docker version:</li>
+</ul>
+<p><code>docker --version</code></p>
+<ol start="6">
+<li>Run a test container to ensure that Docker is working correctly:</li>
+</ol>
+<p><code>docker run hello-world</code></p>
+<h3 id="save-resources">Save Resources</h3>
+<p>To stop Docker Desktop when you are not using it:</p>
+<ol>
+<li>
+<p>Locate the Docker icon in the system tray, which is typically located in the lower-right corner of the screen.</p>
+</li>
+<li>
+<p>Right-click on the Docker icon to open the context menu.</p>
+</li>
+<li>
+<p>Click on &ldquo;Quit Docker Desktop&rdquo; or &ldquo;Exit&rdquo; to stop Docker Desktop.</p>
+</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          </section>
+          <article class="default">
 <h1 id="git">Git</h1>
 
 <p>Git is a popular tool used to help collaborate with others and keep track of code changes over time.</p>
@@ -103,22 +393,40 @@ where many people may be working on the same codebase at the same time.</p>
 <ul>
 <li><a href="../tools/git/installation/">Git Installation</a></li>
 </ul>
+<h2 id="configuration">Configuration</h2>
+<p>After installing, configure Git with your name and email address.</p>
+<ul>
+<li><a href="../tools/git/configuration/">Git Configuration</a></li>
+</ul>
 <h2 id="using-git">Using Git</h2>
-<p>When it comes to using Git, you have a few options for how to interact with it. One option is to use Git in the terminal,
-which involves typing out commands and working with the Git command line interface.
-Another option is to use a Git integration in your Integrated Development Environment (IDE), such as Visual Studio Code.</p>
+<p>When it comes to using Git, you have a few options for how to interact with it.
+One option is to use Git in the terminal,
+which involves typing out commands and working with the Git
+command line interface.
+Another option is to use a Git integration in your Integrated Development
+Environment (IDE), such as Visual Studio Code (VS Code).</p>
 <p>Using Git in the terminal can be a bit intimidating,
 as it requires memorizing and typing out specific commands.
 However, it can be a useful skill to have,
 especially if you work on projects that require using Git outside of an IDE.</p>
 <p>On the other hand,
-using a Git integration in your IDE can make the process of working with Git more user-friendly and intuitive,
+using a Git integration in your IDE can make the process of working
+with Git more user-friendly and intuitive,
 as you can often perform Git actions with a few clicks or keystrokes.
-For example, Visual Studio Code has built-in Git support and provides a visual interface for common Git actions such as committing changes, creating branches, and merging changes.</p>
+For example, VS Code has built-in Git support and provides a
+visual interface for common Git actions such as committing changes,
+creating branches, and merging changes.</p>
 <h2 id="git-crash-course-video">Git Crash Course (Video)</h2>
-<p>Check out the recommended <a href="../datafun-centraltools/git/crash-course.md">Git Crash Course (Video)</a>.</p>
+<p>Check out the recommended <a href="../tools/git/crash-course/">Git Crash Course (Video)</a>.</p>
 <h2 id="free-progit-book">Free ProGit (Book)</h2>
 <p>Check out the free <a href="https://git-scm.com/book/en/v2" target="_blank">ProGit book</a> for a comprehensive guide to using Git.</p>
+<h2 id="read-more">Read more</h2>
+<ul>
+<li><a href="../tools/git/branches/">branches</a></li>
+<li><a href="../tools/git/remotes/">remotes</a></li>
+<li><a href="../tools/git/conflicts/">conflicts</a></li>
+<li><a href="../tools/git/../../techniques/git/">techniques</a></li>
+</ul>
 
             <footer class="footline">
             </footer>
@@ -369,6 +677,42 @@ and they allow for efficient collaboration and code review.</p>
           </article>
 
           <article class="default">
+<h1 id="configuration">Configuration</h1>
+
+<p>After installing, configure Git with your name and email.</p>
+<p>Use your GitHub email for best results.</p>
+<h2 id="open-git-bash-on-windows">Open Git Bash on Windows</h2>
+<p>To open Git Bash on Windows:</p>
+<ol>
+<li>Press the Windows key on your keyboard to open the Start menu.</li>
+<li>Type &ldquo;Git Bash&rdquo; into the search bar and select it from the list of results.</li>
+<li>Git Bash should now open in a new window.</li>
+</ol>
+<h2 id="open-terminal-on-mac-or-linux">Open Terminal on Mac or Linux</h2>
+<p>On Mac or Linux, open Terminal app.</p>
+<h2 id="check-git-configuration">Check Git Configuration</h2>
+<p>Type the following command to display your Git configuration:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --list
+</span></span></code></pre></div><p>Look for the following lines in the output:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">user.name=Your Name
+</span></span><span class="line"><span class="cl">user.email=your.email@example.com
+</span></span></code></pre></div><p>If you see your name and email listed, then they are set in Git.</p>
+<h2 id="set-git-configuration">Set Git Configuration</h2>
+<p>If you don&rsquo;t see your name and email listed,
+set them using the following commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.email your.email@example.com
+</span></span></code></pre></div><p>Replace &ldquo;Your Name&rdquo; and &ldquo;<a href="mailto:your.email@example.com">your.email@example.com</a>&rdquo; with
+your actual name and
+email address.</p>
+<p>The <code>--global</code> flag ensures the settings are applied globally
+across all your Git repositories.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
 <h1 id="conflicts">Conflicts</h1>
 
 <p>We can edit project files in at least two places:</p>
@@ -556,41 +900,6 @@ to manage your projects effectively.</p>
 
           </section>
           <article class="default">
-<h1 id="vs-code">VS Code</h1>
-
-<p>Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft.
-It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.</p>
-<p>Some of the key features of VS Code include:</p>
-<ul>
-<li>Built-in Git integration</li>
-<li>Support for multiple languages and frameworks</li>
-<li>Extensions for customizing the editor and adding new functionality</li>
-<li>Debugging capabilities for Node.js, Python, and other languages</li>
-<li>Integrated terminal for running commands and scripts</li>
-</ul>
-<p>Using a modern editor or IDE can make your coding experience more efficient and productive.</p>
-<h2 id="why-vs-code">Why VS Code</h2>
-<p>One reason we teach VS Code over Python-specific IDEs like Spyder and PyCharm is that VS Code is a more general-purpose code editor that supports multiple languages and workflows.
-While Spyder and PyCharm are great for working with Python specifically,
-VS Code is capable of handling a wider range of tasks and can be used for web development, data analysis, and more.</p>
-<p>VS Code has a lot of built-in functionality for working with other languages commonly used in data analysis, including Markdown and SQL.
-This makes it a great choice for someone who is just getting started with programming and data analysis and wants to learn a more versatile environment.</p>
-<p>VS Code is widely used and well-supported, with many resources for learning how to use it effectively. In addition to the comprehensive official documenttaion, there are articles and videos available for begineers through experts.</p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
-<h1 id="conda">conda</h1>
-
-<p>Lorem Ipsum.</p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
 <h1 id="github">GitHub</h1>
 
 <p>GitHub is a popular, web-based platform that allows data analysts and developers
@@ -657,10 +966,10 @@ that the GitHub team has created to help you understand the platform.</p>
 <p>For more information on getting started on GitHub,
 view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> </span><a href="https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw" target="_blank">GitHub Training &amp; Guides</a><span> </span>Youtube Channel.</p>
 <p><a href="https://www.youtube.com/watch?v=noZnOSpcjYY" target="_blank">
-<a href="#image-4ff24824d5c943ea4841fe270cbc51a4" class="lightbox-link">
+<a href="#image-21a02f14e353baa6191332b0e5beab95" class="lightbox-link">
 <img src="https://camo.githubusercontent.com/433278f3b014af1abfdb5a2c6b97550baeeb745a550a557e576de14936220186/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e6f5a6e4f5370636a59592f302e6a7067" alt="GitHub Training &amp;amp; Guides" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-4ff24824d5c943ea4841fe270cbc51a4">
+<a href="javascript:history.back();" class="lightbox" id="image-21a02f14e353baa6191332b0e5beab95">
 <img src="https://camo.githubusercontent.com/433278f3b014af1abfdb5a2c6b97550baeeb745a550a557e576de14936220186/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e6f5a6e4f5370636a59592f302e6a7067" alt="GitHub Training &amp;amp; Guides" class="lightbox-image" loading="lazy">
 </a></a></p>
 <h2 id="more-about-github">More About GitHub</h2>
@@ -668,10 +977,10 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
 <p><em>At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles: Version control, which helps developers track and manage changes to a software project’s code, and Git, which is a specific open-source version control system.</em></p>
 <p>Learn more about GitHub in the following video from the GitHub YouTube.</p>
 <p><a href="https://www.youtube.com/watch?v=w3jLJU7DT5E" target="_blank">
-<a href="#image-de1f79126c1607f0d24e618c72a292cd" class="lightbox-link">
+<a href="#image-9c00667a7583deff983869b5ecb35567" class="lightbox-link">
 <img src="https://camo.githubusercontent.com/209e3fd02431bcea086dd3de092660a383abb87d2b61195392f19861228bca15/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f77336a4c4a5537445435452f302e6a7067" alt="GitHub Video" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-de1f79126c1607f0d24e618c72a292cd">
+<a href="javascript:history.back();" class="lightbox" id="image-9c00667a7583deff983869b5ecb35567">
 <img src="https://camo.githubusercontent.com/209e3fd02431bcea086dd3de092660a383abb87d2b61195392f19861228bca15/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f77336a4c4a5537445435452f302e6a7067" alt="GitHub Video" class="lightbox-image" loading="lazy">
 </a></a></p>
 <h2 id="free-stuff-for-students">Free Stuff For Students</h2>
@@ -688,7 +997,11 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
           <article class="default">
 <h1 id="homebrew">Homebrew</h1>
 
-<p>Homebrew is a &hellip;</p>
+<p>Homebrew is a <strong>package manager</strong> for <strong>macOS</strong> and <strong>Linux</strong> that simplifies
+the installation, updating, and management of software on your system.
+Homebrew allows you to install various command-line tools, applications,
+and libraries with ease. It is designed to work seamlessly with macOS and
+Linux, providing a user-friendly interface for managing software packages.</p>
 
             <footer class="footline">
             </footer>
@@ -705,7 +1018,132 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
           <article class="default">
 <h1 id="pip">pip</h1>
 
-<p>Lorem Ipsum.</p>
+<p>Pip is a <strong>package manager</strong> for <strong>Python</strong>,
+used to install and manage software packages written in Python.
+It allows developers to easily install, upgrade, and uninstall
+Python packages and their dependencies, making it a powerful tool for
+managing project dependencies and keeping development environments consistent.
+pip can be used to install packages from the official
+Python Package Index (PyPI) as well as from other package repositories,
+and can also be used to install packages directly from source code.
+pip is included with Python by default from Python version 3.4 onwards,
+and can be installed for older versions of Python as well.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="vs-code">VS Code</h1>
+
+<p>Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft.
+It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.</p>
+<p>Some of the key features of VS Code include:</p>
+<ul>
+<li>Built-in Git integration</li>
+<li>Support for multiple languages and frameworks</li>
+<li>Extensions for customizing the editor and adding new functionality</li>
+<li>Debugging capabilities for Node.js, Python, and other languages</li>
+<li>Integrated terminal for running commands and scripts</li>
+</ul>
+<p>Using a modern editor or IDE can make your coding experience more efficient and productive.</p>
+<h2 id="installation">Installation</h2>
+<p>The installation process depends on your operating system. Follow the instructions below based on your platform:</p>
+<ul>
+<li><a href="../tools/vs-code/installation/">Installation</a></li>
+</ul>
+<h2 id="vs-code-extensions">VS Code Extensions</h2>
+<p>VS Code extensions are add-ons that allow users to customize and
+enhance the functionality of the VS Code.</p>
+<p>For example, IntelliSense is a popular VS Code extension that
+provides intelligent code suggestions, auto-completion, and parameter
+hints while writing code. It is a built-in extension
+enabled by default in VS Code.</p>
+<p>To learn more about extensions, visit the official documentation at
+<a href="https://code.visualstudio.com/docs/introvideos/extend" target="_blank">https://code.visualstudio.com/docs/introvideos/extend</a>.</p>
+<h2 id="why-vs-code">Why VS Code</h2>
+<p>One reason we teach VS Code over other IDEs (.e.g., Spyder, PyCharm, IDLE)
+is that VS Code is a more general-purpose code editor
+that supports multiple languages and workflows, and works on Windows,
+Mac, and Linux machines.
+VS Code is capable of handling a wide range of tasks and can be used for
+web development, data analysis, scripting, and more.</p>
+<p>VS Code has a lot of built-in functionality for working with other languages
+including Markdown, SQL, PowerShell, Julia, and more.
+Learning VS Code is a great skill for someone
+getting started with programming, data analysis, and/or automation
+and wants to learn a versatile environment that will accomodate growing skills.</p>
+<p>VS Code is widely used and well-supported,
+with many resources for learning how to use it effectively.
+In addition to the comprehensive official documenttaion,
+there are articles and videos available for begineers through experts.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of VS Code</h1>
+          <article class="default">
+<h1 id="installation">Installation</h1>
+
+<p>PowerShell is a powerful command-line shell and scripting language designed for system administration and automation tasks. Here are some options for installing PowerShell on your system:</p>
+<h3 id="windows-users">Windows Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Install via Microsoft Store.</strong> If you&rsquo;re running Windows 10 or later, you can install PowerShell via the <a href="https://www.microsoft.com/en-us/p/powershell/9mz1snwt0n5d" target="_blank">Microsoft Store</a>. This is the recommended method, as it ensures that you have the latest version of PowerShell and allows for easy updates.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the MSI installer.</strong> If you&rsquo;re not able to install via the Microsoft Store, you can download the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">MSI installer</a> from the PowerShell GitHub repository. Choose the appropriate version for your system architecture (32-bit or 64-bit) and follow the installation wizard.</p>
+</li>
+</ul>
+<h3 id="macos-users">macOS Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Install via Homebrew.</strong> If you&rsquo;re using <a href="https://brew.sh/" target="_blank">Homebrew</a> on your Mac, you can install PowerShell by running the following command in your terminal: <code>brew install --cask powershell</code>.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the PKG installer.</strong> You can also download the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">PKG installer</a> from the PowerShell GitHub repository. Choose the appropriate version for your macOS version and system architecture (Intel or Apple Silicon) and follow the installation wizard.</p>
+</li>
+</ul>
+<h3 id="linux-users">Linux Users</h3>
+<ul>
+<li>
+<p><strong>Option 1: Package manager installation.</strong> Most Linux distributions include PowerShell in their package repositories. You can search for PowerShell in your package manager and install it from there. For example, on Ubuntu or Debian, you can run <code>sudo apt-get install powershell</code>.</p>
+</li>
+<li>
+<p><strong>Option 2: Download the package manually.</strong> You can also download the package for your distribution directly from the <a href="https://github.com/PowerShell/PowerShell/releases/latest" target="_blank">PowerShell GitHub repository</a> and install it manually. Follow the instructions for your specific distribution on the download page.</p>
+</li>
+</ul>
+<p>Once you have PowerShell installed, you can use it to perform a wide range of tasks and automate common system administration tasks. Happy scripting!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+<h1 id="winget">Winget</h1>
+
+<p>Winget (Windows Package Manager) is an official <strong>package manager</strong> for
+<strong>Windows</strong> systems, developed by Microsoft.
+It simplifies the process of discovering, installing, upgrading, and removing software on Windows machines.
+Winget provides command-line access to manage software packages, s
+imilar to package managers on Linux and macOS systems.</p>
+<p>With Winget, you can search for, install, update, and uninstall
+software packages without having to manually navigate to a website,
+download installers, or follow installation wizards.
+Winget automates these tasks and makes it easy to manage software on your Windows system.</p>
+<h2 id="alternatives">Alternatives</h2>
+<p>For a while yet, <a href="../tools/chocolatey/">Chocolatey</a> is a popular alternative.
+Chocolatey has been around for a longer time,
+offering a mature set of features and a large repository of packages.
+The Chocolatey community is well-established, and it has extensive
+documentation and support.
+Chocolatey is known for its versatility and integration
+with various Windows tools, such as PowerShell and NuGet infrastructure.
+This makes it a popular choice for many Windows users looking for a
+reliable and comprehensive package management solution.</p>
 
             <footer class="footline">
             </footer>
@@ -714,8 +1152,8 @@ view the &ldquo;Getting Started with GitHub&rdquo; video below from the<span> <
           </section>        </div>
       </main>
     </div>
-    <script src="../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../js/theme.js?1678138195" defer></script>
+    <script src="../js/clipboard.min.js?1680356772" defer></script>
+    <script src="../js/perfect-scrollbar.min.js?1680356772" defer></script>
+    <script src="../js/theme.js?1680356772" defer></script>
   </body>
 </html>

@@ -3,25 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.111.2">
-    <meta name="generator" content="Relearn 5.12.2+tip">
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Relearn 5.12.5+tip">
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="">
     <title>Environments :: Contents</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/nucleus.css?1678138195" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/perfect-scrollbar.min.css?1678138195" rel="stylesheet">
-    <link href="../../../css/fonts.css?1678138195" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1678138195" rel="stylesheet"></noscript>
-    <link href="../../../css/theme.css?1678138195" rel="stylesheet">
-    <link href="../../../css/theme-auto.css?1678138195" rel="stylesheet" id="variant-style">
-    <link href="../../../css/variant.css?1678138195" rel="stylesheet">
-    <link href="../../../css/print.css?1678138195" rel="stylesheet" media="print">
-    <link href="../../../css/format-print.css?1678138195" rel="stylesheet">
-    <link href="../../../css/ie.css?1678138195" rel="stylesheet">
-    <script src="../../../js/url.js?1678138195"></script>
-    <script src="../../../js/variant.js?1678138195"></script>
+    <link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1680356770" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1680356770" rel="stylesheet">
+    <link href="../../../css/fonts.css?1680356770" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1680356770" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1680356770" rel="stylesheet">
+    <link href="../../../css/theme-auto.css?1680356770" rel="stylesheet" id="variant-style">
+    <link href="../../../css/variant.css?1680356770" rel="stylesheet">
+    <link href="../../../css/print.css?1680356770" rel="stylesheet" media="print">
+    <link href="../../../css/format-print.css?1680356770" rel="stylesheet">
+    <link href="../../../css/ie.css?1680356770" rel="stylesheet">
+    <script src="../../../js/url.js?1680356770"></script>
+    <script src="../../../js/variant.js?1680356770"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
     </script>
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../languages/python/environments/index.html">
+  <body class="mobile-support print" data-url="../../../languages/python/environments/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -66,7 +66,53 @@
           <article class="default">
 <h1 id="environments">Environments</h1>
 
-<p>fjdksl;fa</p>
+<p>Python environments can be confusing at first,
+but they are essential for developing and deploying Python applications.</p>
+<h2 id="overview">Overview</h2>
+<p>At a high level, you can think of Python environments
+as isolated &ldquo;containers&rdquo; that provide a controlled environment
+for your code to run in.</p>
+<p>They are similar in some ways to operating systems,
+in that they provide a layer of abstraction between the code
+and the underlying system, and allow multiple applications
+to run independently without interfering with each other.</p>
+<h2 id="python-environments">Python Environments</h2>
+<p>In the case of Python environments,
+the &ldquo;container&rdquo; is a self-contained installation of the
+Python interpreter and associated packages and dependencies.</p>
+<p>Environments allow you to install and manage different versions of Python and packages without affecting other environments or your system Python installation.</p>
+<p>By creating separate environments for each project,
+you can ensure that each project has access to the correct
+versions of Python and packages,
+and that packages do not conflict with each other.</p>
+<p>This can help ensure that your code works consistently across
+different machines and environments, and can make it easier to
+manage and deploy your code.</p>
+<h2 id="importance">Importance</h2>
+<p>There are several reasons why Python environments are important:</p>
+<h3 id="version-management">Version management</h3>
+<p>Different projects may require different versions of Python or packages. By creating separate environments for each project, you can ensure that each project has access to the correct versions of Python and packages.</p>
+<h3 id="dependency-management">Dependency management</h3>
+<p>Python packages often have complex dependencies on other packages. By isolating each project in its own environment, you can avoid conflicts between different packages and ensure that each project has the correct dependencies installed.</p>
+<h3 id="reproducibility">Reproducibility</h3>
+<p>By using environments, you can ensure that your code works consistently across different machines and environments. This is important when collaborating with others or when deploying your code to a production environment.</p>
+<h2 id="tools">Tools</h2>
+<p>There are several tools available for managing Python environments, including:</p>
+<ul>
+<li>virtualenv</li>
+<li>conda</li>
+<li>pipenv</li>
+</ul>
+<p>These tools make it easy to create, manage, and switch between environments,
+and can be integrated with development tools like IDEs and text editors.</p>
+<h2 id="create--activate--install">Create / Activate / Install</h2>
+<p>In practice, creating a new environment involves using a tool like
+virtualenv or conda to create a new environment directory,
+activating the environment, and then installing the required packages
+and dependencies using pip or conda.</p>
+<h2 id="using-the-active-environment">Using The Active Environment</h2>
+<p>Once the environment is set up, you can run your code within that environment,
+and any packages you install will be isolated to that environment.</p>
 
             <footer class="footline">
             </footer>
@@ -74,8 +120,8 @@
         </div>
       </main>
     </div>
-    <script src="../../../js/clipboard.min.js?1678138195" defer></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1678138195" defer></script>
-    <script src="../../../js/theme.js?1678138195" defer></script>
+    <script src="../../../js/clipboard.min.js?1680356771" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1680356771" defer></script>
+    <script src="../../../js/theme.js?1680356771" defer></script>
   </body>
 </html>

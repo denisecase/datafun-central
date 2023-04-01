@@ -29,6 +29,8 @@ Click on the links below to explore each category:
 5. [Hosting](hosting/)
 6. [Other](other/)
 
+
+
 Or browse the sidebar menu on the left.
 
 ## Contributing

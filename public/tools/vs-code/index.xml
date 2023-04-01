@@ -6,5 +6,13 @@
     <description>Recent content in VS Code on Contents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://datafun-central.github.io/datafun-central/tools/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://datafun-central.github.io/datafun-central/tools/vs-code/installation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://datafun-central.github.io/datafun-central/tools/vs-code/installation/index.html</guid>
+      <description>PowerShell is a powerful command-line shell and scripting language designed for system administration and automation tasks. Here are some options for installing PowerShell on your system:
+Windows Users Option 1: Install via Microsoft Store. If you&amp;rsquo;re running Windows 10 or later, you can install PowerShell via the Microsoft Store. This is the recommended method, as it ensures that you have the latest version of PowerShell and allows for easy updates.</description>
+    </item>
   </channel>
 </rss>

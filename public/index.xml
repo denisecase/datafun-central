@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/languages/index.html</guid>
       <description>This page provides an introduction for popular languages - some are programming languages - and some are markup languages.
-Python Python is a popular programming language for data science and machine learning. We cover both the basics and advanced topics of Python programming, as well as how to use Python for data analysis.
-Markdown Markdown is a simple markup language used to create rich text documents. We cover the basics of Markdown syntax and how to use Markdown to create formatted text documents.</description>
+CSS CSS (Cascading Style Sheets) is a stylesheet language used for describing the look and formatting of a document written in HTML. While not directly related to data analytics, it&amp;rsquo;s essential for creating visually appealing dashboards and reports.
+Go (Golang) Go is a statically typed, compiled language with strong support for concurrent programming.</description>
     </item>
     <item>
       <title>Tools</title>
@@ -30,8 +30,8 @@ GitHub GitHub is a web-based platform that provides a range of features for mana
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/terminals/index.html</guid>
       <description>A terminal, or command line interface, is a text-based way to interact with your computer. Terminals can be faster and more powerful than graphical user interfaces (GUIs) for many tasks, especially tasks that involve file management, development, or automation.
-Here are some popular terminals:
-Windows Terminal Windows Terminal is a modern terminal application for Windows 10 that provides users with a powerful command-line experience. Windows Terminal offers multiple tabs, Unicode and UTF-8 character support, custom themes and styles, and more.</description>
+This page provides an introduction to some widely-used terminals.
+Mac and Linux Mac and Linux systems offer the Terminal app, which provides a command-line interface for navigating the file system, running commands, and executing scripts.</description>
     </item>
     <item>
       <title>Techniques</title>
@@ -46,9 +46,11 @@ Data Cleaning Introduction to Data Cleaning Data Visualization Introduction to D
       <link>https://datafun-central.github.io/datafun-central/hosting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://datafun-central.github.io/datafun-central/hosting/index.html</guid>
-      <description>This page provides an introduction for popular hosting providers.
-Python Python is a popular programming language for data science and machine learning. We cover both the basics and advanced topics of Python programming, as well as how to use Python for data analysis.
-Markdown Markdown is a simple markup language used to create rich text documents. We cover the basics of Markdown syntax and how to use Markdown to create formatted text documents.</description>
+      <description>This page provides an introduction to popular hosting providers.
+BitBucket BitBucket is a popular hosting provider for Git repositories.
+DockerHub DockerHub is a cloud-based repository for Docker images and containers.
+GitHub GitHub is a widely used platform for hosting Git repositories, collaborating on code, and managing projects.
+GitHub Pages GitHub Pages is a free service for hosting static websites directly from a GitHub repository.</description>
     </item>
     <item>
       <title>Other</title>
