@@ -1,5 +1,6 @@
 +++
-title = "Try Except"
+tags = ["python"]
+title = "Python: Try/Except"
 +++
 
 > Code Might Fail
@@ -7,12 +8,15 @@ title = "Try Except"
 It's important to use `try`/`except`/`finally` whenever your application 
 could fail through no fault of your own.
 
-### Questions
+### Why Plan for Errors?
 
-- Shouldn't we fix all errors first?
+People ask: 
+
+- Why plan for errors? 
+- Shouldn't we fix all errors in our code before we release it?
 - Why do we need `try`/`except`/`finally`?
 
-### Answer
+### Perfect Code Can Still Have Exceptions
 
 We should always strive to fix all coding and logic errors. 
 However, sometimes our code can be perfect - but exceptions can still happen. 
@@ -57,5 +61,6 @@ As in "try this, and if you catch an exception, do this."
 Exceptions are thrown by nested functions, up, up, up, 
 until some level "catches" the exception and deals with it, 
 or the program terminates with an ugly error.
- It's important to handle exceptions gracefully and 
+
+It's important to handle exceptions gracefully and 
  prevent our programs from crashing.

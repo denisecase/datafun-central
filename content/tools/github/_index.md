@@ -1,6 +1,7 @@
----
-title: GitHub
----
++++
+tags = ["tools"]
+title = "GitHub"
++++
 
 GitHub is a popular, web-based platform that allows data analysts and developers 
 to store and manage their code and collaborate with others.
@@ -24,7 +25,7 @@ as well as a built-in code editor.
 Additionally, it has a wide range of integrations and APIs that allow developers 
 to automate various development tasks and integrate with other tools and services.
 
-* * *
+
 
 ## Sign Up For A Free Account
 
@@ -49,7 +50,7 @@ or publicly associated with you.
 For example, I use 'denisecase'. 
 Your username will be a part of the URL to all of your projects.
 
------
+
 
 ## Students New to GitHub
 
@@ -59,7 +60,7 @@ Your username will be a part of the URL to all of your projects.
 *   Learning to fix issues is a key skill in data analytics.
 *   Keep and share your latest, most useful, and best work in GitHub. 
 
------
+
 
 ## GitHub Repositories
 
@@ -80,7 +81,7 @@ Q: What is the username? 
 
 Q: What is the repo name in the URL? 
 
-* * *
+
 
 ## Get Started 
 
@@ -109,3 +110,8 @@ For more fun stuff, check these out. 
 *   Like ChatGPT? Check out the AI coding buddy, GitHub Copilot.
 *   More free resources with the GitHub Student Developer Pack [https://education.github.com/pack](https://education.github.com/pack)
 
+## See Also
+
+There is more information about GitHub in the Hosting Chapter.
+
+- [Hosting/GitHub]({{< ref "/hosting/github.md" >}})

@@ -1,5 +1,5 @@
 ---
-title: "Mac and Linux"
+title: "Git: Mac/Linux"
 ---
 
 ## Task 1 - Download and install Git

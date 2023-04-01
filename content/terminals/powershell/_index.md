@@ -1,4 +1,5 @@
 +++
+tags = ["terminals"]
 title = "PowerShell"
 weight = 10
 +++
@@ -33,6 +34,3 @@ and remove extra versions when no longer needed.
 
 This section covers the use of PowerShell in the popular code editor, 
 Visual Studio Code (VS Code). 
-
-
-

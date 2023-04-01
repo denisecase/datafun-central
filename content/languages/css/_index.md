@@ -1,4 +1,5 @@
 +++
+tags = ["language", "markup", "web"]
 title = "CSS"
 +++
 

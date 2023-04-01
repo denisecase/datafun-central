@@ -5,7 +5,7 @@ comments: false
 ---
 
 We hope you enjoy this centralized information for
-data fundamentals and getting started with professional development.
+data fundamentals and getting started with professional data analytics.
 
 These powerful, user-friendly, industry-standard languages, tools, and techniques form core foundations of a productive environment.
 

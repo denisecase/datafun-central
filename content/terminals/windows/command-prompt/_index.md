@@ -1,5 +1,6 @@
 +++
-title = "Commnd Prompt"
+tags = ["terminals"]
+title = "Windows: Command Prompt"
 +++
 
 The Command Prompt is a basic terminal emulator that has been included in Windows since the early days. 

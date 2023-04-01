@@ -12,9 +12,9 @@ and more.
 
 Our goal is to help you get productive quickly and effectively. 
 
-## Topics
+## Chapters
 
-We organize our documentation into several main categories. Click on the links below to explore each category:
+We organize our documentation into several main categories. Click on the links below to explore each chapter:
 
 1. [Languages](languages/)
 2. [Tools](tools/)

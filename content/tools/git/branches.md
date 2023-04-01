@@ -1,5 +1,5 @@
 ---
-title: "Branches"
+title: "Git: Branches"
 ---
 
 In Git, we are always working on a **branch** of code,

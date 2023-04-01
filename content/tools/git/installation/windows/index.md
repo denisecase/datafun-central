@@ -1,5 +1,5 @@
 ---
-title: "Windows"
+title: "Git: Windows"
 ---
 
 ## Task 1 - Download and install Git

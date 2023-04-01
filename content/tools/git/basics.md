@@ -1,5 +1,5 @@
 ---
-title: "Basics"
+title: "Git: Basics"
 ---
 
 

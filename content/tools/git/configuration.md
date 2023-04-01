@@ -1,5 +1,5 @@
 +++
-title = "Configuration"
+title = "Git: Configuration"
 +++
 
 After installing, configure Git with your name and email. 

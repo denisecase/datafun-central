@@ -1,7 +1,7 @@
----
-title: VS Code
-
----
++++
+tags = ["tools"]
+title = "VS Code"
++++
 
 Visual Studio Code (VS Code) is a free and open-source code editor developed by Microsoft. 
 It is available on Windows, Linux, and macOS and offers features such as debugging, syntax highlighting, and intelligent code completion.

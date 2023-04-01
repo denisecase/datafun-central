@@ -1,5 +1,5 @@
 +++
-title = "Installation"
+title = "Git: Installation"
 weight = 10
 +++
 

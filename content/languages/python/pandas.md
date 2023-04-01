@@ -1,5 +1,6 @@
 +++
-title = "pandas"
+tags = ["python"]
+title = "Python: pandas"
 +++
 
 Pandas is a popular open-source library for data analytics in Python. 

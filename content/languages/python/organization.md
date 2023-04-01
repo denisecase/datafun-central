@@ -1,4 +1,8 @@
-This page provides an overview of the fundamental building blocks of Python code organization:
++++
+tags = ["python"]
+title = "Python: Organization"
++++
+This page provides an overview of the fundamental building blocks of Python code organization.
 
 ### Variable
 

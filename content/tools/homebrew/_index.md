@@ -1,6 +1,7 @@
----
-title: Homebrew
----
++++
+tags = ["tools"]
+title = "Homebrew"
++++
 
 Homebrew is a **package manager** for **macOS** and **Linux** that simplifies 
 the installation, updating, and management of software on your system. 

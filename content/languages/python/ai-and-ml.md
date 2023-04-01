@@ -1,5 +1,6 @@
 +++
-title = "AI and ML"
+tags = ["python"]
+title = "Python: AI and ML"
 +++
 
 Python is a popular programming language that has gained a lot of traction 

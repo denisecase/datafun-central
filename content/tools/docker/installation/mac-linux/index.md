@@ -1,5 +1,5 @@
 ---
-title: "Mac and Linux"
+title: "Docker: Mac/Linux"
 ---
 
 The best way to install Docker for Mac and Linux is by using Docker Desktop 

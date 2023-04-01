@@ -1,5 +1,5 @@
 +++
-title = "Remotes"
+title = "Git: Remotes"
 +++
 
 In Git, the term "origin" refers to the default remote repository that a local repository is linked to.

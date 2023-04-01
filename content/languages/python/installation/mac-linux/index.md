@@ -1,5 +1,5 @@
 ---
-title: Mac and Linux
+title: "Python: Mac/Linux"
 ---
 
 ## Task 1 - Install Python

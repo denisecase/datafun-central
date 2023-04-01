@@ -1,4 +1,5 @@
 +++
+tags = ["language", "programming", "compiled"]
 title = "Go"
 +++
 
@@ -9,7 +10,7 @@ by Google.
 It is designed for simplicity, efficiency, and strong support for 
 concurrent programming.
 
-## Why Golang?
+## Why Go?
 
 For developers, Golang offers several advantages over other programming languages:
 
@@ -18,13 +19,13 @@ For developers, Golang offers several advantages over other programming language
 - Go has a garbage collector, which automatically manages memory allocation and deallocation.
 - It has a growing ecosystem and community, with a range of libraries and frameworks available.
 
-## Golang Syntax
+## Go Syntax
 
 - Golang has a clean and straightforward syntax, influenced by C but with some improvements.
 - It uses static typing and supports various data types, including integers, floats, strings, and arrays.
 - Go has built-in support for concurrent programming with goroutines and channels.
 
-## Free Resources for Learning Golang
+## Free Resources for Learning Go
 
 - [The Go Programming Language](https://golang.org/): The official Go website, with documentation, tutorials, and downloads.
 - [A Tour of Go](https://tour.golang.org/): An interactive introduction to Golang, with hands-on coding exercises.

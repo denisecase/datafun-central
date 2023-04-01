@@ -1,5 +1,5 @@
 ---
-title: Windows
+title: "Python: Windows"
 ---
 
 ## Task 1 - Install Python (includes pip)

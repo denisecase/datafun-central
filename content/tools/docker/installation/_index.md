@@ -1,5 +1,5 @@
 +++
-title = "Installation"
+title = "Docker: Installation"
 +++
 
 Docker is an open-source **platform** that automates the deployment, scaling, and management of applications by using containerization technology. 

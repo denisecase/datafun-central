@@ -1,5 +1,7 @@
 +++
+tags = ["data"]
 title = "Message Queues"
+weight = 50
 +++
 
 Message queues are a key component of modern distributed systems and are used to manage the flow of data between applications, services, and processes. 

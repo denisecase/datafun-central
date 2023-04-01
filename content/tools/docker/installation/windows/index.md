@@ -1,5 +1,5 @@
 ---
-title: "Windows"
+title: "Docker: Windows"
 ---
 
 The best way to install Docker for Windows is by using Docker Desktop. 

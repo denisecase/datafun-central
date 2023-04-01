@@ -1,10 +1,11 @@
----
-title: Docker
----
++++
+tags = ["tools"]
+title = "Docker"
++++
 
-Docker is an open-source platform that automates the deployment, scaling, and management of applications by using containerization technology. It allows developers to package an application and its dependencies (libraries, configuration files, etc.) into a single, lightweight, and portable container. These containers can run consistently across different environments, simplifying application development, testing, and deployment.
+**Docker** is an open-source **platform** that automates the deployment, scaling, and management of applications by using containerization technology. It allows developers to package an application and its dependencies (libraries, configuration files, etc.) into a single, lightweight, and portable container. These containers can run consistently across different environments, simplifying application development, testing, and deployment.
 
-Docker provides the following features:
+Docker provides the following features.
 
 ## Containerization
 

@@ -1,4 +1,5 @@
 +++
+tags = ["terminals"]
 title = "Mac and Linux"
 weight = 10
 +++

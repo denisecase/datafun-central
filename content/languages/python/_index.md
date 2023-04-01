@@ -1,4 +1,5 @@
 +++
+tags = ["jupyter","language", "programming", "scripting"]
 title = "Python"
 +++
 

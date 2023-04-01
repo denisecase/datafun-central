@@ -1,5 +1,5 @@
 +++
-title = "Conflicts"
+title = "Git: Conflicts"
 +++
 
 We can edit project files in at least two places:

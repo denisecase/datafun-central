@@ -1,5 +1,7 @@
 +++
-title = "Stores"
+tags = ["data"]
+title = "Data Stores"
+weight = 40
 +++
 
 Data stores are used to store, manage and retrieve data. 

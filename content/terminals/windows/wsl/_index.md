@@ -1,5 +1,6 @@
 +++
-title = "Windows Subsystem for Linux (WSL)"
+tags = ["terminals"]
+title = "Windows: WSL2"
 +++
 
 Windows Subsystem for Linux (WSL) is a feature of Windows 10 

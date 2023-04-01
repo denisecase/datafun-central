@@ -1,5 +1,6 @@
 +++
-title = "Uninstalling"
+tags = ["python"]
+title = "Python: Uninstalling"
 +++
 
 

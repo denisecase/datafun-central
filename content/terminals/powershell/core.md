@@ -1,5 +1,5 @@
 +++
-title = "Core"
+title = "PowerShell Core"
 weight = 10
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Installation"
+title = "PowerShell: Installation"
 weight = 20
 +++
 

@@ -1,5 +1,6 @@
 +++
-title = "Executing Scripts"
+tags = ["python"]
+title = "Python: Scripts"
 +++
 
 A Python **script** is a file containing Python code that can be executed by the Python interpreter. 

@@ -1,5 +1,7 @@
 +++
+tags = ["data"]
 title = "Data at Rest"
+weight = 10
 +++
 
 Data at rest refers to data that is stored and not actively being processed or transmitted. This includes data stored in databases, data warehouses, data lakes, and other storage systems.

@@ -1,5 +1,5 @@
 +++
-title = "VS Code"
+title = "PowerShell in VS Code"
 weight = 40
 +++
 

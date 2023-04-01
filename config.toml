@@ -6,7 +6,7 @@ uglyURLs = false
 languageCode = "en"
 DefaultContentLanguage = "en"
 
-title = 'Datafun Central'
+title = 'Professional Analtyics'
 theme = 'hugo-theme-relearn'
 
 pygmentsStyle = "trac"
@@ -29,7 +29,6 @@ disableHugoGeneratorInject = true
   section = ["HTML", "RSS", "PRINT"]
   page = ["HTML", "RSS", "PRINT"]
 
-
 [Author]
   name = "Denise Case"
   website = "https://github.com/denisecase/"
@@ -37,16 +36,15 @@ disableHugoGeneratorInject = true
   bitbucket = "denisecae"
   linkedin = "denisecase"
 
-
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 6
+    weight = 8
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
-    weight = 7
+    url = "other/about/"
+    weight = 9
 
 [markup]
   [markup.highlight]
@@ -96,20 +94,24 @@ disableHugoGeneratorInject = true
     weight = 10
 
   [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-laptop'></i> Python"
-    url = "languages/python"
+    name = "<i class='fas fa-fw fa-star'></i> Git"
+    url = "tools/git"
     weight = 11
 
   [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-laptop'></i> Markdown"
+    name = "<i class='fas fa-fw fa-star'></i> Markdown"
     url = "languages/markdown"
     weight = 12
 
   [[Languages.en.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-globe'></i> Git"
-    url = "tools/git"
+    name = "<i class='fas fa-fw fa-star'></i> Python"
+    url = "languages/python"
     weight = 13
 
+  [[Languages.en.menu.shortcuts]]
+    name = "<i class='fas fa-tags'></i> Tags"
+    url = "tags"
+    weight = 14
 
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
@@ -123,9 +125,9 @@ disableHugoGeneratorInject = true
   disableBreadcrumb = false
   disableInlineCopyToClipBoard = false
   disableNextPrev = false
-  disableLandingPageButton = true
+  disableLandingPageButton = false
   titleSeparator = "::"
-  themeVariant = [ "auto", "relearn-bright", "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  themeVariant = [  "auto", "relearn-bright", "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
   themeVariantAuto = [ "relearn-light", "relearn-dark" ]
   disableSeoHiddenPages = true
   # this is for the stylesheet generator to allow for interactivity in Mermaid

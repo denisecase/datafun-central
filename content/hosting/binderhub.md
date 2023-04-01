@@ -1,4 +1,5 @@
 +++
+tags = ["hosting"]
 title = "BinderHub"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Core vs Windows"
+title = "PowerShell: Core vs Windows"
 weight = 15
 +++
 

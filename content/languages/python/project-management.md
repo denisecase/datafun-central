@@ -1,5 +1,6 @@
 +++
-title = "Project Management"
+tags = ["python"]
+title = "Python: Project Management"
 +++
 
 

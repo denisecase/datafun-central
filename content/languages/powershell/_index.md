@@ -1,4 +1,5 @@
 +++
+tags = ["language", "programming", "scripting"]
 title = "PowerShell"
 +++
 
@@ -42,6 +43,8 @@ Popular PowerShell modules include Pester, PSReadLine, and PowerShell Gallery.
 
 - .ps1
 
-## Read More in the Terminals Chapter
+## See Also
 
-- [Terminals / PowerShell]( {{< ref "../../terminals/powershell/_index.md">}})
+There is more information about PowerShell in the Terminals Chapter.
+
+- [Terminals/PowerShell]({{< ref "/terminals/powershell/" >}})

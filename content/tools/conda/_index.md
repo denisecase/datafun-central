@@ -1,8 +1,9 @@
 +++
+tags = ["tools"]
 title = "conda"
 +++
 
-Conda is a cross-platform **package manager** primarily focused on 
+**Conda** is a cross-platform **package manager** primarily focused on 
 **Python** and **R** programming languages. 
 It is designed to manage packages and dependencies for data science and 
 machine learning projects. conda can create and manage environments, 

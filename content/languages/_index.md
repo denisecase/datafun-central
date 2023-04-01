@@ -15,7 +15,7 @@ the look and formatting of a document written in HTML. While not directly
 related to data analytics, it's essential for creating visually appealing 
 dashboards and reports.
 
-## [Go (Golang)](go) 
+## [Go](go) 
 ![Programming Language](https://img.shields.io/badge/-Programming%20Language-green)
 ![Compiled Language](https://img.shields.io/badge/-Compiled%20Language-yellow)
 

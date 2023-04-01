@@ -1,5 +1,6 @@
 +++
-title = "PowerShell"
+tags = ["terminals"]
+title = "Windows: PowerShell"
 +++
 
 PowerShell is a command-line shell and scripting language 
@@ -28,4 +29,11 @@ PowerShell supports a range of scripting and automation features, including:
 PowerShell is a powerful and flexible tool for 
 system administration and automation in Windows, providing access to a 
 wide range of management features and automation capabilities.
+
+## See Also
+
+There is more information about PowerShell in the Language Chapter and the Terminals Chapter.
+
+- [Languages/PowerShell]({{< ref "/languages/powershell/" >}})
+- [Terminals/PowerShell]({{< ref "/terminals/powershell/" >}})
 

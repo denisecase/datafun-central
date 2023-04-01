@@ -1,5 +1,7 @@
 +++
-title = "Formats"
+tags = ["data"]
+title = "Data Formats"
+weight = 30
 +++
 
 Modern analytics involves working with a variety of data formats that can be structured or unstructured, batch or streaming, and of varying sizes. Understanding these different data formats is essential for data analysts to effectively work with and derive insights from data.

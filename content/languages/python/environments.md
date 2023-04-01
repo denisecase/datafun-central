@@ -1,5 +1,6 @@
 +++
-title = "Environments"
+tags = ["python"]
+title = "Python: Environments"
 +++
 
 Python environments can be confusing at first, 

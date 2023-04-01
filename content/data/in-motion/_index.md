@@ -1,5 +1,7 @@
 +++
+tags = ["data"]
 title = "Data in Motion"
+weight = 15
 +++
 
 Data in motion refers to data that is actively being transmitted or processed in a system, often through pipelines that move data between different stages of processing.

@@ -1,5 +1,6 @@
 +++
-title = "Basics"
+tags = ["python"]
+title = "Python: Basics"
 weight = 10
 +++
 

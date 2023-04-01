@@ -1,5 +1,6 @@
 +++
-title = "Git Bash"
+tags = ["terminals"]
+title = "Windows: Git Bash"
 +++
 
 Git Bash is a terminal emulator that is bundled with Git for Windows. 

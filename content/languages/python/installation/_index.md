@@ -1,5 +1,5 @@
 +++
-title = "Installation"
+title = "Python: Installation"
 weight = 10
 +++
 

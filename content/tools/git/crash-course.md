@@ -1,5 +1,5 @@
 +++
-title = "Crash Course"
+title = "Git: Crash Course"
 +++
 
 _Student-recommended video on Git - definitely worth sharing! 

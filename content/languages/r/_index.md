@@ -1,4 +1,5 @@
 +++
+tags = ["language", "programming", "scripting"]
 title = "R"
 +++
 
