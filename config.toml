@@ -1,4 +1,4 @@
-baseURL = 'https://datafun-central.github.io/datafun-central'
+baseURL = 'https://datafun-central-source.github.io/datafun-central-source'
 canonifyURLs = true 
 relativeURLs = true 
 uglyURLs = false 
@@ -32,7 +32,7 @@ disableHugoGeneratorInject = true
 
 [Author]
   name = "Denise Case"
-  website = "https://datafun-central.github.io/"
+  website = "https://github.com/denisecase/"
   github = "denisecase"
   bitbucket = "denisecae"
   linkedin = "denisecase"
