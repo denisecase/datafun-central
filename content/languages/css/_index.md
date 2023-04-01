@@ -116,7 +116,7 @@ as well as robust documentation and support from their communities.
 
 Many popular data analytics dashboarding frameworks allow customization for analysts with a knowledge of CSS.
 
-Tableau
+### Tableau
 
 Tableau provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the appearance of 
@@ -124,14 +124,14 @@ dashboards and reports. Users can create custom themes and apply
 them to their dashboards, or use CSS to modify individual elements such as 
 fonts, colors, and backgrounds.
 
-Power BI
+### Power BI
 
 Power BI allows users to customize the appearance of their dashboards 
 using themes and custom CSS code. Users can modify the styling of 
 individual elements such as charts, tables, and cards, and can apply custom 
 CSS classes to elements for greater control over styling.
 
-Plotly
+### Plotly
 
 Plotly provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the appearance of 
@@ -139,7 +139,7 @@ charts and graphs. Users can modify the styling of individual elements
 such as colors, fonts, and backgrounds, and can apply custom CSS
  classes to elements for more granular control over styling.
 
-Metabase
+### Metabase
 
 Metabase is an open-source data analytics platform that allows users to 
 create interactive dashboards and reports. 
@@ -149,7 +149,7 @@ appearance of dashboards and reports. Users can modify the styling of
 individual elements such as fonts, colors, and backgrounds, 
 and can apply custom CSS classes to elements for greater control over styling.
 
-Redash
+### Redash
 
 Redash is an open-source data analytics platform that allows users to 
 create interactive dashboards and reports. 
