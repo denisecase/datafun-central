@@ -1,5 +1,5 @@
 ---
-title: GitHUb
+title: GitHub
 ---
 
 This page provides an overview of different techniques and skill levels related to GitHub, including basic, intermediate, and advanced techniques.
