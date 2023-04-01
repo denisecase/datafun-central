@@ -42,13 +42,6 @@ To run the website locally:
 3. Launch the server: `hugo server`
 4. Open a web browser and navigate to <http://localhost:1313>.
 
-
-## Generate the Documents
-
-```bash
-hugo -d ../datafun-central/docs
-```
-
 ## Contributing
 
 If you would like to contribute to the documentation on this site, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to get started.
