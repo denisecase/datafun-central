@@ -1,4 +1,4 @@
-baseURL = 'https://datafun-central-source.github.io/datafun-central-source'
+baseURL = 'https://datafun-central.github.io/datafun-central'
 canonifyURLs = true 
 relativeURLs = true 
 uglyURLs = false 
