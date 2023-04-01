@@ -33,7 +33,7 @@ We welcome contributions to our documentation! If you're interested in contribut
 ## Feedback
 
 To provide comments or feedback, please use the Issues and 
-[Dicussions at the GitHub source repo](https://github.com/denisecase/datafun-central-source/discussions).
+[Dicussions at the GitHub repo](https://github.com/denisecase/datafun-central/discussions).
 
 ## License
 
