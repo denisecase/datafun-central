@@ -4,6 +4,10 @@ title = "Languages"
 weight = 1
 +++
 
+This chapter provides an introduction to popular languages for analytics.
+
+## Languages in Analytics
+
 Data analysts often work with a variety of languages, 
 which can be broadly categorized into programming languages 
 and markup languages. 

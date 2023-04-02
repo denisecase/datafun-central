@@ -5,8 +5,8 @@ weight = 4
 +++
 
 
-This page provides documentation and tutorials on various techniques 
-used in data analytics and development.
+This chapter provides covers various techniques and skills
+used in data analytics, investitagions, and development.
 
 ## Data Cleaning
 

@@ -4,7 +4,7 @@ title = "Hosting"
 weight = 5
 +++
 
-This page provides an introduction to popular hosting providers.
+This chapter provides an introduction to popular hosting providers.
 
 ## [Binder](binder)
 

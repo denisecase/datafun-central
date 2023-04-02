@@ -4,8 +4,8 @@ title = "Other"
 weight = 7
 +++
 
-Few more things to share.
+This chapter covers a few more things, not related to analytics directly.
 
 ## [About](about)
 
-Learn more about this site and the tools we used. 
+Learn more about this site and the tools used. 

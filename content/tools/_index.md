@@ -4,8 +4,7 @@ title = "Tools"
 weight = 2
 +++
 
-
-This section includes documentation for some of the tools we use. 
+This chapter introduces some popular tools. 
 
 ## [Chocolatey](chocolatey/)
 
@@ -41,7 +40,8 @@ containing live code, visualizations, and narrative text.
 
 ## [pip](pip/)
 
-pip is a package manager for Python that makes it easy to install, update, and manage Python packages and dependencies. It is widely used in the Python community and is an essential tool for working with Python projects.
+pip is a package manager for Python that makes it easy to install, update, and manage Python packages and dependencies. 
+It is widely used in the Python community and is an essential tool for working with Python projects.
 See also conda.
 
 ## [PowerShell](powershell/)
@@ -50,7 +50,10 @@ PowerShell is a command line shell and scripting language developed by Microsoft
 
 ## [VS Code](vs-code/)
 
-Visual Studio Code, often referred to as VS Code, is a lightweight but powerful source code editor that is popular among developers. It is highly customizable and supports a wide range of programming languages, making it a versatile tool for developers of all skill levels. VS Code also has a large ecosystem of extensions that can be used to extend its functionality.
+Visual Studio Code, often referred to as VS Code, is a lightweight but powerful source code editor that is popular among developers. 
+It is highly customizable and supports a wide range of programming languages, 
+making it a versatile tool for developers of all skill levels. 
+VS Code also has a large ecosystem of extensions that can be used to extend its functionality.
 
 ## [Winget](winget/)
 

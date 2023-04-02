@@ -6,7 +6,7 @@ weight = 3
 
 A terminal, or command line interface, is a text-based way to interact with your computer. Terminals can be faster and more powerful than graphical user interfaces (GUIs) for many tasks, especially tasks that involve file management, development, or automation.
 
-This page provides an introduction to some widely-used terminals.
+This chapter provides an introduction to some widely-used terminals.
 
 ## [Mac and Linux](mac-linux)
 
