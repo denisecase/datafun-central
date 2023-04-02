@@ -81,23 +81,3 @@ Alternatively, we could create a simple function and host it on
 Amazon Web Services (AWS) Lambda. 
 AWS offers a free tier that
 allows up to one million requests per month.
-
-We use AWS Management Console to upload a Python function zip file,
-create an API Gateway trigger so it can recieve HTTP requests and return
-our sentiment analysis results. 
-
-The function code might look something like this.
-
-```python
-from textblob import TextBlob
-
-def sentiment(event, context):
-    text = event['text']
-    blob = TextBlob(text)
-    polarity = blob.sentiment.polarity
-    subjectivity = blob.sentiment.subjectivity
-    return {'polarity': polarity, 'subjectivity': subjectivity}
-```
-
-You can implement simple data analysis functions like this and make them 
-available from the browser, or through smart speaker applications like Alexa. 
