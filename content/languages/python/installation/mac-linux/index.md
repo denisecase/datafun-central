@@ -13,6 +13,9 @@ title: "Python: Mac/Linux"
 
 ## Task 2 - Install pip
 
+pip is the default package manager for Python used to install, update, 
+and manage Python packages and dependencies. 
+
 1.  Open a terminal window
 2.  Run the following command to install pip:
     1.  `sudo apt-get install python3-pip`
@@ -39,3 +42,6 @@ title: "Python: Mac/Linux"
 
 If you see version information, the installation was successful.
 
+You may need multiple Python versions available on your machine, 
+depending on the requirements of your project and the external tools and 
+libraries required. 

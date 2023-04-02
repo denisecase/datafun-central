@@ -6,13 +6,13 @@ weight = 2
 This page provides an overview of **intermediate** skills for working with Python in the context of data analysis.
 
 
-## Libraries
+## External Libraries
 
-- NumPy: Know how to work with arrays, manipulate data, and perform mathematical operations.
+- **NumPy**:  Know how to work with arrays, manipulate data, and perform mathematical operations.
 
-- pandas: Know how to work with data frames and manipulate data for exploratory data analysis.
+- **pandas**: Know how to work with data frames and manipulate data for exploratory data analysis.
 
-- Matplotlib: Know how to create visualizations for data analysis.
+- **Matplotlib**: Know how to create customized visualizations for data analysis.
 
 ## Data Cleaning
 
@@ -37,3 +37,31 @@ This page provides an overview of **intermediate** skills for working with Pytho
 - Unit testing and debugging: Know how to write and run unit tests and debug code.
 
 - Code organization and project structure: Know how to structure a Python project for scalability and reproducibility.
+
+## Type Hints
+
+- Type hints: Know how to use type hints in Python to specify function argument types, return types, and class attributes. 
+
+Employing important new features such as type hints shows a deeper understanding of Python and a commitment to writing clean, maintainable, and efficient code. 
+
+By using type hints, developers improve the documentation of their code, 
+catch errors more easily, 
+and help other developers understand how to use their code.
+
+With the increasing adoption of type hints in the Python community, 
+it is becoming an essential intermediate to advanced skill for those
+working on larger projects or collaborating with other developers. 
+
+```
+def add_numbers(x: int, y: int) -> int:
+    return x + y
+```
+
+The type hints are specified using the `: ` syntax, 
+where `x: int` means that x is of type int. 
+The `-> int` syntax after the function arguments 
+specifies the return type of the function as int.
+
+Type hints are not enforced by the Python interpreter, 
+but are used by static analysis tools and linters to catch 
+type-related errors early in the development process.
