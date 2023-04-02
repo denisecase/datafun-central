@@ -16,7 +16,7 @@ title: "Git: Mac/Linux"
 1. Open a terminal window
 1. Run the following commands to configure Git with your name (your real name, e.g. "Denise Case") and the email address you used for GitHub.
 
-```bash
+```shell
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
@@ -28,7 +28,7 @@ git config --global user.email "your.email@example.com"
 
 1. Run the following command to verify your Git configuration:
 
-```bash
+```shell
 git config --list
 ```
 

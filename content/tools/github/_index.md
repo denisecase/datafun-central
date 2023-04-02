@@ -68,9 +68,9 @@ Each coding project lives in a GitHub repository (called 'repo' for short) in th
 
 Git (the system) keeps track of committed changes to an evolving project.   
     - The GitHub repo can be kept in sync with a git repo on your local machine.   
-    - For example:  
-        - If a GitHub repo is named **datafun-01-getting-started**.   
-        - On my machine, it's in my **Documents/datafun-01-getting-started** directory.
+    - For example
+        - If a GitHub repo is named **datafun-01-getting-started**
+        - On my machine, it's in my **Documents/datafun-01-getting-started** directory
 
 
 ## Quick Quiz

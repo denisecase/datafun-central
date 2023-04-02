@@ -48,10 +48,10 @@ This makes it easy to share and distribute the project with others.
 
 ## Free Resources for Learning Julia
 
-- [The Julia Language](https://julialang.org/): The official Julia website, with documentation, tutorials, and downloads.
-- [Julia Academy](https://juliaacademy.com/): A collection of online courses and tutorials for learning Julia.
-- [Learn X in Y Minutes - Julia](https://learnxinyminutes.com/docs/julia/): A quick reference guide for learning Julia syntax.
-- [Julia Observer](https://juliaobserver.com/): A curated list of Julia packages and libraries.
+- [The Julia Language](https://julialang.org/): The official Julia website, with documentation, tutorials, and downloads
+- [Julia Academy](https://juliaacademy.com/): A collection of online courses and tutorials for learning Julia
+- [Learn X in Y Minutes - Julia](https://learnxinyminutes.com/docs/julia/): A quick reference guide for learning Julia syntax
+- [Julia Observer](https://juliaobserver.com/): A curated list of Julia packages and libraries
 
 ## Julia Frameworks and Libraries
 

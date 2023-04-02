@@ -32,18 +32,19 @@ Follow these steps to install Docker Desktop for Windows.
 
 4. Start Docker Desktop:
 
-  - After the installation is complete, Docker Desktop should start automatically. - If it doesn't, you can launch it from the Start menu.
+  - After the installation is complete, Docker Desktop should start automatically. 
+  - If it doesn't, you can launch it from the Start menu.
   - You will see the Docker icon in the system tray, indicating that Docker is running. 
   - Right-click on the icon and select "Dashboard" to open the Docker Desktop dashboard.
  
 5. Verify the installation:
 
   - Open a command prompt or PowerShell window.
-  - Run the following command to check the Docker version:
+  - Run the following command to check the Docker version.
 
   `docker --version`
 
-6. Run a test container to ensure that Docker is working correctly:
+6. Run a test container to ensure that Docker is working correctly.
 
   `docker run hello-world`
 

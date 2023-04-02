@@ -56,7 +56,7 @@ Commands are preceded by a backslash (`\`).
 
 Environments are used to apply formatting or styles to a block of text or content. Environments are enclosed by the `\begin{environment}` and `\end{environment}` commands.
 
-```
+```latex
 \begin{itemize}
 \item Item 1
 \item Item 2

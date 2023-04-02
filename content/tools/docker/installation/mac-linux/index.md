@@ -14,7 +14,7 @@ Follow these steps to install Docker on Mac and Linux.
 
 1. Ensure your system meets the requirements:
 
-   - macOS 10.14 (Mojave) or later.
+   - macOS 10.14 (Mojave) or later
 
 2. Download Docker Desktop for Mac from the [official Docker website](https://www.docker.com/products/docker-desktop).
 
@@ -30,12 +30,12 @@ Follow these steps to install Docker on Mac and Linux.
 5. Verify the installation:
 
    - Open a Terminal window.
-   - Run the following command to check the Docker version:
+   - Run the following command to check the Docker version.
 
     `docker --version`
 
 
-6. Run a test container to ensure that Docker is working correctly:
+6. Run a test container to ensure that Docker is working correctly.
 
     `docker run hello-world`
 
@@ -46,21 +46,22 @@ Follow these steps to install Docker on Mac and Linux.
 
 2. Follow the provided instructions to install Docker Engine on your system.
 
-3. Verify the installation:
+3. Verify the installation.
 
    - Open a Terminal window.
-   - Run the following command to check the Docker version:
+   - Run the following command to check the Docker version.
 
     `docker --version`
 
-4. Run a test container to ensure that Docker is working correctly:
+4. Run a test container to ensure that Docker is working correctly.
 
     `docker run hello-world`
 
 
 ### Save Resources
 
-To stop Docker when you are not using it:
+Docker takes a lot of resources.
+You may want to stop Docker when you are not using it.
 
 #### For Mac
 
@@ -71,7 +72,7 @@ To stop Docker when you are not using it:
 #### For Linux
 
 1. Open a Terminal window.
-2. Run the following command to stop the Docker daemon:
+2. Run the following command to stop the Docker daemon.
 
 `sudo systemctl stop docker`
 

@@ -52,7 +52,7 @@ With the increasing adoption of type hints in the Python community,
 it is becoming an essential intermediate to advanced skill for those
 working on larger projects or collaborating with other developers. 
 
-```
+```python
 def add_numbers(x: int, y: int) -> int:
     return x + y
 ```

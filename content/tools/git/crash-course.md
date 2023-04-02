@@ -5,7 +5,7 @@ title = "Git: Crash Course"
 _Student-recommended video on Git - definitely worth sharing! 
 It covers things in a similar way and you can jump right to the parts you need._
 
-Note: Watch when you have time - use it when you're ready to learn more about Git. 
+Note: Watch when you have time or use it when you're ready to learn more about Git. 
 Many students find it very helpful. 
 I don't know how anyone could provide more information, more efficiently than this.
 

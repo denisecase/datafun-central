@@ -38,7 +38,7 @@ Headers are used to create headings or subheadings in your document.
 To create a header, use the `#` symbol followed by a space and the
 text for your heading. Markdown supports up to six levels of headers.
 
-```
+```markdown
 # This is a level one header
 ## This is a level two header
 ### This is a level three header
@@ -56,7 +56,7 @@ for an unordered list, or use numbers for an ordered list.
 An unordered list in Markdown is created by using the "- " syntax 
 ("dash space"), followed by the list item. 
 
-```
+```markdown
 - Item 1
 - Item 2
 - Item 3
@@ -70,7 +70,7 @@ ensuring that the numbers are displayed correctly.
 This makes it easy to create numbered lists in Markdown 
 without having to manually adjust the numbers.
 
-```
+```markdown
 1. Item 1
 1. Item 2
 1. Item 3
@@ -82,7 +82,7 @@ Links are used to create hyperlinks in your document. To create a link,
 use square brackets to enclose the link text,
 followed by the link URL in parentheses.
 
-```
+```markdown
 [Markdown: Getting Started](https://www.markdownguide.org/getting-started/)
 ```
 
@@ -92,7 +92,7 @@ Images are used to display images in your document. To add an image,
 use an exclamation point, followed by square brackets to enclose the alt text,
 and the image URL in parentheses.
 
-```
+```markdown
 ![Alt Text](image.url)
 ```
 
@@ -113,16 +113,20 @@ Code blocks are used to display code in your document. To create a code block,
 use triple backticks followed by the language name, and then your code.
 End your code block with triple backticks.
 
-<pre><code>```python
+<pre><code>
+```python
 print("Hello, world!")
-```</code></pre>
+```
+</code></pre>
 
 ### Inline Code
 
 Inline code is used to display code within a paragraph. To create inline code,
 use single backticks (`) to enclose your code.
 
-<pre><code>Use the `print()` function to print a message to the console.</code></pre>
+<pre><code>
+Use the `print()` function to print a message to the console.
+</code></pre>
 
 
 ## Free Resources for Learning Markdown

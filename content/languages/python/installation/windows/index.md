@@ -21,14 +21,14 @@ Close and reopen the command prompt or PowerShell window to activate the new env
 1.  Open a command prompt or PowerShell window
 2.  Run the following commands to verify installation:
 
-```
+```shell
 python3 --version
 pip3 --version
 ```
 
 or
 
-```
+```shell
 python --version
 pip --version
 ```

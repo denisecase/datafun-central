@@ -19,11 +19,11 @@ For web developers and designers, Cascading Style Sheets (CSS) is an essential s
 
 ## Free Resources for Learning CSS
 
-- [CSS Tricks](https://css-tricks.com/): A website with a wide range of articles, tutorials, and resources for learning CSS.
-- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): A comprehensive guide to CSS, with documentation and examples.
-- [W3Schools CSS Tutorial](https://www.w3schools.com/css/): A free, interactive tutorial for learning CSS, with practical examples and exercises.
-- [Codecademy CSS Course](https://www.codecademy.com/learn/learn-css): An interactive course that covers the basics of CSS, with hands-on coding exercises.
-- [CSS Zen Garden](http://www.csszengarden.com/): A showcase of creative CSS designs, with source code available for learning.
+- [CSS Tricks](https://css-tricks.com/): A website with a wide range of articles, tutorials, and resources for learning CSS
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): A comprehensive guide to CSS, with documentation and examples
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/): A free, interactive tutorial for learning CSS, with practical examples and exercises
+- [Codecademy CSS Course](https://www.codecademy.com/learn/learn-css): An interactive course that covers the basics of CSS, with hands-on coding exercises
+- [CSS Zen Garden](http://www.csszengarden.com/): A showcase of creative CSS designs, with source code available for learning
 
 ## File Extensions
 
@@ -39,7 +39,7 @@ or in the head section of an HTML file using the `<style>` element.
 To add a .css file to an HTML file,  
 include a `link` in the head section of the HTML file.
 
-```css
+```html
 <head>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,7 +47,7 @@ include a `link` in the head section of the HTML file.
 
 An example of styles.css is shown below. 
 
-```
+```css
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;

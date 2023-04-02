@@ -27,7 +27,7 @@ To do this, clone the repository using the `git clone sourceurl` command. Change
 
 Once you have a copy of the repository on your machine, you can make changes to the code and save those changes to the repository using Git. The basic workflow for this is:
 
-1. **Add changes**: Use the `git add .` command to add the changes you've made to the code to the staging area. It's said "git add dot" - see the dot at the end - that means add all the newly created files into source control.
+1. **Add changes**: Use the `git add .` command to add the changes you've made to the code to the staging area. It's said "git add dot". See the dot at the end? That means add all the newly created files into source control.
 
 2. **Commit changes**: Use the `git commit -m "add feature n` command to save the changes to the local repository with a descriptive commit message.
 
@@ -35,7 +35,7 @@ Once you have a copy of the repository on your machine, you can make changes to 
 
 This sequence of commands is very common:
 
-```
+```shell
 git add .
 git commit -m "tell us what you did"
 git push origin main
@@ -65,7 +65,7 @@ push our changes back up to the cloud as soon as we're finished with them.
 Using the git pull command will bring any changes made directly
 in your GitHub (or other cloud) repository down to your machine.
 
-```
+```shell
 git pull
 ```
 

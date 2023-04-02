@@ -23,13 +23,13 @@ On Mac or Linux, open Terminal app.
 
 Type the following command to display your Git configuration:
 
-```bash
+```shell
 git config --list
 ```
 
 Look for the following lines in the output:
 
-```
+```shell
 user.name=Your Name
 user.email=your.email@example.com
 ```
@@ -41,7 +41,7 @@ If you see your name and email listed, then they are set in Git.
 If you don't see your name and email listed, 
 set them using the following commands:
 
-```bash
+```shell
 git config --global user.name "Your Name"
 git config --global user.email your.email@example.com
 ```

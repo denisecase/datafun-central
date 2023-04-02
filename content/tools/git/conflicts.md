@@ -30,13 +30,13 @@ Keep your local and cloud repositories synchronized. Use these for each session.
 
 Before you start:
 
-```
+```shell
 git pull
 ```
 
 After you finish a set of edits:
 
-```
+```shell
 git add .
 git commit -m "add title"
 git push

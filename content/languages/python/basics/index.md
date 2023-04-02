@@ -15,7 +15,7 @@ In Python,
 we can define a variable and assign a value to it using the "=" operator.
 For example:
 
-```
+```python
 x = 10
 ```
 
@@ -25,7 +25,7 @@ Here, we've defined a variable x and assigned it the value of 10.
 
 We can also perform mathematical operations on variables:
 
-```
+```python
 y = 5
 z = x + y
 ```
@@ -50,7 +50,7 @@ We've used the * operator to multiply a and b, and then added 1 to the result.
 
 Expressions can also include functions:
 
-```
+```python
 import math
 d = math.sqrt(a**2 + b**2)
 ```

@@ -31,9 +31,9 @@ Your curiousity, resourcefulness, and tenacity will be quite valuable.
 
 Then, read about and install the following on your machine.
 
-1. [Git](tools/git/) - a system for tracking evolving code files and syncing between your machine and GitHub.
-1. [VS Code](tools/vs-code/) - a lightweight editor great for beginners and professionals alike.
-1. [Python](languages/python/) - a popular, powerful language for working with data. 
+1. [Git](tools/git/) - a system for tracking evolving code files and syncing between your machine and GitHub
+1. [VS Code](tools/vs-code/) - a lightweight editor great for beginners and professionals alike
+1. [Python](languages/python/) - a popular, powerful language for working with data
 
 ## Chapters
 

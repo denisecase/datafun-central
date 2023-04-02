@@ -28,17 +28,17 @@ and manage Python packages and dependencies.
 1.  Open a terminal window
 2.  Run the following commands to verify installation:
 
-    ```
-    python3 --version
-    pip3 -- version
-    ```
+```shell
+python3 --version
+pip3 -- version
+```
 
-    or 
+or 
 
-    ```
-    python --version
-    pip --version
-    ```
+```shell
+python --version
+pip --version
+```
 
 If you see version information, the installation was successful.
 

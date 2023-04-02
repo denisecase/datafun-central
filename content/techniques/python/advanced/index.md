@@ -41,4 +41,7 @@ These skills are considered advanced and will be useful for more advanced data a
 
 - Understand how to optimize Python code for performance.
 - Use profiling tools to identify performance bottlenecks in your code.
-- Apply performance optimization techniques like caching, memoization, and vectorization to speed up your code.
+- Apply performance optimization techniques like 
+[caching](https://towardsdatascience.com/how-to-speed-up-your-python-code-with-caching-c1ea979d0276), 
+[memoization](https://python.plainenglish.io/boosting-python-code-performance-with-memoization-d98efd735902), and 
+[vectorization](https://pythonspeed.com/articles/vectorization-python/) to speed up your code.
