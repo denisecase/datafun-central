@@ -1,11 +1,13 @@
 +++
-tags = ["hosting"]
+tags = ["hosting", "jupyter"]
 title = "BinderHub"
 +++
 
-BinderHub is a cloud-based platform that allows you to share your Jupyter Notebooks as interactive, executable environments. It's built on top of Kubernetes and Docker, and provides a way to easily share and launch Jupyter Notebooks in the cloud.
+BinderHub is a cloud-based platform that allows you to share your Jupyter Notebooks as interactive, executable environments. 
+It's built on top of Kubernetes and Docker, 
+and provides a way to easily share and launch Jupyter Notebooks in the cloud.
 
-Here are some key features of BinderHub:
+Here are some key features of BinderHub.
 
 ## Customizable environments
 
@@ -29,6 +31,6 @@ Because BinderHub runs in the cloud, it provides a way to make your Jupyter Note
 
 ## Get Started
 
-To get started with BinderHub, you can either use the public hosting service provided by the Binder team, or you can set up your own instance of BinderHub on your own servers. The BinderHub documentation provides detailed instructions for both options.
-
-
+To get started with BinderHub, you can either use the public hosting service provided by the Binder team, 
+or you can set up your own instance of BinderHub on your own servers. 
+The BinderHub documentation provides detailed instructions for both options.

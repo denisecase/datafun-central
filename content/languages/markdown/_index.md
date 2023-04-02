@@ -53,7 +53,8 @@ Lists are used to create ordered and unordered lists in your document.
 To create a list, use either the `*` symbol or the `-` symbol
 for an unordered list, or use numbers for an ordered list.
 
-Unordered List:
+An unordered list in Markdown is created by using the "- " syntax 
+("dash space"), followed by the list item. 
 
 ```
 - Item 1
@@ -61,7 +62,13 @@ Unordered List:
 - Item 3
 ```
 
-Ordered List:
+An ordered list in Markdown is created by using the "1. " syntax 
+("one dot space"), followed by the list item. 
+Markdown will automatically increment the number of each item 
+in the list as the page is rendered, 
+ensuring that the numbers are displayed correctly. 
+This makes it easy to create numbered lists in Markdown 
+without having to manually adjust the numbers.
 
 ```
 1. Item 1
@@ -97,7 +104,8 @@ and inline code. Here are some examples of advanced Markdown syntax.
 ### Tables
 
 Tables are used to display data in rows and columns. To create a table,
-use hyphens for the headers and pipes to separate the columns.
+use hyphens (`-`) for the headers and pipes or vertical bars (`|`) 
+to separate the columns.
 
 ### Code Blocks
 
@@ -112,9 +120,9 @@ print("Hello, world!")
 ### Inline Code
 
 Inline code is used to display code within a paragraph. To create inline code,
-use single backticks to enclose your code.
+use single backticks (`) to enclose your code.
 
-Use the print() function to print a message to the console.
+<pre><code>Use the `print()` function to print a message to the console.</code></pre>
 
 
 ## Free Resources for Learning Markdown

@@ -33,6 +33,12 @@ GitHub is a web-based platform that provides a range of features for managing Gi
 
 Homebrew is a package manager for macOS that makes it easy to install, update, and manage software packages. 
 
+## [Jupyter](jupyter/)
+
+Jupyter is a popular web-based interactive computing environment that 
+allows data analysts to create and share documents 
+containing live code, visualizations, and narrative text.
+
 ## [pip](pip/)
 
 pip is a package manager for Python that makes it easy to install, update, and manage Python packages and dependencies. It is widely used in the Python community and is an essential tool for working with Python projects.
