@@ -60,3 +60,14 @@ published in March 2022 covering up to Python 3.10 for the newest features.
 Or High Performance Python: Practical Performant Programming for Humans by Micha Gorelick and Ian Ozsvald covering high-performance options for processing big data, multiprocessing, and more. 
 
 - https://www.oreilly.com/library/view/high-performance-python/9781492055013/
+
+### GitHub Resouces
+
+- [Awesome Python](https://awesome-python.com/)
+- [Awesome Python Repo](https://github.com/vinta/awesome-python)
+- [Animal books for Python Repo](https://github.com/Jianhua-Wang/oreilly-animal-books-for-Python)
+
+### Participate in Open Source
+
+- [Open Sustainable Technology](https://opensustain.tech/)
+- [Open Sustainable Technology - Programming Languages Report](https://report.opensustain.tech/chapters/programming-languages.html)
