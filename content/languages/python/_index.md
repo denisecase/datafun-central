@@ -29,6 +29,7 @@ The installation process for Git depends on your operating system. Follow the in
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - A free online book that covers the fundamentals of data science using Python
 - [Real Python](https://realpython.com/) - A collection of tutorials, courses, and articles on Python programming, web development, and data science
 - [Python Crash Course](https://ehmatthes.github.io/pcc_2e/) - A beginner-friendly guide to Python programming, with examples and exercises covering key topics such as variables, functions, and control flow
+- [Python Lingo](https://www.fluentpython.com/lingo/) from Luciano Ramalho, author of the advanced book [Fluent Python](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/).
 
 
 ## File Extensions

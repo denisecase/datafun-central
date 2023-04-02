@@ -52,6 +52,7 @@ This makes it easy to share and distribute the project with others.
 - [Julia Academy](https://juliaacademy.com/): A collection of online courses and tutorials for learning Julia
 - [Learn X in Y Minutes - Julia](https://learnxinyminutes.com/docs/julia/): A quick reference guide for learning Julia syntax
 - [Julia Observer](https://juliaobserver.com/): A curated list of Julia packages and libraries
+- [Think Julia: How to Think Like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
 
 ## Julia Frameworks and Libraries
 

@@ -45,3 +45,18 @@ These skills are considered advanced and will be useful for more advanced data a
 [caching](https://towardsdatascience.com/how-to-speed-up-your-python-code-with-caching-c1ea979d0276), 
 [memoization](https://python.plainenglish.io/boosting-python-code-performance-with-memoization-d98efd735902), and 
 [vectorization](https://pythonspeed.com/articles/vectorization-python/) to speed up your code.
+
+### Independent Study
+
+Books remain a surprisingly cost-effective investment. 
+
+When you're ready to truly master this powersful language, 
+consider investing in a top-rated book like "Fluent Python" by Luciano Ramalho. 
+The second edition is current, 
+published in March 2022 covering up to Python 3.10 for the newest features. 
+
+- https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348
+
+Or High Performance Python: Practical Performant Programming for Humans by Micha Gorelick and Ian Ozsvald covering high-performance options for processing big data, multiprocessing, and more. 
+
+- https://www.oreilly.com/library/view/high-performance-python/9781492055013/
