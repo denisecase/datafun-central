@@ -102,7 +102,7 @@ including academic papers, capstone reports, theses, and presentations.
 It is widely used in the scientific and technical communities 
 due to its ability to handle complex equations and symbols with ease. 
 
-## [Markdown](markdown) 
+## ⭐ [Markdown](markdown) ⭐
 ![Markup Language](https://img.shields.io/badge/-Markup%20Language-blue) 
 ![Jupyter Support](https://img.shields.io/badge/-Jupyter%20Support-orange)
 
@@ -112,7 +112,7 @@ used to document code, write README files, and create reports in a
 simple and human-readable format. It is commonly used in Jupyter notebooks 
 along with Python.
 
-## [PowerShell](powershell) 
+## ⭐ [PowerShell](powershell) ⭐
 ![Programming Language](https://img.shields.io/badge/-Programming%20Language-green)
 ![Scripting Language](https://img.shields.io/badge/-Scripting%20Language-darkgreen)
 
@@ -121,7 +121,7 @@ automating tasks and managing configurations in Windows environments.
 While not commonly used for data analytics, it can be employed for data 
 extraction, transformation, and automation tasks.
 
-## [Python](python) 
+## ⭐ [Python](python) ⭐
 ![Programming Language](https://img.shields.io/badge/-Programming%20Language-green) 
 ![Scripting Language](https://img.shields.io/badge/-Scripting%20Language-darkgreen)
 ![Jupyter Support](https://img.shields.io/badge/-Jupyter%20Support-orange)
@@ -149,7 +149,14 @@ and performance. While not as widely used for data analytics,
 it can be employed for building high-performance data processing tools 
 and libraries.
 
-## [Typst](https://github.com/typst/typst)
+## ⭐ [SQL](sql) ⭐
+![Programming Language](https://img.shields.io/badge/-Programming%20Language-green) 
+![Declarative Language](https://img.shields.io/badge/-Declarative%20Language-violet) 
+
+SQL is a domain-specific programming language used 
+to manage and manipulate relational databases. 
+
+## [Typst](typst)
 ![Markup Language](https://img.shields.io/badge/-Markup%20Language-blue) 
 ![Typesetting](https://img.shields.io/badge/-Typesetting-red)
 

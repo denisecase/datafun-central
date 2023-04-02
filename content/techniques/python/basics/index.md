@@ -29,7 +29,7 @@ may be considered **basic** level in the context of data analysis.
 ## Libraries
 
 - **NumPy**: Know how to use NumPy to perform numerical operations and calculations.
-- **Pandas**: Know how to use Pandas to work with structured data and perform data analysis tasks.
+- **pandas**: Know how to use pandas to work with structured data and perform data analysis tasks.
 - **Matplotlib**: Know how to use Matplotlib to create basic plots and visualizations.
 
 These skills and the associated techniques provide a strong foundation for data analysis in Python, 

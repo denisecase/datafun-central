@@ -10,7 +10,7 @@ Python offers a range of libraries and frameworks that make it easier to develop
 
 - NumPy: A library for numerical computing in Python, NumPy provides support for large, multi-dimensional arrays and matrices, as well as a range of mathematical functions for working with this data.
 
-- Pandas: A library for data manipulation and analysis in Python, Pandas provides support for working with structured data in a variety of formats, including CSV, Excel, SQL databases, and more.
+- pandas: A library for data manipulation and analysis in Python, pandas provides support for working with structured data in a variety of formats, including CSV, Excel, SQL databases, and more.
 
 - Scikit-learn: A library for machine learning in Python, Scikit-learn provides a range of algorithms for classification, regression, and clustering, as well as tools for model selection and evaluation.
 

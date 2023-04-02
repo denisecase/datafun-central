@@ -22,10 +22,10 @@ The installation process for Git depends on your operating system. Follow the in
 
 - [Git Installation](installation)
 
-## Free Resources
+## Python Resources
 
 - [Python.org](https://www.python.org/) - The official website of the Python programming language. Includes documentation, tutorials, and downloads for the latest versions of Python.
-- [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/) - A comprehensive guide to using Python for data analysis, written by Wes McKinney, the creator of Pandas.
+- [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/) - A comprehensive guide to using Python for data analysis, written by Wes McKinney, the creator of pandas.
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - A free online book that covers the fundamentals of data science using Python.
 - [Real Python](https://realpython.com/) - A collection of tutorials, courses, and articles on Python programming, web development, and data science.
 - [Python Crash Course](https://ehmatthes.github.io/pcc_2e/) - A beginner-friendly guide to Python programming, with examples and exercises covering key topics such as variables, functions, and control flow.
@@ -34,9 +34,9 @@ The installation process for Git depends on your operating system. Follow the in
 ## File Extensions
 
 - .py - Python source code files
-- .ipynb - Jupyter Notebook files
+- .ipynb - Jupyter Notebook files ("interactive Python notebook")
 - .pyc - Compiled Python files
 - .pyd - Python extension modules
 - .pyo - Optimized Python files
-- .whl - Python package distribution files
+- .whl - Python package distribution files ("wheels")
 

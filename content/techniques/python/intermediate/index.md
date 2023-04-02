@@ -10,7 +10,7 @@ This page provides an overview of **intermediate** skills for working with Pytho
 
 - NumPy: Know how to work with arrays, manipulate data, and perform mathematical operations.
 
-- Pandas: Know how to work with data frames and manipulate data for exploratory data analysis.
+- pandas: Know how to work with data frames and manipulate data for exploratory data analysis.
 
 - Matplotlib: Know how to create visualizations for data analysis.
 

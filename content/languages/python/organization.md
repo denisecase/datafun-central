@@ -36,10 +36,66 @@ In Python, a module is a file containing Python definitions and statements. Each
 
 ### Package
 
-A package is a way of organizing related modules together. Packages allow us to group together related functionality in a way that is easy to import and use. A package is simply a directory that contains one or more Python modules.
+A package is a way of organizing related modules together. 
+Packages allow us to group together related functionality 
+in a way that is easy to import and use. 
+A package is simply a directory that contains one or more Python modules.
 
 ### Library
 
-A library is a collection of packages and modules that provides a set of pre-written code for specific tasks. The Python Standard Library is a large collection of libraries that are included with Python and provide a wide range of functionality, from file input/output to regular expressions to networking.
+A library is a collection of packages and modules that 
+provides a set of pre-written code for specific tasks. 
+For example, the Python Standard Library is a large collection of libraries 
+that are included with Python and provide a wide range of functionality, f
+rom file input/output to regular expressions to networking.
 
-Overall, understanding these fundamental building blocks of Python organization is essential for writing clean, well-structured code that is easy to read, maintain, and reuse.
+## Python Distribution Methods
+
+Python also has some special entities related to 
+distributing Python code to users.
+
+## Python Distributions
+
+A **distribution** is a bundle of Python software, 
+which typically includes the Python interpreter, 
+the Python standard library, 
+and various additional packages and tools.
+
+There are several popular Python distributions available, 
+such as Anaconda, which includes many data science packages and tools, 
+and Python(x,y), which is geared towards scientific computing.
+
+Python distributions can make it easier to set up and manage 
+a Python environment, especially for beginners, 
+and come with many pre-installed packages and tools.
+
+## Python Wheels
+
+A **wheel** is a self-contained installation executable that can be used to 
+easily distribute and install Python packages across different systems.
+
+Wheels are different from source distributions or packages, 
+which are typically distributed as source code and 
+must be compiled or built before they can be installed.
+
+A wheel is essentially a ZIP archive that contains the files and dependencies 
+necessary for a Python package to be installed on a system. 
+It makes installation faster and easier, as the package does not need 
+to be built from source code each time it is installed on a new system.
+
+Wheels are platform-specific, 
+meaning that a wheel built on one operating system or architecture 
+may not work on another system with a different operating system or 
+architecture. 
+To address this, Python has a system of tags to identify which platforms 
+a wheel is compatible with, 
+so the correct version of the wheel 
+can be downloaded and installed on each system.
+
+## Understanding Organization
+
+Understanding the fundamental building blocks of Python organization 
+and distribution 
+is essential for employing available Python tools and 
+writing clean, well-structured code that is 
+easy to read, maintain, and reuse.

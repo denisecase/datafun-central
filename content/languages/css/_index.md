@@ -25,11 +25,6 @@ For web developers and designers, Cascading Style Sheets (CSS) is an essential s
 - [Codecademy CSS Course](https://www.codecademy.com/learn/learn-css): An interactive course that covers the basics of CSS, with hands-on coding exercises.
 - [CSS Zen Garden](http://www.csszengarden.com/): A showcase of creative CSS designs, with source code available for learning.
 
-## CSS Frameworks and Libraries
-
-- CSS frameworks and libraries provide pre-built CSS styles and components that can be easily incorporated into web pages.
-- Popular CSS frameworks and libraries include Bootstrap, Foundation, and Bulma.
-
 ## File Extensions
 
 - .css
@@ -101,23 +96,30 @@ cohesive and appealing look and feel.
 
 ## Popular CSS Frameworks
 
-Popular CSS frameworks are pre-built libraries of CSS and JavaScript 
-code that can be used to streamline web development and create 
-consistent and responsive displays. CSS frameworks provide a 
-range of pre-designed elements, such as navigation bars, forms, 
-and buttons, 
-that can be easily customized and incorporated into dashboards and web projects.
+Because getting dashboards and web pages to look good on all possible 
+screen sizes and orientations, many of us prefer to use professionally-created
+CSS rather than our own.
 
-Popular CSS frameworks include Bootstrap, Material Design Bootstrap (MDB), 
-and Foundation. 
-These frameworks offer a wide range of design options, 
-as well as robust documentation and support from their communities. 
+CSS **frameworks** are pre-built libraries of CSS and JavaScript 
+code used to streamline web development and create 
+consistent and responsive displays. These frameworks are desiged to 
+be responsive and look good on screens ranging from mobile devices like
+smart phones to large, wall-mounted screens. 
+They provide a range of pre-designed elements, such as navigation bars, forms, 
+and buttons, that can be easily customized 
+and incorporated into dashboards and web projects.
 
-## Popular Data Analytics Dashboarding Frameworks 
+Popular CSS frameworks include Bootstrap, 
+Material Design Bootstrap (MDB), Foundation, and Bulma.
+These frameworks offer a wide range of design options, robust documentation,
+and support from their communities. 
 
-Many popular data analytics dashboarding frameworks allow customization for analysts with a knowledge of CSS.
+## CSS in Dashboarding Frameworks 
 
-### Tableau
+Many popular data analytics dashboarding frameworks 
+allow customization for analysts with a knowledge of CSS.
+
+### CSS in Tableau
 
 Tableau provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the appearance of 
@@ -125,24 +127,28 @@ dashboards and reports. Users can create custom themes and apply
 them to their dashboards, or use CSS to modify individual elements such as 
 fonts, colors, and backgrounds.
 
-### Power BI
+### CSS in Power BI
 
 Power BI allows users to customize the appearance of their dashboards 
 using themes and custom CSS code. Users can modify the styling of 
 individual elements such as charts, tables, and cards, and can apply custom 
 CSS classes to elements for greater control over styling.
 
-### Plotly
+### CSS in Plotly
 
-Plotly provides a range of customization options for dashboard styling, 
+Plotly is a web-based data visualization platform that
+provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the appearance of 
 charts and graphs. Users can modify the styling of individual elements 
 such as colors, fonts, and backgrounds, and can apply custom CSS
- classes to elements for more granular control over styling.
+classes to elements for more granular control over styling.
 
-### Metabase
+Plotly supports multiple programming languages including Python, R, and JavaScript.
 
-Metabase is an open-source data analytics platform that allows users to 
+### CSS in Metabase
+
+Metabase is an open-source business intelligence and data analytics platform 
+that allows users to 
 create interactive dashboards and reports. 
 It provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the 
@@ -150,9 +156,12 @@ appearance of dashboards and reports. Users can modify the styling of
 individual elements such as fonts, colors, and backgrounds, 
 and can apply custom CSS classes to elements for greater control over styling.
 
-### Redash
+Metabase supports SQL queries and has a web-based interface.
 
-Redash is an open-source data analytics platform that allows users to 
+### CSS in Redash
+
+Redash is an open-source data visualization and dashboarding platform 
+that allows users to connect to various data sources and 
 create interactive dashboards and reports. 
 It provides a range of customization options for dashboard styling, 
 including the ability to use custom CSS code to modify the appearance 
@@ -161,3 +170,11 @@ individual elements such as fonts, colors, and backgrounds,
 and can apply custom CSS classes to elements for more granular 
 control over styling.
 
+Redash connects to SQL databases, MongoDB, and APIs, 
+and includes support for Python scripts.
+
+## See Also
+
+Read more about some of these important options in:
+
+- [Techniques/Data Visualization]({{< ref "/techniques/data-visualization/" >}})
