@@ -31,6 +31,10 @@ pandas can be a bit slow. Options include:
 - Moving to the faster pandas 2.0
 - Trying Polars
 
+## New! Read More about this important 2.0 update
+
+- ⭐ [Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB)](https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb) ⭐
+
 
 ### pandas 2.0
 
